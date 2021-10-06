@@ -5,7 +5,7 @@ var trialTable = new dc.DataTable("#trialTable");
 
 var ndx_trials;
 
-d3.json('../static/assaynet_trials.json').then(function(experiments) {
+d3.json('../assaynet_trials.json').then(function(experiments) {
     var fmt = d3.format('02d');
     ndx_trials = crossfilter(experiments)
     var trialStatusDimension = ndx_trials.dimension(function(d) {
