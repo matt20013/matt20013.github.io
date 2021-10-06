@@ -21,7 +21,7 @@ var statusChart = dc.pieChart('#trials_gain-loss-chart');
 //var nasdaqTable = dc_datatables.datatable('.dc-data-table');
 
 
-d3.json('../static/assaynet_trials.json').then(function (data) {
+d3.json('../assaynet_trials.json').then(function (data) {
     // Since its a csv file we need to format the data a bit.
 //    var dateFormatSpecifier = '%Y-%m/%d %H:%M:%S';
 //    var dateFormat = d3.timeFormat(dateFormatSpecifier);
