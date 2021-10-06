@@ -1,0 +1,2367 @@
+[
+    {
+        "inchikey": "UDTXUDHDIVNHCL-AENUQYPBSA-N",
+        "name": "1.0 MIU IL-2 per day",
+        "trials": [
+            "NCT02059759"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2015-09-01 00:00:00"
+    },
+    {
+        "inchikey": "QTZBGHXYAUVIKB-JIKNWKIHSA-N",
+        "name": "30 mg IM once a day for four days",
+        "trials": [
+            "NCT03707795"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Early Phase 1",
+        "latest_trial": "2017-08-21 00:00:00"
+    },
+    {
+        "inchikey": "FTALBRSUTCGOEG-UHFFFAOYSA-N",
+        "name": "5% glucose water solution",
+        "trials": [
+            "NCT03039673"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2017-06-19 00:00:00"
+    },
+    {
+        "inchikey": "IMZMKUWMOSJXDT-UHFFFAOYSA-N",
+        "name": "ALZT-OP1a (cromolyn)",
+        "trials": [
+            "NCT04428775"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2020-09-08 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "ANX005",
+        "trials": [
+            "NCT04569435"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2021-01-15 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "AP-101",
+        "trials": [
+            "NCT03981536"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 1",
+        "latest_trial": "2019-10-10 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "AT-1501",
+        "trials": [
+            "NCT04322149"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2020-10-16 00:00:00"
+    },
+    {
+        "inchikey": "MKXZASYAUGDDCJ-NJAFHUGGSA-N",
+        "name": "AVP-923",
+        "trials": [
+            "NCT00021697"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2001-01-01 00:00:00"
+    },
+    {
+        "inchikey": "IDLFZVILOHSSID-OVLDLUHVSA-N",
+        "name": "Adrenocorticotropic hormone",
+        "trials": [
+            "NCT03068754"
+        ],
+        "names": [
+            "Acortan",
+            " Acthar",
+            " Acton",
+            " Cortigel",
+            " Trofocortina",
+            "Adrenocorticotropic hormone",
+            "H-Ser-Tyr-Ser-Met-Glu-His-Phe-Arg-Trp-Gly-Lys-Pro-Val-Gly-Lys-Lys-Arg-Arg-Pro-Val-Lys-Val-Tyr-Pro-Asn-Gly-Ala-Glu-Asp-Glu-Ser-Ala-Glu-Ala-Phe-Pro-Leu-Glu-Phe-OH"
+        ],
+        "atc_codes": [],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2017-06-22 00:00:00"
+    },
+    {
+        "inchikey": "HMLGSIZOMSVISS-UHFFFAOYSA-N",
+        "name": "Anakinra",
+        "trials": [
+            "NCT01277315"
+        ],
+        "names": [
+            "Kineret",
+            "Recombinant human Interleukin-1 receptor antagonist protein; syn. N2-l-methionyl-interleukin 1 receptor antagonist (human isoform x reduced)"
+        ],
+        "atc_codes": [
+            "L04AC03"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2011-02-01 00:00:00"
+    },
+    {
+        "inchikey": "SGEIEGAXKLMUIZ-ZPTIMJQQSA-N",
+        "name": "Arimoclomol",
+        "trials": [
+            "NCT00244244",
+            "NCT03836716",
+            "NCT00706147",
+            "NCT03491462",
+            "NCT00561366"
+        ],
+        "names": [
+            "",
+            "N-<nowiki/>{[(2''R'')-2-hydroxy-3-piperidin-1-ylpropyl]oxy}pyridine-3-carboximidoyl chloride 1-oxide"
+        ],
+        "atc_codes": [
+            "None <!-- Scheduled to be N07XX17 in 2022 -->"
+        ],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2019-09-19 00:00:00"
+    },
+    {
+        "inchikey": "RKUNBYITZUJHSG-PJPHBNEVSA-N\u00a0\u00a0",
+        "name": "Atropine",
+        "trials": [
+            "NCT04391361"
+        ],
+        "names": [
+            "Atropen",
+            " others",
+            "",
+            "(''RS'')-(8-Methyl-8-azabicyclo[3.2.1]oct-3-yl) 3-hydroxy-2-phenylpropanoate"
+        ],
+        "atc_codes": [
+            "A03BA01",
+            "S01FA01"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2020-11-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Autologous Adipose-derived Mesenchymal Stromal Cells",
+        "trials": [
+            "NCT03268603"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2017-10-10 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "BIIB067",
+        "trials": [
+            "NCT03070119",
+            "NCT02623699"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2017-03-08 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "BIIB078",
+        "trials": [
+            "NCT04288856",
+            "NCT03626012"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 1",
+        "latest_trial": "2020-04-28 00:00:00"
+    },
+    {
+        "inchikey": "BGUKCLNXSXSYCZ-UHFFFAOYSA-N",
+        "name": "BIIB100",
+        "trials": [
+            "NCT03945279"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 1",
+        "latest_trial": "2019-05-30 00:00:00"
+    },
+    {
+        "inchikey": "ADZBMFGQQWPHMJ-RHSMWYFYSA-N",
+        "name": "BLZ945",
+        "trials": [
+            "NCT04066244"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2019-12-30 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "BVS857",
+        "trials": [
+            "NCT02024932"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2014-02-04 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Basiliximab",
+        "trials": [
+            "NCT01884571"
+        ],
+        "names": [
+            "Simulect"
+        ],
+        "atc_codes": [
+            "L04AC02"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2013-10-01 00:00:00"
+    },
+    {
+        "inchikey": "AKUJBENLRBOFTD-QZIXMDIESA-N",
+        "name": "Betamethasone Acetate (Celestone\u00e3\u201a\u00c2\u00ae Soluspan\u00e3\u201a\u00c2\u00ae)",
+        "trials": [
+            "NCT03707795"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Early Phase 1",
+        "latest_trial": "2017-08-21 00:00:00"
+    },
+    {
+        "inchikey": "PLCQGRYPOISRTQ-LWCNAHDDSA-L",
+        "name": "Betamethasone sodium phosphate",
+        "trials": [
+            "NCT03707795"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Early Phase 1",
+        "latest_trial": "2017-08-21 00:00:00"
+    },
+    {
+        "inchikey": "YBJHBAHKTGYVGT-ZKWXMUAHSA-N",
+        "name": "Biotin",
+        "trials": [
+            "NCT03427086"
+        ],
+        "names": [],
+        "atc_codes": [],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2018-01-29 00:00:00"
+    },
+    {
+        "inchikey": "UBPYILGKFZZVDX-UHFFFAOYSA-N",
+        "name": "Bosutinib",
+        "trials": [
+            "NCT04744532"
+        ],
+        "names": [
+            "Bosulif",
+            "4-[(2,4-dichloro-5-methoxyphenyl)amino]-6-methoxy-7-[3-(4-methylpiperazin-1-yl)propoxy]quinoline-3-carbonitrile"
+        ],
+        "atc_codes": [
+            "L01EA04"
+        ],
+        "highest_phase": "Phase 1",
+        "latest_trial": "2019-03-19 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Botox",
+        "trials": [
+            "NCT01551940"
+        ],
+        "names": [
+            "Botox",
+            " Myobloc",
+            " Jeuveau",
+            " others",
+            "Botulinum toxin A"
+        ],
+        "atc_codes": [
+            "M03 <!-- none for BTX-B -->AX01 <!-- none for BTX-B -->"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2012-02-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Botulinum toxin type B (Myobloc)",
+        "trials": [
+            "NCT00125203"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2003-07-01 00:00:00"
+    },
+    {
+        "inchikey": "SWUARLUWKZWEBQ-VQHVLOKHSA-N",
+        "name": "CC100",
+        "trials": [
+            "NCT03049046"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 1",
+        "latest_trial": "2017-04-07 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "CNM-Au8",
+        "trials": [
+            "NCT04414345",
+            "NCT04098406",
+            "NCT04297683"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2020-07-30 00:00:00"
+    },
+    {
+        "inchikey": "SKMKJBYBPYBDMN-RYUDHWBXSA-N",
+        "name": "Caffeine",
+        "trials": [
+            "NCT02655614"
+        ],
+        "names": [
+            "",
+            "",
+            "1,3,7-Trimethylpurine-2,6-dione<!--Refs: Pubchem & IUPHAR ligand-->"
+        ],
+        "atc_codes": [
+            "N06BC01",
+            "D11AX26"
+        ],
+        "highest_phase": "Phase 1",
+        "latest_trial": "2016-05-31 00:00:00"
+    },
+    {
+        "inchikey": "VAAUVRVFOQPIGI-TYHRLYECSA-N",
+        "name": "Ceftriaxone",
+        "trials": [
+            "NCT00349622"
+        ],
+        "names": [
+            "Rocephin",
+            " Epicephin",
+            " Wintriaxone",
+            " others",
+            "",
+            "(6''R'',7''R'')-7-{[(2''Z'')-2-(2-amino-1,3-thiazol-4-yl)->2-(methoxyimino)acetyl]amino}-3-{[(2-methyl-5,6-dioxo-1,2,5,6-tetrahydro-1,2,4-triazin-3-yl)thio]methyl}-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid"
+        ],
+        "atc_codes": [
+            "J01DD04\n\n<!-- Legal status -->"
+        ],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2006-07-01 00:00:00"
+    },
+    {
+        "inchikey": "RZEKVGVHFLEQIL-UHFFFAOYSA-N\u00a0",
+        "name": "Celecoxib",
+        "trials": [
+            "NCT02876094",
+            "NCT00355576",
+            "NCT04090684",
+            "NCT04165850"
+        ],
+        "names": [
+            "Celebrex",
+            " Onsenal",
+            " Elyxyb",
+            " others",
+            "",
+            "4-[5-(4-Methylphenyl)-3-(trifluoromethyl)pyrazol-1-yl]benzenesulfonamide"
+        ],
+        "atc_codes": [
+            "L01XX33",
+            "M01AH01"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2019-12-09 00:00:00"
+    },
+    {
+        "inchikey": "AQIXAKUUQRKLND-UHFFFAOYSA-N",
+        "name": "Cimetidine",
+        "trials": [
+            "NCT01536249"
+        ],
+        "names": [
+            "Tagamet",
+            " others",
+            "1-cyano-2-methyl-3-[2-[(5-methyl-1''H''-imidazol-4-yl)methylsulfanyl]ethyl]guanidine"
+        ],
+        "atc_codes": [
+            "A02BA01"
+        ],
+        "highest_phase": "Phase 1",
+        "latest_trial": "2012-03-01 00:00:00"
+    },
+    {
+        "inchikey": "STJMRWALKKWQGH-UHFFFAOYSA-N",
+        "name": "Clenbuterol",
+        "trials": [
+            "NCT04245709"
+        ],
+        "names": [
+            "Dilaterol",
+            " Spiropent",
+            " Ventipulmin",
+            " others<ref>{{Cite web|url",
+            "(''RS'')-1-(4-Amino-3,5-dichlorophenyl)-2-(''tert''-butylamino)ethan-1-ol"
+        ],
+        "atc_codes": [
+            "R03AC14",
+            "R03CC13"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2020-02-10 00:00:00"
+    },
+    {
+        "inchikey": "ACTIUHUUMQJHFO-UPTCCGCDSA-N",
+        "name": "Coenzyme Q10",
+        "trials": [
+            "NCT00243932"
+        ],
+        "names": [],
+        "atc_codes": [],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2005-04-01 00:00:00"
+    },
+    {
+        "inchikey": "IAKHMKGGTNLKSZ-INIZCTEOSA-N",
+        "name": "Colchicine 1 MG Oral Tablet",
+        "trials": [
+            "NCT03693781"
+        ],
+        "names": [
+            "Colcrys",
+            " Mitigare",
+            " others",
+            "''N''-[(7''S'')-1,2,3,10-Tetramethoxy-9-oxo-5,6,7,9-tetrahydrobenzo[''a'']heptalen-7-yl]acetamide"
+        ],
+        "atc_codes": [
+            "M04AC01"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2019-04-10 00:00:00"
+    },
+    {
+        "inchikey": "CVSVTCORWBXHQV-UHFFFAOYSA-N",
+        "name": "Creatine",
+        "trials": [
+            "NCT00355576",
+            "NCT00005674",
+            "NCT01257581"
+        ],
+        "names": [],
+        "atc_codes": [],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2011-03-01 00:00:00"
+    },
+    {
+        "inchikey": "MEJYXFHCRXAUIL-UHFFFAOYSA-N",
+        "name": "Creatine Monohydrate",
+        "trials": [
+            "NCT00070993",
+            "NCT00069186"
+        ],
+        "names": [],
+        "atc_codes": [],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2003-06-01 00:00:00"
+    },
+    {
+        "inchikey": "DDRJAANPRJIHGJ-UHFFFAOYSA-N",
+        "name": "Creatinine",
+        "trials": [
+            "NCT00005766"
+        ],
+        "names": [],
+        "atc_codes": [],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2000-06-02 00:00:00"
+    },
+    {
+        "inchikey": "UTPYTEWRMXITIN-CBIKUMSCSA-N",
+        "name": "Cu(II)ATSM",
+        "trials": [
+            "NCT03136809",
+            "NCT04313166",
+            "NCT02870634",
+            "NCT04082832"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2020-03-19 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "DNL747",
+        "trials": [
+            "NCT03757351"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 1",
+        "latest_trial": "2018-12-14 00:00:00"
+    },
+    {
+        "inchikey": "NUKYPUAOHBNCPY-UHFFFAOYSA-N",
+        "name": "Dalfampridine",
+        "trials": [
+            "NCT02868567"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 1",
+        "latest_trial": "2016-03-01 00:00:00"
+    },
+    {
+        "inchikey": "CJBJHOAVZSMMDJ-HEXNFIEUSA-N\u00a0",
+        "name": "Darunavir",
+        "trials": [
+            "NCT02437110"
+        ],
+        "names": [
+            "Prezista",
+            " Prezcobix",
+            " others<ref name",
+            "[(1''R'',5''S'',6''R'')-2,8-dioxabicyclo[3.3.0]oct-6-yl] ''N''-[(2''S'',3''R'')-4- [(4-aminophenyl)sulfonyl- (2-methylpropyl)amino]-3-hydroxy-1-phenyl- butan-2-yl] carbamate"
+        ],
+        "atc_codes": [
+            "J05AE10"
+        ],
+        "highest_phase": "Phase 1",
+        "latest_trial": "2019-04-01 00:00:00"
+    },
+    {
+        "inchikey": "TZXKOCQBRNJULO-UHFFFAOYSA-N",
+        "name": "Deferiprone",
+        "trials": [
+            "NCT02164253",
+            "NCT03293069"
+        ],
+        "names": [
+            "Ferriprox",
+            "",
+            "3-hydroxy-1,2-dimethylpyridin-4(1''H'')-one"
+        ],
+        "atc_codes": [
+            "V03AC02\n\n<!-- Legal status -->"
+        ],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2019-01-30 00:00:00"
+    },
+    {
+        "inchikey": "CUHVIMMYOGQXCV-NSHDSACASA-N\u00a0",
+        "name": "Dexmedetomidine",
+        "trials": [
+            "NCT04391361"
+        ],
+        "names": [
+            "Precedex",
+            " Dexdor",
+            " Dexdomitor",
+            " Sileo",
+            "",
+            "(''S'')-4-[1-(2,3-Dimethylphenyl)ethyl]-3''H''-imidazole"
+        ],
+        "atc_codes": [
+            "N05CM18",
+            "vetN05CM18"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2020-11-01 00:00:00"
+    },
+    {
+        "inchikey": "FASDKYOPVNHBLU-SSDOTTSWSA-N",
+        "name": "Dexpramipexole",
+        "trials": [
+            "NCT01622088",
+            "NCT01536249",
+            "NCT01536249",
+            "NCT01449578",
+            "NCT01511029",
+            "NCT01281189",
+            "NCT01424176",
+            "NCT01424176"
+        ],
+        "names": [],
+        "atc_codes": [],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2012-06-01 00:00:00"
+    },
+    {
+        "inchikey": "RHWKPHLQXYSBKR-BMIGLBTASA-N",
+        "name": "Dolutegravir",
+        "trials": [
+            "NCT02437110"
+        ],
+        "names": [
+            "Tivicay",
+            " Tivicay PD",
+            "(4''R'',12a''S'')-''N''-(2,4-difluorobenzyl)-7-hydroxy-4-methyl-6,8-dioxo-3,4,6,8,12,12a-hexahydro-2''H''-pyrido[1',2':4,5]pyrazino[2,1-''b''][1,3]oxazine-9-carboxamide"
+        ],
+        "atc_codes": [
+            "J05AJ03",
+            "J05AR13"
+        ],
+        "highest_phase": "Phase 1",
+        "latest_trial": "2019-04-01 00:00:00"
+    },
+    {
+        "inchikey": "BAANPNDZFYBQIB-CQSZACIVSA-N",
+        "name": "EPI-589",
+        "trials": [
+            "NCT02460679"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2016-01-14 00:00:00"
+    },
+    {
+        "inchikey": "QELUYTUMUWHWMC-UHFFFAOYSA-N",
+        "name": "Edaravone",
+        "trials": [
+            "NCT03272802",
+            "NCT04391361",
+            "NCT00424463",
+            "NCT00330681",
+            "NCT00415519",
+            "NCT01492686",
+            "NCT01492686",
+            "NCT04391361"
+        ],
+        "names": [
+            "Radicava",
+            " Radicut",
+            " Xavron",
+            " others",
+            "",
+            "5-methyl-2-phenyl-4''H''-pyrazol-3-one"
+        ],
+        "atc_codes": [
+            "N07XX14"
+        ],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2020-11-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Edaravone",
+        "trials": [
+            "NCT04577404",
+            "NCT04176224",
+            "NCT04254913",
+            "NCT04569084"
+        ],
+        "names": [
+            "Radicava",
+            " Radicut",
+            " Xavron",
+            " others",
+            "",
+            "5-methyl-2-phenyl-4''H''-pyrazol-3-one"
+        ],
+        "atc_codes": [
+            "N07XX14"
+        ],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2020-11-13 00:00:00"
+    },
+    {
+        "inchikey": "\u00a0MKXZASYAUGDDCJ-NJAFHUGGSA-N",
+        "name": "Extromethorphan Hydrobromide",
+        "trials": [
+            "NCT03883581"
+        ],
+        "names": [
+            "Robitussin",
+            " Delsym",
+            " DM",
+            " DexAlone",
+            " Duract",
+            " others",
+            "(4b''S'',8a''R'',9''S'')-3-Methoxy-11-methyl-6,7,8,8a,9,10-hexahydro-5''H''-9,4b-(epiminoethano)phenanthrene"
+        ],
+        "atc_codes": [
+            "R05DA09"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2019-07-25 00:00:00"
+    },
+    {
+        "inchikey": "MISZALMBODQYFT-URVXVIKDSA-N",
+        "name": "Extromethorphan Hydrobromide",
+        "trials": [
+            "NCT00573443",
+            "NCT00573443"
+        ],
+        "names": [
+            "Robitussin",
+            " Delsym",
+            " DM",
+            " DexAlone",
+            " Duract",
+            " others",
+            "(4b''S'',8a''R'',9''S'')-3-Methoxy-11-methyl-6,7,8,8a,9,10-hexahydro-5''H''-9,4b-(epiminoethano)phenanthrene"
+        ],
+        "atc_codes": [
+            "R05DA09"
+        ],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2007-12-01 00:00:00"
+    },
+    {
+        "inchikey": "PCOBBVZJEWWZFR-UHFFFAOYSA-N\u00a0",
+        "name": "Ezogabine",
+        "trials": [
+            "NCT02450552"
+        ],
+        "names": [
+            "Trobalt",
+            " Potiga",
+            "Ethyl ''N''-[2-amino-4-[(4-fluorophenyl)methylamino]phenyl]carbamate"
+        ],
+        "atc_codes": [
+            "N03AX21"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2015-06-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "FLX-787-ODT",
+        "trials": [
+            "NCT03334786",
+            "NCT03196375",
+            "NCT03338114"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2018-04-05 00:00:00"
+    },
+    {
+        "inchikey": "NGOGFTYYXHNFQH-UHFFFAOYSA-N",
+        "name": "Fasudil",
+        "trials": [
+            "NCT01935518",
+            "NCT03792490"
+        ],
+        "names": [
+            "",
+            "5-(1,4-Diazepane-1-sulfonyl)isoquinoline"
+        ],
+        "atc_codes": [
+            "C04AX32"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2019-02-20 00:00:00"
+    },
+    {
+        "inchikey": "MYSWGUAQZAJSOK-UHFFFAOYSA-N",
+        "name": "Fixed dose combination Ciprofloxacin",
+        "trials": [
+            "NCT04090684",
+            "NCT04165850"
+        ],
+        "names": [
+            "Ciloxan",
+            " Cipro",
+            " Neofloxin",
+            " others",
+            "",
+            "1-cyclopropyl-6-fluoro-4-oxo-7-(piperazin-1-yl)-quinoline-3-carboxylic acid"
+        ],
+        "atc_codes": [
+            "J01MA02",
+            "S01AE03"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2019-12-09 00:00:00"
+    },
+    {
+        "inchikey": "PRMWGUBFXWROHD-UHFFFAOYSA-N",
+        "name": "Fycompa",
+        "trials": [
+            "NCT03377309",
+            "NCT03019419",
+            "NCT03793868"
+        ],
+        "names": [
+            "Fycompa",
+            "5'-(2-cyanophenyl)-1'-phenyl-2,3'-bipyridinyl-6'(1''H'')-one"
+        ],
+        "atc_codes": [
+            "N03AX22"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2019-12-01 00:00:00"
+    },
+    {
+        "inchikey": "SKMKJBYBPYBDMN-VXGBXAGGSA-N",
+        "name": "GDC-0134",
+        "trials": [
+            "NCT02655614",
+            "NCT03237741",
+            "NCT03237741"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 1",
+        "latest_trial": "2017-08-07 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "GSK1223249",
+        "trials": [
+            "NCT00875446"
+        ],
+        "names": [
+            ""
+        ],
+        "atc_codes": [
+            "none"
+        ],
+        "highest_phase": "Phase 1",
+        "latest_trial": "2009-05-13 00:00:00"
+    },
+    {
+        "inchikey": "SWZTYAVBMYWFGS-UHFFFAOYSA-N\u00a0",
+        "name": "Gilenya",
+        "trials": [
+            "NCT01786174"
+        ],
+        "names": [
+            "Gilenya",
+            "",
+            "2-Amino-2-[2-(4-octylphenyl)ethyl]propane-1,3-diol"
+        ],
+        "atc_codes": [
+            "L04AA27"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2013-08-01 00:00:00"
+    },
+    {
+        "inchikey": "FHEAIOHRHQGZPC-KIWGSFCNSA-N",
+        "name": "Glatiramer Acetate",
+        "trials": [
+            "NCT00326625"
+        ],
+        "names": [
+            "Copaxone",
+            "<ref name"
+        ],
+        "atc_codes": [
+            "L03AX13\n\n<!--Identifiers -->"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2006-07-31 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Gold Nanocrystals",
+        "trials": [
+            "NCT03843710"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2021-04-30 00:00:00"
+    },
+    {
+        "inchikey": "WMBOCUXXNSOQHM-FLIBITNWSA-N",
+        "name": "HK-001",
+        "trials": [
+            "NCT03651349"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 1",
+        "latest_trial": "2021-02-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "ILB",
+        "trials": [
+            "NCT03613571",
+            "NCT03705390"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2019-03-29 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "ION541",
+        "trials": [
+            "NCT04494256"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 1",
+        "latest_trial": "2020-09-28 00:00:00"
+    },
+    {
+        "inchikey": "AGUSSGJBWOOHRG-NXBWRCJVSA-N",
+        "name": "IPL344]  Lead mine -v",
+        "trials": [
+            "NCT03652805",
+            "NCT03755167"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2018-12-09 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "ISIS 333611",
+        "trials": [
+            "NCT01041222"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 1",
+        "latest_trial": "2010-01-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Incobotulinum Toxin A",
+        "trials": [
+            "NCT01565395"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2012-03-01 00:00:00"
+    },
+    {
+        "inchikey": "UGQMRVRMYYASKQ-KQYNXXCUSA-N\u00a0",
+        "name": "Inosine",
+        "trials": [
+            "NCT02288091",
+            "NCT03168711"
+        ],
+        "names": [
+            "9-[(2''R'',3''R'',4''S'',5''R'')-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]-6,9-dihydro-3''H''-purin-6-one"
+        ],
+        "atc_codes": [
+            "D06BB05",
+            "G01AX02"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2017-10-01 00:00:00"
+    },
+    {
+        "inchikey": "VHVPQPYKVGDNFY-ZPGVKDDISA-N",
+        "name": "Itraconazole",
+        "trials": [
+            "NCT02633709"
+        ],
+        "names": [
+            "Sporanox",
+            " Sporaz",
+            " Orungal",
+            " others",
+            "(\u00b1)-1-[(''RS'')-''sec''-butyl]-4-[''p''-[4-[''p''-<nowiki>[[</nowiki>(2''R'',4''S'')-''rel''-2-(2,4-dichlorophenyl)-2-(1''H''-1,2,4-triazol-1-ylmethyl)-1,3-dioxolan-4-yl]methoxy]phenyl]-1-piperazinyl]phenyl]-\u0394<sup>2</sup>-1,2,4-triazolin-5-one"
+        ],
+        "atc_codes": [
+            "J02AC02"
+        ],
+        "highest_phase": "Phase 1",
+        "latest_trial": "2016-01-07 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "KNS-760704",
+        "trials": [
+            "NCT00931944",
+            "NCT00647296"
+        ],
+        "names": [],
+        "atc_codes": [],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2009-07-01 00:00:00"
+    },
+    {
+        "inchikey": "MTCFGRXMJLQNBG-REOHCLBHSA-N",
+        "name": "L-Serine",
+        "trials": [
+            "NCT03580616",
+            "NCT01835782"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2018-10-24 00:00:00"
+    },
+    {
+        "inchikey": "VPPJLAIAVCUEMN-GFCCVEGCSA-N\u00a0",
+        "name": "Lacosamide",
+        "trials": [
+            "NCT03186040"
+        ],
+        "names": [
+            "Vimpat",
+            "''N''<sup>2</sup>-acetyl-''N''-benzyl-<small>D</small>-homoserinamide"
+        ],
+        "atc_codes": [
+            "N03AX18"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2017-07-13 00:00:00"
+    },
+    {
+        "inchikey": "GFIJNRVAKGFPGQ-LIJARHBVSA-N",
+        "name": "Leuprolide",
+        "trials": [
+            "NCT00004771"
+        ],
+        "names": [
+            "Lupron",
+            " Eligard",
+            " Lucrin",
+            " others",
+            "",
+            "''N''-<nowiki>[1-[[1-[[1-[[1-[[1-[[1-[[5-</nowiki>(diaminomethylideneamino)-1-<br />[2-(ethylcarbamoyl)pyrrolidin-1-yl]-1-oxo-pentan-2-<br />yl]carbamoyl]-3-methyl-butyl]carbamoyl]-3-methyl-<br />butyl]carbamoyl]-2-(4-hydroxyphenyl)ethyl]<br />carbamoyl]-2-hydroxy-ethyl]carbamoyl]-2-(1''H''-indol-3-<br />yl)ethyl]carbamoyl]-2-(3''H''-imidazol-4-yl)ethyl]-5-oxo-<br />pyrrolidine-2-carboxamide"
+        ],
+        "atc_codes": [
+            "L02AE02"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "1992-10-01 00:00:00"
+    },
+    {
+        "inchikey": "WHXMKTBCFHIYNQ-SECBINFHSA-N",
+        "name": "Levosimendan",
+        "trials": [
+            "NCT03948178",
+            "NCT03505021"
+        ],
+        "names": [
+            "Simdax",
+            "2-[<nowiki />[4-[(4''R'')-4-methyl-6-oxo-4,5-dihydro-1''H''-pyridazin-3-yl]phenyl]hydrazinylidene]propanedinitrile"
+        ],
+        "atc_codes": [
+            "C01CX08"
+        ],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2019-06-26 00:00:00"
+    },
+    {
+        "inchikey": "XGZVUEUWXADBQD-UHFFFAOYSA-L",
+        "name": "Lithium Carbonate",
+        "trials": [
+            "NCT00790582",
+            "NCT00818389"
+        ],
+        "names": [],
+        "atc_codes": [],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2009-01-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "MD1003",
+        "trials": [
+            "NCT03114215"
+        ],
+        "names": [],
+        "atc_codes": [],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2016-06-29 00:00:00"
+    },
+    {
+        "inchikey": "ZJVFLBOZORBYFE-UHFFFAOYSA-N",
+        "name": "MN-166",
+        "trials": [
+            "NCT02714036",
+            "NCT04057898",
+            "NCT02238626"
+        ],
+        "names": [
+            "Ketas",
+            " Pinatos",
+            " Eyevinal",
+            "2-Methyl-1-(2-propan-2-ylpyrazolo[1,5-a]pyridin-3-yl)propan-1-one"
+        ],
+        "atc_codes": [
+            "R03DC04"
+        ],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2020-05-28 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "MYOBLOC",
+        "trials": [
+            "NCT01994109"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2013-11-01 00:00:00"
+    },
+    {
+        "inchikey": "WJEOLQLKVOPQFV-UHFFFAOYSA-N",
+        "name": "Masitinib",
+        "trials": [
+            "NCT02588677",
+            "NCT03127267",
+            "NCT02588677",
+            "NCT03127267"
+        ],
+        "names": [
+            "Masivet",
+            " Kinavet",
+            "",
+            "4-[(4-Methylpiperazin-1-yl)methyl]-''N''-(4-methyl-3-<nowiki/>{[4-(pyridin-3-yl)-1,3-thiazol-2-yl]amino}phenyl)benzamide"
+        ],
+        "atc_codes": [
+            "L01EX06"
+        ],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2020-10-01 00:00:00"
+    },
+    {
+        "inchikey": "BUGYDGFZZOZRHP-UHFFFAOYSA-N",
+        "name": "Memantine",
+        "trials": [
+            "NCT01020331",
+            "NCT00409721",
+            "NCT02118727",
+            "NCT00353665"
+        ],
+        "names": [
+            "Axura",
+            " Ebixa",
+            " Namenda",
+            " others<ref name",
+            "3,5-dimethyltricyclo[3.3.1.1<sup>3,7</sup>]decan-1amine<br />or<br />3,5-dimethyladamantan-1-amine"
+        ],
+        "atc_codes": [
+            "N06DX01"
+        ],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2018-11-07 00:00:00"
+    },
+    {
+        "inchikey": "LDDHMLJTFXJGPI-UHFFFAOYSA-N\u00a0",
+        "name": "Memantine Hydrochloride Oral Solution",
+        "trials": [
+            "NCT04302870"
+        ],
+        "names": [
+            "Axura",
+            " Ebixa",
+            " Namenda",
+            " others<ref name",
+            "3,5-dimethyltricyclo[3.3.1.1<sup>3,7</sup>]decan-1amine<br />or<br />3,5-dimethyladamantan-1-amine"
+        ],
+        "atc_codes": [
+            "N06DX01"
+        ],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2020-02-27 00:00:00"
+    },
+    {
+        "inchikey": "XZWYZXLIPXDOLR-UHFFFAOYSA-N",
+        "name": "Metformin",
+        "trials": [
+            "NCT04220021"
+        ],
+        "names": [
+            "Fortamet",
+            " Glucophage",
+            " Glumetza",
+            " [[#Formulations|others]]",
+            "",
+            "''N'',''N''-Dimethylimidodicarbonimidic diamide"
+        ],
+        "atc_codes": [
+            "A10BA02",
+            "A10BD23"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2020-01-10 00:00:00"
+    },
+    {
+        "inchikey": "ZFLASALABLFSNM-WYVZQNDMSA-L\u00a0",
+        "name": "Methylcobalamin",
+        "trials": [
+            "NCT00445172",
+            "NCT00444613",
+            "NCT03548311"
+        ],
+        "names": [
+            "Cobolmin",
+            "",
+            "carbanide; cobalt(3+);"
+        ],
+        "atc_codes": [
+            "B03BA05"
+        ],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2017-11-01 00:00:00"
+    },
+    {
+        "inchikey": "VHRSUDSXCMQTMA-PJHHCJLFSA-N\u00a0",
+        "name": "Methylprednisolone",
+        "trials": [
+            "NCT01884571",
+            "NCT03289338"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2016-06-01 00:00:00"
+    },
+    {
+        "inchikey": "VLPIATFUUWWMKC-UHFFFAOYSA-N",
+        "name": "Mexiletine",
+        "trials": [
+            "NCT02781454",
+            "NCT01849770",
+            "NCT01811355"
+        ],
+        "names": [
+            "Mexitil",
+            " NaMuscla",
+            "(''RS'')-1-(2,6-dimethylphenoxy)propan-2-amine<br />OR<br />2-(2-aminopropoxy)-1,3-dimethylbenzene"
+        ],
+        "atc_codes": [
+            "C01BB02"
+        ],
+        "highest_phase": "Phase 4",
+        "latest_trial": "2016-10-01 00:00:00"
+    },
+    {
+        "inchikey": "DDLIGBOFAVUZHB-UHFFFAOYSA-N",
+        "name": "Midazolam",
+        "trials": [
+            "NCT02655614",
+            "NCT03988907"
+        ],
+        "names": [
+            "Dormicum",
+            " Hypnovel",
+            " Versed",
+            " others",
+            "",
+            "8-chloro-6-(2-fluorophenyl)-1-methyl-4''H''-imidazo[1,5-a][1,4]benzodiazepine"
+        ],
+        "atc_codes": [
+            "N05CD08"
+        ],
+        "highest_phase": "Phase 1",
+        "latest_trial": "2019-06-18 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Minocycline",
+        "trials": [
+            "NCT00355576",
+            "NCT00047723"
+        ],
+        "names": [
+            "Minocin",
+            " Minomycin",
+            " Akamin",
+            " others",
+            "(2''E'',4''S'',4a''R'',5aS,12a''R'')-2-(Amino-hydroxy-methylidene)-4,7-bis(dimethylamino)-10,11,12a-trihydroxy-4a,5,5a,6- tetrahydro-4''H''-tetracene-1,3,12-trione<ref>[http://redpoll.pharmacy.ualberta.ca/drugbank/cgi-bin/getCard.cgi?CARD"
+        ],
+        "atc_codes": [
+            "J01AA08",
+            "A01AB23"
+        ],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2006-07-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Moxifloxacin",
+        "trials": [
+            "NCT01511029"
+        ],
+        "names": [
+            "Avelox",
+            " Vigamox",
+            " Moxiflox",
+            " others",
+            "1-Cyclopropyl-7-[(1''S'',6''S'')-2,8-diazabicyclo[4.3.0]nonan-8-yl]-6-fluoro-8-methoxy-4-oxoquinoline-3-carboxylic acid"
+        ],
+        "atc_codes": [
+            "J01MA14",
+            "S01AE07"
+        ],
+        "highest_phase": "Phase 1",
+        "latest_trial": "2012-01-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Mycophenolate mofetil",
+        "trials": [
+            "NCT01884571"
+        ],
+        "names": [
+            "CellCept",
+            " Myfortic",
+            " others",
+            "",
+            "(4''E'')-6-(4-Hydroxy-6-methoxy-7-methyl-3-oxo-1,3-dihydro-2-benzofuran-5-yl)-4-methylhex-4-enoic acid"
+        ],
+        "atc_codes": [
+            "L04AA06"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2013-10-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "NP001",
+        "trials": [
+            "NCT02794857",
+            "NCT01281631",
+            "NCT01091142"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2016-08-29 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "NPT520-34",
+        "trials": [
+            "NCT03954600"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 1",
+        "latest_trial": "2019-05-05 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Nuedexta",
+        "trials": [
+            "NCT01806857"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2013-04-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "ODM-109",
+        "trials": [
+            "NCT02487407"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2015-07-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "ONO-2506PO",
+        "trials": [
+            "NCT00694941",
+            "NCT00403104"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2008-06-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Olesoxime",
+        "trials": [
+            "NCT00868166",
+            "NCT01285583"
+        ],
+        "names": [
+            "",
+            "",
+            "(NZ)-N-[(8S,9S,10R,13R,14S,17R)-10,13-dimethyl-17-[(2R)-6-methylheptan-2-yl]-1,2,6,7,8,9,11,12,14,15,16,17-dodecahydrocyclopenta[a]phenanthren-3-ylidene]hydroxylamine"
+        ],
+        "atc_codes": [
+            "<!-- 'none' if uncategorised -->"
+        ],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2010-10-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Omeprazole",
+        "trials": [
+            "NCT04718181"
+        ],
+        "names": [
+            "Losec",
+            " Prilosec",
+            " Zegerid",
+            " others<ref name",
+            "",
+            "5-Methoxy-2-[(4-methoxy-3,5-dimethylpyridin-2-yl)methanesulfinyl]-1''H''-benzimidazole"
+        ],
+        "atc_codes": [
+            "A02BC01"
+        ],
+        "highest_phase": "Phase 1",
+        "latest_trial": "2021-02-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Ozanezumab",
+        "trials": [
+            "NCT01753076"
+        ],
+        "names": [
+            ""
+        ],
+        "atc_codes": [
+            "none"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2012-12-20 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "PU-AD",
+        "trials": [
+            "NCT04505358"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2021-12-30 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Pegcetacoplan (APL-2)",
+        "trials": [
+            "NCT04579666"
+        ],
+        "names": [
+            "Empaveli",
+            "",
+            ""
+        ],
+        "atc_codes": [
+            "None <!-- Scheduled to be L04AA54 in 2022 -->"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2020-09-30 00:00:00"
+    },
+    {
+        "inchikey": "YVUQSNJEYSNKRX-UHFFFAOYSA-N",
+        "name": "Pimozide",
+        "trials": [
+            "NCT02463825",
+            "NCT02463825",
+            "NCT03272503"
+        ],
+        "names": [
+            "Orap",
+            "1-[1-[4,4-Bis(4-fluorophenyl)butyl]-4-piperidinyl]-1,3-dihydro-2''H''-benzimidazole-2-one"
+        ],
+        "atc_codes": [
+            "N05AG02"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2017-10-27 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Pioglitazone",
+        "trials": [
+            "NCT00919555",
+            "NCT00690118"
+        ],
+        "names": [
+            "Actos",
+            " others",
+            "(''RS'')-5-(4-[2-(5-ethylpyridin-2-yl)ethoxy]benzyl)thiazolidine-2,4-dione"
+        ],
+        "atc_codes": [
+            "A10BG03\n\n<!-- Legal status -->"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2008-06-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Pioglitazone HCL",
+        "trials": [
+            "NCT00919555"
+        ],
+        "names": [
+            "Actos",
+            " others",
+            "(''RS'')-5-(4-[2-(5-ethylpyridin-2-yl)ethoxy]benzyl)thiazolidine-2,4-dione"
+        ],
+        "atc_codes": [
+            "A10BG03\n\n<!-- Legal status -->"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2008-06-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Prednisone",
+        "trials": [
+            "NCT01884571"
+        ],
+        "names": [
+            "Deltasone",
+            " Liquid Pred",
+            " Orasone",
+            " others",
+            "",
+            "17,21-dihydroxypregna-1,4-diene-3,11,20-trione"
+        ],
+        "atc_codes": [
+            "A07EA03",
+            "H02AB07"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2013-10-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Pyrimethamine",
+        "trials": [
+            "NCT01083667"
+        ],
+        "names": [
+            "Daraprim",
+            " others",
+            "",
+            "5-(4-chlorophenyl)-6-ethyl- 2,4-pyrimidinediamine"
+        ],
+        "atc_codes": [
+            "P01BD01",
+            "vetP51AX51"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2009-11-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Quinidine Sulfate",
+        "trials": [
+            "NCT03883581",
+            "NCT00573443",
+            "NCT00573443"
+        ],
+        "names": [
+            "Quinaglute",
+            " Quinidex",
+            "(''S'')-(6-Methoxyquinolin-4-yl)[(1''S'',2''R'',4''S'',5''R'')-5-vinylquinuclidin-2-yl]methanol"
+        ],
+        "atc_codes": [
+            "C01BA01"
+        ],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2019-07-25 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "R(+) pramipexole dihydrochloride monohydrate",
+        "trials": [
+            "NCT00140218",
+            "NCT00600873"
+        ],
+        "names": [
+            "Mirapex",
+            " Mirapexin",
+            " Sifrol",
+            " others",
+            "(''S'')-''N''{{hair space}}<sup>6</sup>-propyl-4,5,6,7-tetrahydro-1,3-benzothiazole-2,6-diamine"
+        ],
+        "atc_codes": [
+            "N04BC05"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2007-08-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "RNS60",
+        "trials": [
+            "NCT03456882",
+            "NCT02525471",
+            "NCT02988297"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2022-03-01 00:00:00"
+    },
+    {
+        "inchikey": "YREYEVIYCVEVJK-UHFFFAOYSA-",
+        "name": "Rabeprazole",
+        "trials": [
+            "NCT02655614",
+            "NCT03237741"
+        ],
+        "names": [
+            "Aciphex",
+            " Pariet",
+            " Rafron",
+            " others",
+            "",
+            "(''RS'')-2-([4-(3-Methoxypropoxy)-3-methylpyridin-2-yl]methylsulfinyl)-1''H''-benzo[''d'']imidazole"
+        ],
+        "atc_codes": [
+            "A02BC04",
+            "A02BC54"
+        ],
+        "highest_phase": "Phase 1",
+        "latest_trial": "2017-08-07 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Ranolazine",
+        "trials": [
+            "NCT03472950",
+            "NCT03472950"
+        ],
+        "names": [
+            "Ranexa",
+            "(''RS'')-''N''-(2,6-Dimethylphenyl)-2-[4-[2-hydroxy-3-(2-methoxyphenoxy)-propyl]piperazin-1-yl]acetamide"
+        ],
+        "atc_codes": [
+            "C01EB18"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2018-06-11 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Rapamycin",
+        "trials": [
+            "NCT03359538"
+        ],
+        "names": [
+            "Rapamune",
+            "(1''R'',9''S'',12''S'',15''R'',16''E'',18''R'',19''R'',21''R'',23''S'',24''E'',26''E'',28''E'',<br />30''S'',32''S'',35''R'')-1,18-dihydroxy-12-{(2''R'')-1-[(1''S'',3''R'',<br />4''R'')-4-hydroxy-3-methoxycyclohexyl]-2-propanyl}-<br />19,30-dimethoxy-15,17,21,23,29,35-hexamethyl-<br />11,36-dioxa-4-azatricyclo[30.3.1.0~4,9~]hexatria<br />conta-16,24,26,28-tetraene-2,3,10,14,20-pentone"
+        ],
+        "atc_codes": [
+            "L04AA10",
+            "S01XA23"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2017-09-19 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Rasagiline",
+        "trials": [
+            "NCT01232738",
+            "NCT01879241",
+            "NCT01786603"
+        ],
+        "names": [
+            "Azilect",
+            " Azipron",
+            " others",
+            "(''R'')-''N''-(prop-2-ynyl)-2,3-dihydro-1''H''-inden-1-amine"
+        ],
+        "atc_codes": [
+            "N04BD02\n\n<!--Pharmacokinetic data-->"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2013-11-21 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Reldesemtiv",
+        "trials": [
+            "NCT03160898"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2017-07-24 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Repository corticotropin injection",
+        "trials": [
+            "NCT01906658"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2013-07-01 00:00:00"
+    },
+    {
+        "inchikey": "FTALBRSUTCGOEG-UHFFFAOYSA-N",
+        "name": "Riluzole",
+        "trials": [
+            "NCT03520517"
+        ],
+        "names": [
+            "Rilutek",
+            " Tiglutik",
+            " Exservan",
+            " others",
+            "6-(trifluoromethoxy)benzothiazol-2-amine"
+        ],
+        "atc_codes": [
+            "N07XX02"
+        ],
+        "highest_phase": "Phase 1",
+        "latest_trial": "2018-02-02 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Riluzole",
+        "trials": [
+            "NCT01486849",
+            "NCT01709149",
+            "NCT03272802",
+            "NCT00818389",
+            "NCT02588677",
+            "NCT03127267",
+            "NCT00868166",
+            "NCT00542412",
+            "NCT03039673",
+            "NCT00353665",
+            "NCT02238626",
+            "NCT01378676",
+            "NCT03457753",
+            "NCT03679975",
+            "NCT04326283"
+        ],
+        "names": [
+            "Rilutek",
+            " Tiglutik",
+            " Exservan",
+            " others",
+            "6-(trifluoromethoxy)benzothiazol-2-amine"
+        ],
+        "atc_codes": [
+            "N07XX02"
+        ],
+        "highest_phase": "Phase 4",
+        "latest_trial": "2020-10-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Risdiplam",
+        "trials": [
+            "NCT02913482",
+            "NCT03920865",
+            "NCT03032172",
+            "NCT03988907",
+            "NCT04718181"
+        ],
+        "names": [
+            "Evrysdi",
+            "",
+            "7-(4,7-diazaspiro[2.5]octan-7-yl)-2-(2,8-dimethylimidazo[1,2-b]pyridazin-6-yl)pyrido[1,2-a]pyrimidin-4-one"
+        ],
+        "atc_codes": [
+            "M09AX10"
+        ],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2021-02-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Ritonavir",
+        "trials": [
+            "NCT02437110"
+        ],
+        "names": [
+            "Norvir",
+            "",
+            "1,3-thiazol-5-ylmethyl ''N''-[(2''S'',3''S'',5''S'')-3-hydroxy-5-[(2''S'')-3-methyl-2-<nowiki/>{[methyl({[2-(propan-2-yl)-1,3-thiazol-4-yl]methyl})carbamoyl]amino}butanamido]-1,6-diphenylhexan-2-yl]carbamate"
+        ],
+        "atc_codes": [
+            "J05AE03"
+        ],
+        "highest_phase": "Phase 1",
+        "latest_trial": "2019-04-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "SB-509",
+        "trials": [
+            "NCT00748501"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2008-09-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Scopolamine",
+        "trials": [
+            "NCT04391361"
+        ],
+        "names": [
+            "Transdermscop",
+            " Kwells",
+            " others",
+            "",
+            "(\u2013)-(''S'')-3-Hydroxy-2-phenylpropionic acid (1''R'',2''R'',4''S'',5''S'',7''\u03b1'',9''S'')-9-methyl-3-oxa-9-azatricyclo[3.3.1.0<sup>2,4</sup>]non-7-yl ester"
+        ],
+        "atc_codes": [
+            "A04AD01",
+            "N05CM05"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2020-11-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Selective Serotonin Uptake Inhibitors (\"SSRI\")",
+        "trials": [
+            "NCT02851914"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Early Phase 1",
+        "latest_trial": "2015-07-21 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Snn0029",
+        "trials": [
+            "NCT01384162",
+            "NCT00800501",
+            "NCT01999803",
+            "NCT02269436"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2015-01-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Sodium Phenylbutyrate",
+        "trials": [
+            "NCT00107770"
+        ],
+        "names": [
+            "Buphenyl",
+            " Pheburane",
+            " Ammonaps",
+            "",
+            "Sodium 4-phenylbutanoate"
+        ],
+        "atc_codes": [
+            "A16AX03"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2005-04-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Sodium Valproate",
+        "trials": [
+            "NCT00136110"
+        ],
+        "names": [
+            "Depakote",
+            " Epilim",
+            " Convulex",
+            " [[#Formulations|others]]",
+            "2-propylpentanoic acid"
+        ],
+        "atc_codes": [
+            "N03AG01"
+        ],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2005-04-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Spirit1",
+        "trials": [
+            "NCT02588807"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 1",
+        "latest_trial": "2021-01-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "TCH346",
+        "trials": [
+            "NCT00230074",
+            "NCT00072709",
+            "NCT00036413"
+        ],
+        "names": [
+            "",
+            "Dibenzo[b,f]oxepin-10-ylmethyl-methyl-prop-2-ynylamine"
+        ],
+        "atc_codes": [
+            "None"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2004-11-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Tacrolimus",
+        "trials": [
+            "NCT01884571"
+        ],
+        "names": [
+            "Prograf",
+            " Advagraf",
+            " Protopic",
+            " others",
+            "",
+            "(\u2212)-(3''S'',4''R'',5''S'',8''R'',9''E'',12''S'',14''S'',15''R'',16''S'',18''R'',26a''S'')-8-allyl-5,6,8,11,12,13,14,15,16,17,18,19,24,25,26,26a-hexadecahydro-5,19-dihydroxy-3-<nowiki/>{(''E'')-2-[(1''R'',3''R'',4''R'')-4-hydroxy-3-methylcyclohexyl]-1-methylvinyl}-14,16-dimethoxy-4,10,12,18-tetramethyl-15,19-epoxy-3''H''-pyrido[2,1-''c''][1,4]oxaazacyclotricosane-1,7,20,21(4''H'',23''H'')-tetrone"
+        ],
+        "atc_codes": [
+            "D11AH01",
+            "L04AD02"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2013-10-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Talampanel",
+        "trials": [
+            "NCT00982150",
+            "NCT00696332"
+        ],
+        "names": [
+            "",
+            "(8''R'')-7-Acetyl-5-(4-aminophenyl)-8,9-dihydro-8-methyl-7''H''-1,3-dioxolo[4,5-''h''][2,3]benzodiazepine"
+        ],
+        "atc_codes": [
+            "none"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2009-09-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Tamoxifen",
+        "trials": [
+            "NCT01257581",
+            "NCT00214110",
+            "NCT02166944"
+        ],
+        "names": [
+            "Nolvadex",
+            " Genox",
+            " Tamifen",
+            " others<ref name",
+            "(''Z'')-2-[4-(1,2-Diphenylbut-1-enyl)phenoxy]-''N'',''N''-dimethylethanamine"
+        ],
+        "atc_codes": [
+            "L02BA01\n\n<!-- Legal status -->"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2014-04-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Tauroursodeoxycholic Acid",
+        "trials": [
+            "NCT00877604",
+            "NCT03800524"
+        ],
+        "names": [],
+        "atc_codes": [],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2019-02-22 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Tenofovir alafenamide (TAF)",
+        "trials": [
+            "NCT02437110"
+        ],
+        "names": [
+            "Vemlidy<br />Genvoya (with [[elvitegravir]]",
+            " [[cobicistat]] and [[emtricitabine]])<br />Odefsey (with emtricitabine and [[rilpivirine]])<br />Descovy (with emtricitabine)<br />Symtuza (with [[darunavir]]",
+            " [[cobicistat]]",
+            " and emtricitabine)",
+            "",
+            "Isopropyl (2''S'')-2-<nowiki>[[[</nowiki>(1''R'')-2-(6-aminopurin-9-yl)-1-methyl-ethoxy]methyl-phenoxy-phosphoryl]amino]propanoate"
+        ],
+        "atc_codes": [
+            "J05AF13",
+            "J05AR17"
+        ],
+        "highest_phase": "Phase 1",
+        "latest_trial": "2019-04-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Tetramethylpyrazine nitrone (TBN) tablet",
+        "trials": [
+            "NCT04667013"
+        ],
+        "names": [],
+        "atc_codes": [],
+        "highest_phase": "Phase 1",
+        "latest_trial": "2022-01-15 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Thalidomide",
+        "trials": [
+            "NCT00140452",
+            "NCT00231140"
+        ],
+        "names": [
+            "Contergan",
+            " Thalomid",
+            " Talidex",
+            " others",
+            "",
+            "2-(2,6-dioxopiperidin-3-yl)-2,3-dihydro-1''H''-isoindole-1,3-dione"
+        ],
+        "atc_codes": [
+            "L04AX02"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2005-12-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Theracurmin HP",
+        "trials": [
+            "NCT04499963"
+        ],
+        "names": [],
+        "atc_codes": [],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2020-08-28 00:00:00"
+    },
+    {
+        "inchikey": "RSQGZEAXODVTOL-UHFFFAOYSA-N",
+        "name": "Tirasemtiv",
+        "trials": [
+            "NCT01486849",
+            "NCT01709149",
+            "NCT01378676",
+            "NCT01378676",
+            "NCT01089010",
+            "NCT01089010",
+            "NCT02936635",
+            "NCT02496767"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2016-10-17 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Tocilizumab",
+        "trials": [
+            "NCT02469896"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2015-11-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Trametinib",
+        "trials": [
+            "NCT04326283",
+            "NCT04326283",
+            "NCT04326283"
+        ],
+        "names": [
+            "Mekinist",
+            "",
+            "''N''-(3-<nowiki/>{3-Cyclopropyl-5-[(2-fluoro-4-iodophenyl)amino]-6,8-dimethyl-2,4,7-trioxo-3,4,6,7-tetrahydropyrido[4,3-d]pyrimidin-1(2''H'')-yl}phenyl)acetamide"
+        ],
+        "atc_codes": [
+            "L01EE01"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2020-04-02 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Trazodone Hydrochloride oral solution",
+        "trials": [
+            "NCT04302870"
+        ],
+        "names": [
+            "Desyrel",
+            " Trittico",
+            " many brand names worldwide<ref name",
+            "2-<nowiki/>{3-[4-(3-Chlorophenyl)piperazin-1-yl]propyl}[1,2,4]triazolo[4,3-''a'']pyridin-3(2''H'')-one"
+        ],
+        "atc_codes": [
+            "N06AX05\n\n<!-- Legal status -->"
+        ],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2020-02-27 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Tretinoin",
+        "trials": [
+            "NCT00919555",
+            "NCT00919555"
+        ],
+        "names": [
+            "Vesanoid",
+            " Avita",
+            " Renova",
+            " Retin-a",
+            " others",
+            "",
+            "(2''E'',4''E'',6''E'',8''E'')-3,7-Dimethyl-9-(2,6,6-trimethylcyclohexen-1-yl)nona-2,4,6,8-tetraenoic acid"
+        ],
+        "atc_codes": [
+            "D10AD01",
+            "L01XF01"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2008-06-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Triheptanoin",
+        "trials": [
+            "NCT03506425"
+        ],
+        "names": [
+            "Dojolvi",
+            "",
+            "2,3-di(heptanoyloxy)propyl heptanoate or glyceryl triheptanoate"
+        ],
+        "atc_codes": [
+            "A16AX17"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2018-06-21 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Triumeq",
+        "trials": [
+            "NCT02868580"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2016-10-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Verdiperstat",
+        "trials": [
+            "NCT04436510",
+            "NCT04297683"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2020-07-28 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "YAM80",
+        "trials": [
+            "NCT00886977"
+        ],
+        "names": [],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 2",
+        "latest_trial": "2009-04-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Zilucoplan",
+        "trials": [
+            "NCT04436497",
+            "NCT04297683"
+        ],
+        "names": [
+            "",
+            "",
+            "<nowiki>(2S)-2-[[(2S)-2-[[(2S)-1-[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S,5S,8S,11S,14S,22S)-22-acetamido-11-benzyl-8-(3-carbamimidamidopropyl)-5-(2-carboxyethyl)-3,6,9,12,16,23-hexaoxo-2-propan-2-yl-1,4,7,10,13,17-hexazacyclotricosane-14-carbonyl]-methylamino]-3-carboxypropanoyl]amino]-3,3-dimethylbutanoyl]amino]-3-(4-hydroxyphenyl)propanoyl]amino]-3-(1H-pyrrolo[2,3-b]pyridin-3-yl)propanoyl]amino]-4-carboxybutanoyl]amino]-3-(4-hydroxyphenyl)propanoyl]pyrrolidine-2-carbonyl]amino]-2-cyclohexylacetyl]amino]-6-[3-[2-[2-[2-[2-[2-[2-[2-[2-[2-[2-[2-[2-[2-[2-[2-[2-[2-[2-[2-[2-[2-[2-[2-[2-[[(4S)-4-carboxy-4-(hexadecanoylamino)butanoyl]amino]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]propanoylamino]hexanoic acid</nowiki>"
+        ],
+        "atc_codes": [
+            "<!-- 'none' if uncategorised --><!-- Legal status -->"
+        ],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2020-07-29 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Zoledronic Acid",
+        "trials": [
+            "NCT03289338"
+        ],
+        "names": [
+            "Reclast",
+            " Zometa",
+            " others<ref name",
+            "[1-hydroxy-2-(1''H''-imidazol-1-yl)ethane-1,1-diyl]bis(phosphonic acid)"
+        ],
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "highest_phase": "Phase 3",
+        "latest_trial": "2016-06-01 00:00:00"
+    }
+]
