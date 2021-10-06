@@ -5,7 +5,7 @@ var literatureYearCountsChart = new dc.BarChart('#literatureYearCountsChart');
 var literatureKeywordFilterChart = new dc.PieChart('#literatureKeywordFilterChart');
 var ndx_literature;
 
-d3.json('../static/assaynet_literature.json').then(function(data) {
+d3.json('../assaynet_literature.json').then(function(data) {
   var fmt_literature = d3.format('02d');
   ndx_literature = crossfilter(data);
   var all_literature = ndx_literature.groupAll();

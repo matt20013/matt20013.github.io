@@ -3,7 +3,7 @@ var assayTable = new dc.DataTable("#assayTable");
 var assayClassificationChart = new dc.PieChart("#assayClassificationChart")
 var ndx_assay;
 
-d3.json('../static/assaynet_assays.json').then(function(experiments) {
+d3.json('../assaynet_assays.json').then(function(experiments) {
   var fmt = d3.format('02d');
   ndx_assay = crossfilter(experiments)
     var assayClassificationDimension  = ndx_assay.dimension(function(d) {return d.classification;})
