@@ -8,7 +8,7 @@ var interventionInALSUntangledChart = new dc.PieChart("#interventionInALSUntangl
 var interventionTagsChart = new dc.RowChart("#interventionTagsChart");
 var ndx_int;
 
-d3.json('../static/assaynet_matched_interventions.json').then(function(experiments) {
+d3.json('../assaynet_matched_interventions.json').then(function(experiments) {
   var fmt = d3.format('02d');
   ndx_int = crossfilter(experiments)
     var interventionHasAssaysDimension  = ndx_int.dimension(function(d) {return d.has_assays;}),
