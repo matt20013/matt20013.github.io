@@ -58,9 +58,9 @@
   <div class="tab">
     <button class="tablinks" onclick="openTab(event, 'DashboardTab')">Dashboard</button>
     <button class="tablinks" onclick="openTab(event, 'PapersTab')">Papers</button>
-    <button class="tablinks" onclick="openTab(event, 'Interventions')">Interventions</button>
-    <button class="tablinks" onclick="openTab(event, 'Assays')">Assays</button>
-    <button class="tablinks" onclick="openTab(event, 'Clinical Trials')">Clinical Trials</button>
+    <button class="tablinks" onclick="openTab(event, 'InterventionsTab')">Interventions</button>
+    <button class="tablinks" onclick="openTab(event, 'AssaysTab')">Assays</button>
+    <button class="tablinks" onclick="openTab(event, 'ClinicalTrialsTab')">Clinical Trials</button>
   </div>
   <style>
     /* Style the tab */
@@ -202,7 +202,7 @@
         </div>
       </div>
     </div>
-    <div id="Assays" class="tabcontent">
+    <div id="AssaysTab" class="tabcontent">
       <h3>Assays</h3>
       <div class="row">
         <div id="assayClassificationChart">
@@ -229,7 +229,7 @@
         <div id="assayModelChart"></div>
       </div>
     </div>
-    <div id="Clinical Trials" class="tabcontent">
+    <div id="ClinicalTrialsTab" class="tabcontent">
       <h3>Clinical Trials</h3>
       <div class="row">
         <div id="trials_yearly-bubble-chart" class="dc-chart">
@@ -320,7 +320,7 @@
     <script src="js/assaynet_dashboard.js"></script>
     <script src="js/tabs.js"></script>
     <script>
-      openTab(null, 'Interventions')
+      openTab(null, 'InterventionsTab')
       openTabSub(null, 'InterventionsOverviewTab')
     </script>
 </body>
