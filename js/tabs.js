@@ -16,7 +16,9 @@ function openTab(evt, tabName) {
 
   // Show the current tab, and add an "active" class to the button that opened the tab
   document.getElementById(tabName).style.display = "block";
+  if (evt !== null) {
   evt.currentTarget.className += " active";
+  }
 }
 
 function openTabSub(evt, tabName) {
@@ -37,5 +39,7 @@ function openTabSub(evt, tabName) {
 
   // Show the current tab, and add an "active" class to the button that opened the tab
   document.getElementById(tabName).style.display = "block";
-  evt.currentTarget.className += " active";
+  if (evt !== null) {
+    evt.currentTarget.className += " active";
+    }
 }
