@@ -1,0 +1,24 @@
+{
+  "nodes": [
+    {
+      "id": "I - dosing",
+      "chapters": [
+        "I - dosing"
+      ],
+      "name": "I - dosing"
+    },
+    {
+      "id": "I - rotarod",
+      "chapters": [
+        "I - rotarod"
+      ],
+      "name": "I - rotarod"
+    }
+  ],
+  "links": [
+    {
+      "source": "I - dosing",
+      "target": "I - rotarod"
+    }
+  ]
+}
