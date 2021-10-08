@@ -22,7 +22,7 @@ var svg = d3.select('#DashboardTab').append("svg:svg")
   .append('g')
   .attr('transform', 'translate(' + radius + ',' + radius + ')');
 
-url = "../assaynet.json"
+url = "..data/assaynet.json"
 
 var data = null;
 

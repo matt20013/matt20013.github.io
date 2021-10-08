@@ -143,20 +143,20 @@
     </div>
   </div>
   <div id="InterventionsTab" class="tabcontent">
-    <h3>Interventions</h3>
+    <h3 margin-block-start="1em">Interventions</h3>
     <div class="tab">
       <button class="tablinkssub" onclick="openTabSub(event, 'InterventionsOverviewTab')">Overview</button>
       <button class="tablinkssub" onclick="openTabSub(event, 'InterventionsALSUntangledTab')">ALS Untangled</button>
       <div id="InterventionsOverviewTab" class="tabcontentsub">
         <div class="row">
-          <div id="interventionPaging">
+          <!-- <div id="interventionPaging">
             Showing <span id="interventionBegin"></span>-<span id="interventionEnd"></span> of <span
               id="interventionSize"></span> <span id="interventionTotalSize"></span>
             <input id="interventionLast" class="btn" type="Button" value="Last"
               onclick="javascript:interventionLast()" />
             <input id="interventionNext" class="btn" type="button" value="Next"
               onclick="javascript:interventionNext()" />
-          </div>
+          </div> -->
           <table id="interventionTable" class="table table-hover dc-data-table"></table>
         </div>
         <div class="row">
@@ -232,7 +232,7 @@
   </div>
   <div id="ClinicalTrialsTab" class="tabcontent">
     <h3>Clinical Trials</h3>
-    <div class="row">
+    <!-- <div class="row">
       <div id="trials_yearly-bubble-chart" class="dc-chart">
         <strong>Yearly Performance</strong> (radius: fluctuation/index ratio, color: gain/loss)
         <a class="reset" href="javascript:yearlyBubbleChart.filterAll();dc.redrawAll();"
@@ -240,7 +240,7 @@
 
         <div class="clearfix"></div>
       </div>
-    </div>
+    </div> -->
 
     <div class="row">
       <div id="trialStatusChart">
@@ -311,7 +311,7 @@
   <script type="text/javascript" src="js/jquery.dataTables.js"></script>
   <script type="text/javascript" src="js/dc.datatables.js"></script>
   <!--<script type="text/javascript" src="js/papers.js"></script>-->
-  <script type="text/javascript" src="js/trials2.js"></script>
+  <script type="text/javascript" src="js/trials.js"></script>
   <script type="text/javascript" src="js/interventions_combined.js"></script>
   <script type="text/javascript" src="js/assays.js"></script>
   <script type="text/javascript" src="js/literature.js"></script>
