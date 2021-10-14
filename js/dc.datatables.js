@@ -64,6 +64,14 @@ dc_datatables.datatable = function(selector, chartGroup) {
         _group, _size, _columns, _sortBy, _order; // for compatibility; currently unused
     var _dispatch = d3.dispatch('renderlet');
 
+	if (selector == "#interventionTable") {
+		_options = {"columnDefs": [{"width": "30%", "targets": 6}]}
+	}
+
+    if (selector == "#literatureTable") {
+		_options = {"columnDefs": [{"width": "30%", "targets": 6}]}
+	}
+
     function columnRenderer(c) {
         switch(typeof c) {
         case 'string':
@@ -87,6 +95,7 @@ dc_datatables.datatable = function(selector, chartGroup) {
     }
 
     _table.render = function() {
+    	console.log("_options: " + JSON.stringify(_options))
         _root = d3.select(selector);
         var table = _root.selectAll('table').data([0]);
         table.exit().remove();

@@ -4,6 +4,8 @@ var width = window.innerWidth;
 var height = window.innerHeight;
 var radius = diameter / 2;
 var innerRadius = radius - 70;
+var minimum_assay_count = 2
+var maximum_node_count = 150
 
 var cluster = d3.cluster()
   .size([360, innerRadius])
@@ -14,7 +16,7 @@ var line = d3.line()
   .y(yAccessor)
   .curve(d3.curveBundle.beta(0.7));
 
-var svg = d3.select('#DashboardTab').append("svg:svg")
+var svg = d3.select('#dashboard').append("svg:svg")
   .attr('width', 1200)
   .attr('height', 1200)
   //.attr('height',"100%")
@@ -22,17 +24,211 @@ var svg = d3.select('#DashboardTab').append("svg:svg")
   .append('g')
   .attr('transform', 'translate(' + radius + ',' + radius + ')');
 
-url = "..data/assaynet.json"
+url = "../data/assaynet.json"
 
-var data = null;
+var unfiltered_data = null;
+var filtered_data = null;
+var show_intra_assay_links = false;
+var exclude_pending = true;
+var show_ct_assays = false;
+var show_sequential_links = true;
+
+function apply_dashboard_settings() {
+  minimum_assay_count = parseInt(document.getElementById('minimum_assay_count').value)
+  maximum_node_count = parseInt(document.getElementById('maximum_node_count').value)
+  show_intra_assay_links = document.getElementById('show_intra_assay_links').checked
+  exclude_pending = document.getElementById('exlude_pending_tags').checked
+  show_ct_assays = document.getElementById('show_ct_assays').checked
+  show_sequential_links = document.getElementById('show_sequential_assays').checked
+  redraw_assaynet_graph();
+}
+
+function clone_data(data) {
+  //return Object.assign({}, data);
+  return $.extend(true, [], data);
+}
+
+sequential_classes = [
+  ['B', "C"],
+  ["C", "B"],
+  ["C", "I"],
+  ["I", "C"],
+  ["C", "E"],
+  ["E", "C"],
+  ["I", "E"],
+  ["E", "I"],
+  ["I", "CT"],
+  ["CT", "I"],
+  ["E", "CT"],
+  ["CT", "E"]
+]
+
+sequential_classes = [
+  ['B', "C"],
+  ["C", "B"],
+  ["C", "I"],
+  ["I", "C"],
+  ["I", "E"],
+  ["E", "I"],
+  ["I", "CT"],
+  ["CT", "I"],
+  ["E", "CT"],
+  ["CT", "E"]
+]
+
+function is_sequential_assay(source_classification, target_classification) {
+  sequential = false
+  sequential_classes.forEach(function (item, index) {
+    if (item[0] == source_classification && item[1] == target_classification) {
+      sequential = true
+    }
+  });
+
+  return sequential
+
+};
+
+function trim_data(graph) {
+
+  // trim nodes if node count > maximum_node_count
 
 
+
+  nodes = []
+  node_ids = []
+  node_ids2 = []
+  links = []
+  nodes2 = []
+  // if (graph["nodes"].length <= maximum_node_count) {
+  //   return graph
+  // }
+  filtered_data["nodes"].forEach(function (item, index) {
+    if (show_ct_assays == false && item.assay_classification == "CT")
+      return;
+    if (graph["nodes"].length <= maximum_node_count) {
+        nodes.push(item)
+        node_ids.push(item["id"])
+      }
+    else if (item["assay_id_count"] >= minimum_assay_count) {
+      nodes.push(item)
+      node_ids.push(item["id"])
+    }
+  });
+
+  filtered_data["links"].forEach(function (item, index) {
+
+    
+    source_pending = item.source.includes("pending");
+    target_pending = item.target.includes("pending")
+
+    if (exclude_pending == true && (source_pending || target_pending)) {
+      return;
+    }
+    if (node_ids.includes(item.source) && node_ids.includes(item.target)) {
+      source_classification = item.source.split("-")[0].trim()
+      target_classification = item.target.split("-")[0].trim()
+
+      if (show_sequential_links == true && ((source_classification != target_classification) && is_sequential_assay(source_classification, target_classification) == false)) {
+        return;
+      }
+      if (show_intra_assay_links == true) {
+        links.push(item)
+        node_ids2.push(item.source)
+        node_ids2.push(item.target)
+      }
+      else if (source_classification != target_classification) {
+        links.push(item)
+        node_ids2.push(item.source)
+        node_ids2.push(item.target)
+      }
+    }
+  });
+
+  nodes.forEach(function (item, index) {
+    if (node_ids2.includes(item["id"])) {
+      nodes2.push(item)
+    }
+  });
+
+
+  graph = { "nodes": nodes2, "links": links }
+  return graph;
+  // select all nodes where assay_id_count > minimum_assay_count
+
+}
+
+function get_link_stength(d) {
+
+  nodes = d.filter(c => c.depth == 3)
+
+  source = nodes[0].data
+  target = nodes[1].data
+
+  source_pmids = source["pmids"]
+  source_inchikeys = source["inchikeys"]
+  target_pmids = target["pmids"]
+  target_inchikeys = target["inchikeys"]
+  pmids_intersect = source_pmids.filter(value => target_pmids.includes(value));
+  inchikeys_intersect = source_inchikeys.filter(value => target_inchikeys.includes(value));
+
+  score = pmids_intersect.length + inchikeys_intersect.length
+
+  if (score == 0) {
+    score = 2
+  }
+
+  return score;
+}
+
+function simpleStringify(object) {
+  var simpleObject = {};
+  for (var prop in object) {
+    if (!object.hasOwnProperty(prop)) {
+      continue;
+    }
+    if (typeof (object[prop]) == 'object') {
+      continue;
+    }
+    if (typeof (object[prop]) == 'function') {
+      continue;
+    }
+    simpleObject[prop] = object[prop];
+  }
+  return JSON.stringify(simpleObject); // returns cleaned up JSON
+};
+
+var selected_tag;
+
+function network_intervention_tag_filter() {
+  intervention_tag_filter(selected_tag);
+  openTab(null, 'InterventionsTab')
+  openTabSub(null, 'InterventionsDashboardTab')
+}
+
+function network_assay_tag_filter() {
+  assay_tag_filter(selected_tag);
+  openTab(null, 'AssaysTab')
+  openTabSubAssay(null, 'AssaysDashboardTab')
+}
+
+function load_assaydetails(tag) {
+
+  selected_tag = tag
+  $("#tagname").html(tag);
+  // jquery to set text label
+  openTabSubNetwork(null, "NetworkNodeDetailsTab")
+
+}
 
 function load_assaynet_graph(graph) {
 
   //d3.json(data, function (error, graph) {
   //if (error) throw error;
+  //graph = JSON.parse(simpleStringify(graph))
 
+  //graph = JSON.parse(JSON.stringify(graph))
+  graph = clone_data(graph)
+  graph = trim_data(graph)
   var idToNode = {};
 
   graph.nodes.forEach(function (n) {
@@ -47,15 +243,15 @@ function load_assaynet_graph(graph) {
 
   // Find first appearance (volume, book, chapter)
   graph.nodes.forEach(function (n) {
-    n.chapters = n.chapters.map(function (chaps) { return chaps.split('.').map(function (c) { return parseInt(c); }); });
-    n.chapters.sort(chapterCompare).reverse();
-    n.firstChapter = n.name[0]
+    // n.chapters = n.chapters.map(function (chaps) { return chaps.split('.').map(function (c) { return parseInt(c); }); });
+    // n.chapters.sort(chapterCompare).reverse();
+    n.classification = n.name[0]
     //n.firstChapter = n.chapters[0].map(function (d) { return d.toString().length == 1 ? '0' + d.toString() : d.toString(); }).join('.');
   });
 
   var tree = cluster(d3.hierarchy(chapterHierarchy(graph.nodes)).sort(function (a, b) {
-    if (a.data.hasOwnProperty('firstChapter') && b.data.hasOwnProperty('firstChapter'))
-      return a.data.firstChapter.localeCompare(b.data.firstChapter);
+    if (a.data.hasOwnProperty('classification') && b.data.hasOwnProperty('classification'))
+      return a.data.classification.localeCompare(b.data.classification);
     return a.data.name.localeCompare(b.data.name);
   }));
 
@@ -72,6 +268,11 @@ function load_assaynet_graph(graph) {
     .data(paths)
     .enter().append('path')
     .attr('class', 'link-dashboard')
+    .attr("stroke-width", function (d) {
+      return (get_link_stength(d) * 0.5);
+    })
+    .attr("fill", null)
+    .attr("stroke", "#999")
     //    .style('stroke-width', "1.5px")
     //    .style('stroke-opacity', 0.6)
     //    .style('stroke', '#999')
@@ -81,9 +282,9 @@ function load_assaynet_graph(graph) {
     //        .style('stroke', function(d){return d.colour})
     //        .style('stroke-opacity', 1);
     .on('mouseover', function (l) {
-      //link
-      //  .style('stroke', null)
-      //  .style('stroke-opacity', null);
+      link
+        .style('stroke', null)
+        .style('stroke-opacity', null);
       d3.select(this)
         .style('stroke', 'blue')
         .style('stroke-opacity', 1);
@@ -94,9 +295,9 @@ function load_assaynet_graph(graph) {
         .style('fill', 'black');
     })
     .on('mouseout', function (d) {
-      //link
-      //  .style('stroke', null)
-      //  .style('stroke-opacity', null);
+      link
+        .style('stroke', null)
+        .style('stroke-opacity', null);
       node.selectAll('circle')
         .style('fill', null);
     });
@@ -107,6 +308,29 @@ function load_assaynet_graph(graph) {
     .enter().append('g')
     .attr('class', 'node')
     .attr('transform', function (d) { return 'translate(' + xAccessor(d) + ',' + yAccessor(d) + ')'; })
+    // .on('mouseover', function (d) {
+    //   node.style('fill', null);
+    //   d3.select(this).selectAll('circle').style('fill', 'black');
+    //   var nodesToHighlight = paths.map(function (e) { return e[0] === d ? e[e.length - 1] : e[e.length - 1] === d ? e[0] : 0 })
+    //     .filter(function (d) { return d; });
+    //   node.filter(function (d) { return nodesToHighlight.indexOf(d) >= 0; })
+    //     .selectAll('circle')
+    //     .style('fill', '#555');
+    //   //link
+    //   //.style('stroke-opacity', function (link_d) {
+    //   //  return link_d[0] === d | link_d[link_d.length - 1] === d ? 1 : null;
+    //   //})
+    //   //.style('stroke', function (link_d) {
+    //   //  return link_d[0] === d | link_d[link_d.length - 1] === d ? '#d62333' : null;
+    //   //});
+    // })
+    // .on('mouseout', function (d) {
+    //   //link
+    //   //  .style('stroke-opacity', null)
+    //   //  .style('stroke', null);
+    //   node.selectAll('circle')
+    //     .style('fill', null);
+    // });
     .on('mouseover', function (d) {
       node.style('fill', null);
       d3.select(this).selectAll('circle').style('fill', 'black');
@@ -115,20 +339,25 @@ function load_assaynet_graph(graph) {
       node.filter(function (d) { return nodesToHighlight.indexOf(d) >= 0; })
         .selectAll('circle')
         .style('fill', '#555');
-      //link
-      //.style('stroke-opacity', function (link_d) {
-      //  return link_d[0] === d | link_d[link_d.length - 1] === d ? 1 : null;
-      //})
-      //.style('stroke', function (link_d) {
-      //  return link_d[0] === d | link_d[link_d.length - 1] === d ? '#d62333' : null;
-      //});
+      link
+        .style('stroke-opacity', function (link_d) {
+          return link_d[0] === d | link_d[link_d.length - 1] === d ? 1 : null;
+        })
+        .style('stroke', function (link_d) {
+          return link_d[0] === d | link_d[link_d.length - 1] === d ? '#d62333' : null;
+        });
     })
     .on('mouseout', function (d) {
-      //link
-      //  .style('stroke-opacity', null)
-      //  .style('stroke', null);
+      link
+        .style('stroke-opacity', null)
+        .style('stroke', null);
       node.selectAll('circle')
         .style('fill', null);
+    })
+    .on("click", function (d) {
+      console.log(d.data.id);
+      load_assaydetails(d.data.id);
+
     });
 
   node.append('circle').attr('r', 4)
@@ -142,24 +371,90 @@ function load_assaynet_graph(graph) {
     .attr('transform', function (d) { return 'rotate(' + (d.x < 180 ? d.x - 90 : d.x + 90) + ')'; })
     .text(function (d) { return d.data.id; });
 
-  function chapterCompare(aChaps, bChaps) {
-    if (aChaps[0] != bChaps[0])
-      return bChaps[0] - aChaps[0];
-    else if (aChaps[1] != bChaps[0])
-      return bChaps[1] - aChaps[1];
-    else if (aChaps[2] != bChaps[2])
-      return bChaps[2] - aChaps[2];
-    return 0;
-  }
+  // function chapterCompare(aChaps, bChaps) {
+  //   if (aChaps[0] != bChaps[0])
+  //     return bChaps[0] - aChaps[0];
+  //   else if (aChaps[1] != bChaps[0])
+  //     return bChaps[1] - aChaps[1];
+  //   else if (aChaps[2] != bChaps[2])
+  //     return bChaps[2] - aChaps[2];
+  //   return 0;
+  // }
   //});
 }
 
+function redraw_assaynet_graph() {
 
-$.getJSON(url, function (d) {
-  // JSON result in `data` variable
-  data = d
-  load_assaynet_graph(data);
+  remove_old_data();
+  //filtered_data = JSON.parse(JSON.stringify(unfiltered_data));
+  filtered_data = clone_data(unfiltered_data)
+  load_assaynet_graph(filtered_data);
+
+}
+
+function reset_assaynet_graph() {
+
+  remove_old_data();
+  //filtered_data = JSON.parse(JSON.stringify(unfiltered_data));
+  filtered_data = clone_data(unfiltered_data)
+  load_assaynet_graph(filtered_data);
+}
+
+function filter_assaynet_by_interventions(intervention_ids) {
+  nodes = []
+  links = []
+  node_ids = []
+
+  function in_intervention_id_filter(element, index, array) {
+    return intervention_ids.includes(element);
+  }
+
+  unfiltered_data["links"].forEach(function (item, index) {
+    if (item["intervention_ids"].some(in_intervention_id_filter)) {
+      links.push(item)
+      if (!node_ids.includes(item["source"])) {
+        node_ids.push(item["source"])
+      }
+      if (!node_ids.includes(item["target"])) {
+        node_ids.push(item["target"])
+      }
+    }
+  });
+
+
+  unfiltered_data["nodes"].forEach(function (item, index) {
+    if (node_ids.includes(item["id"])) {
+      nodes.push(item)
+    }
+  });
+
+  filtered_data = { "nodes": nodes, "links": links }
+
+  remove_old_data();
+  load_assaynet_graph(filtered_data);
+}
+// $.getJSON(url, function (d) {
+//   // JSON result in `data` variable
+//   data = d
+//   load_assaynet_graph(data);
+// });
+
+// d3.json(url).then( data => {
+//   data = graph;
+//   load_assaynet_graph(data);
+// })
+
+d3.json(url, function (error, data) {
+  unfiltered_data = data
+  //filtered_data = JSON.parse(JSON.stringify(unfiltered_data));
+  filtered_data = clone_data(unfiltered_data)
+  load_assaynet_graph(filtered_data);
 });
+
+// d3.json(url).then(error, data => {
+//   load_assaynet_graph(data);
+// });
+
 
 function filter_dashboard_by_interventions(interventions) {
   filtered_data = { "nodes": [], "links": [] }
@@ -178,9 +473,10 @@ function filter_dashboard_by_interventions(interventions) {
   load_assaynet_graph(filtered_data);
 }
 
-function reset_dashboard() {
-  load_assaynet_graph(data);
+function remove_old_data() {
+  svg.selectAll('*').remove();
 }
+
 
 selection = svg.selectAll(".link-dashboard")
   .style("stroke", "#999")
@@ -194,8 +490,8 @@ function chapterHierarchy(characters) {
   };
 
   characters.forEach(function (c) {
-    var chapter = c.firstChapter;
-    var book = c.firstChapter.substring(0, c.firstChapter.lastIndexOf('.'));
+    var chapter = c.assay_classification_ordered;
+    var book = c.assay_classification_ordered.substring(0, c.assay_classification_ordered.lastIndexOf('.'));
     var volume = book.substring(0, book.lastIndexOf('.'));
 
     if (!hierarchy[volume]) {

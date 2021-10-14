@@ -1,0 +1,2622 @@
+[
+    {
+        "assaynet_interventions": [
+            {
+                "id": "pending",
+                "inchikey": "pending",
+                "name": "RD2RD2 (peptide)",
+                "tags": [
+                    {
+                        "tag": "[cytokine]",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "inflamation",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "SOD aggregation",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "cell viability",
+                        "assay_classification": "C"
+                    },
+                    {
+                        "tag": "dosing",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "zebrafish larve swimming ",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "righting",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "gliosis and neurodegeneration",
+                        "assay_classification": "I"
+                    }
+                ]
+            }
+        ],
+        "clinical_trial_interventions": [],
+        "als_untangled_interventions": [],
+        "tags": [
+            "I - dosing",
+            "I - righting",
+            "E - inflamation",
+            "C - cell viability",
+            "I - gliosis and neurodegeneration",
+            "E - SOD aggregation",
+            "E - [cytokine]",
+            "I - zebrafish larve swimming "
+        ],
+        "assay_classifications": [
+            "E",
+            "C",
+            "I"
+        ],
+        "assay_classification_types": "E,C,I",
+        "has_assays": true,
+        "wikipedia_url": null,
+        "mechanism_score": null,
+        "mechanism_description": null,
+        "preclinical_score": null,
+        "preclinical_description": null,
+        "preclinical_pmids": null,
+        "preclinical_summary": null,
+        "case_score": null,
+        "case_description": null,
+        "trials_score": null,
+        "trials_description": null,
+        "trials_pmids": null,
+        "trials_summary": null,
+        "in_als_untangled": false,
+        "trials": [],
+        "trial_links": [],
+        "trial_links_new": null,
+        "atc_codes": [],
+        "name": "RD2RD2 (peptide)",
+        "names": [
+            "RD2RD2 (peptide)"
+        ],
+        "has_clinical_trials": false
+    },
+    {
+        "assaynet_interventions": [
+            {
+                "id": "NWWRHMSYZTWUBD-UHFFFAOYSA-N - this is close but not the exact compound",
+                "inchikey": "NWWRHMSYZTWUBD-UHFFFAOYSA-N - this is close but not the exact compound",
+                "name": "R13",
+                "tags": [
+                    {
+                        "tag": "dosing",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "pending",
+                        "assay_classification": "PreClin pending"
+                    },
+                    {
+                        "tag": "rotarod",
+                        "assay_classification": "PreClin pending"
+                    },
+                    {
+                        "tag": "climbing pole test",
+                        "assay_classification": "PreClin pending"
+                    },
+                    {
+                        "tag": "grip strength",
+                        "assay_classification": "PreClin pending"
+                    },
+                    {
+                        "tag": "hanging endurance test",
+                        "assay_classification": "PreClin pending"
+                    },
+                    {
+                        "tag": "pending",
+                        "assay_classification": "PreClin pending"
+                    },
+                    {
+                        "tag": "pending",
+                        "assay_classification": "PreClin pending"
+                    },
+                    {
+                        "tag": "pending",
+                        "assay_classification": "PreClin pending"
+                    },
+                    {
+                        "tag": "pending",
+                        "assay_classification": "PreClin pending"
+                    },
+                    {
+                        "tag": "Lipid peroxidation",
+                        "assay_classification": "PreClin pending"
+                    },
+                    {
+                        "tag": "pending",
+                        "assay_classification": "PreClin pending"
+                    },
+                    {
+                        "tag": "lifespan",
+                        "assay_classification": "PreClin pending"
+                    }
+                ]
+            }
+        ],
+        "clinical_trial_interventions": [],
+        "als_untangled_interventions": [],
+        "tags": [
+            "PreClin pending - lifespan",
+            "PreClin pending - grip strength",
+            "PreClin pending - rotarod",
+            "PreClin pending - hanging endurance test",
+            "I - dosing",
+            "PreClin pending - pending",
+            "PreClin pending - climbing pole test",
+            "PreClin pending - Lipid peroxidation"
+        ],
+        "assay_classifications": [
+            "I",
+            "PreClin pending"
+        ],
+        "assay_classification_types": "I,PreClin pending",
+        "has_assays": true,
+        "wikipedia_url": null,
+        "mechanism_score": null,
+        "mechanism_description": null,
+        "preclinical_score": null,
+        "preclinical_description": null,
+        "preclinical_pmids": null,
+        "preclinical_summary": null,
+        "case_score": null,
+        "case_description": null,
+        "trials_score": null,
+        "trials_description": null,
+        "trials_pmids": null,
+        "trials_summary": null,
+        "in_als_untangled": false,
+        "trials": [],
+        "trial_links": [],
+        "trial_links_new": null,
+        "atc_codes": [],
+        "name": "R13",
+        "names": [
+            "R13"
+        ],
+        "has_clinical_trials": false
+    },
+    {
+        "assaynet_interventions": [
+            {
+                "id": "KHPXUQMNIQBQEV-UHFFFAOYSA-N",
+                "inchikey": "KHPXUQMNIQBQEV-UHFFFAOYSA-N",
+                "name": "oxaloacetate",
+                "tags": [
+                    {
+                        "tag": "dosing",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "motor behaviour ",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "neuroinflammatory [RNA]",
+                        "assay_classification": "I"
+                    }
+                ]
+            }
+        ],
+        "clinical_trial_interventions": [],
+        "als_untangled_interventions": [],
+        "tags": [
+            "I - neuroinflammatory [RNA]",
+            "I - dosing",
+            "I - motor behaviour "
+        ],
+        "assay_classifications": [
+            "I"
+        ],
+        "assay_classification_types": "I",
+        "has_assays": true,
+        "wikipedia_url": null,
+        "mechanism_score": null,
+        "mechanism_description": null,
+        "preclinical_score": null,
+        "preclinical_description": null,
+        "preclinical_pmids": null,
+        "preclinical_summary": null,
+        "case_score": null,
+        "case_description": null,
+        "trials_score": null,
+        "trials_description": null,
+        "trials_pmids": null,
+        "trials_summary": null,
+        "in_als_untangled": false,
+        "trials": [],
+        "trial_links": [],
+        "trial_links_new": null,
+        "atc_codes": [],
+        "name": "Oxaloacetate",
+        "names": [
+            "oxaloacetate"
+        ],
+        "has_clinical_trials": false
+    },
+    {
+        "assaynet_interventions": [
+            {
+                "id": "GOHCTCOGYKAJLZ-UHFFFAOYSA-N",
+                "inchikey": "GOHCTCOGYKAJLZ-UHFFFAOYSA-N",
+                "name": "CTEP",
+                "tags": [
+                    {
+                        "tag": "behaviours (citation) ",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "behaviour profiling",
+                        "assay_classification": "PreClin pending"
+                    },
+                    {
+                        "tag": "survival",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "weight",
+                        "assay_classification": "PreClin pending"
+                    },
+                    {
+                        "tag": "rotarod",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "rotarod",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "balance beam",
+                        "assay_classification": "PreClin pending"
+                    },
+                    {
+                        "tag": "hindlimb extension",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "grip strength",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "moto neurone count",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "glial cells ",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "astrogliosis ",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "synaptosome count",
+                        "assay_classification": "PreClin pending"
+                    },
+                    {
+                        "tag": "[CETP]",
+                        "assay_classification": "B"
+                    },
+                    {
+                        "tag": "plasma",
+                        "assay_classification": "B"
+                    }
+                ]
+            }
+        ],
+        "clinical_trial_interventions": [],
+        "als_untangled_interventions": [],
+        "tags": [
+            "PreClin pending - weight",
+            "I - grip strength",
+            "E - moto neurone count",
+            "I - rotarod",
+            "PreClin pending - behaviour profiling",
+            "PreClin pending - balance beam",
+            "I - hindlimb extension",
+            "E - astrogliosis ",
+            "PreClin pending - synaptosome count",
+            "B - [CETP]",
+            "B - plasma",
+            "E - glial cells ",
+            "I - behaviours (citation) ",
+            "I - survival"
+        ],
+        "assay_classifications": [
+            "I",
+            "B",
+            "PreClin pending",
+            "E"
+        ],
+        "assay_classification_types": "I,B,PreClin pending,E",
+        "has_assays": true,
+        "wikipedia_url": null,
+        "mechanism_score": null,
+        "mechanism_description": null,
+        "preclinical_score": null,
+        "preclinical_description": null,
+        "preclinical_pmids": null,
+        "preclinical_summary": null,
+        "case_score": null,
+        "case_description": null,
+        "trials_score": null,
+        "trials_description": null,
+        "trials_pmids": null,
+        "trials_summary": null,
+        "in_als_untangled": false,
+        "trials": [],
+        "trial_links": [],
+        "trial_links_new": null,
+        "atc_codes": [],
+        "name": "CTEP",
+        "names": [
+            "CTEP"
+        ],
+        "has_clinical_trials": false
+    },
+    {
+        "assaynet_interventions": [
+            {
+                "id": "DZLOHEOHWICNIL-QGZVFWFLSA-N",
+                "inchikey": "DZLOHEOHWICNIL-QGZVFWFLSA-N",
+                "name": "etomoxir",
+                "tags": [
+                    {
+                        "tag": "mice tissue samples",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "high fat diet",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "behaviour profiling and tissue sampling",
+                        "assay_classification": "I"
+                    }
+                ]
+            }
+        ],
+        "clinical_trial_interventions": [],
+        "als_untangled_interventions": [],
+        "tags": [
+            "I - mice tissue samples",
+            "I - high fat diet",
+            "I - behaviour profiling and tissue sampling"
+        ],
+        "assay_classifications": [
+            "I"
+        ],
+        "assay_classification_types": "I",
+        "has_assays": true,
+        "wikipedia_url": null,
+        "mechanism_score": null,
+        "mechanism_description": null,
+        "preclinical_score": null,
+        "preclinical_description": null,
+        "preclinical_pmids": null,
+        "preclinical_summary": null,
+        "case_score": null,
+        "case_description": null,
+        "trials_score": null,
+        "trials_description": null,
+        "trials_pmids": null,
+        "trials_summary": null,
+        "in_als_untangled": false,
+        "trials": [],
+        "trial_links": [],
+        "trial_links_new": null,
+        "atc_codes": [],
+        "name": "Etomoxir",
+        "names": [
+            "etomoxir"
+        ],
+        "has_clinical_trials": false
+    },
+    {
+        "assaynet_interventions": [
+            {
+                "id": "HRWZZUOZYBSKSC-UHFFFAOYSA-N",
+                "inchikey": "HRWZZUOZYBSKSC-UHFFFAOYSA-N",
+                "name": "DF402",
+                "tags": [
+                    {
+                        "tag": "gait changes",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "neuronal pathology",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "gait analysis",
+                        "assay_classification": "I"
+                    }
+                ]
+            }
+        ],
+        "clinical_trial_interventions": [],
+        "als_untangled_interventions": [],
+        "tags": [
+            "I - gait changes",
+            "I - neuronal pathology",
+            "I - gait analysis"
+        ],
+        "assay_classifications": [
+            "I"
+        ],
+        "assay_classification_types": "I",
+        "has_assays": true,
+        "wikipedia_url": null,
+        "mechanism_score": null,
+        "mechanism_description": null,
+        "preclinical_score": null,
+        "preclinical_description": null,
+        "preclinical_pmids": null,
+        "preclinical_summary": null,
+        "case_score": null,
+        "case_description": null,
+        "trials_score": null,
+        "trials_description": null,
+        "trials_pmids": null,
+        "trials_summary": null,
+        "in_als_untangled": false,
+        "trials": [],
+        "trial_links": [],
+        "trial_links_new": null,
+        "atc_codes": [],
+        "name": "DF402",
+        "names": [
+            "DF402"
+        ],
+        "has_clinical_trials": false
+    },
+    {
+        "assaynet_interventions": [
+            {
+                "id": "TXZPMHLMPKIUGK-UHFFFAOYSA-N",
+                "inchikey": "TXZPMHLMPKIUGK-UHFFFAOYSA-N",
+                "name": "PFI-1",
+                "tags": [
+                    {
+                        "tag": "spatial memory",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "cortical cell cutures",
+                        "assay_classification": "C"
+                    }
+                ]
+            }
+        ],
+        "clinical_trial_interventions": [],
+        "als_untangled_interventions": [],
+        "tags": [
+            "C - cortical cell cutures",
+            "I - spatial memory"
+        ],
+        "assay_classifications": [
+            "I",
+            "C"
+        ],
+        "assay_classification_types": "I,C",
+        "has_assays": true,
+        "wikipedia_url": null,
+        "mechanism_score": null,
+        "mechanism_description": null,
+        "preclinical_score": null,
+        "preclinical_description": null,
+        "preclinical_pmids": null,
+        "preclinical_summary": null,
+        "case_score": null,
+        "case_description": null,
+        "trials_score": null,
+        "trials_description": null,
+        "trials_pmids": null,
+        "trials_summary": null,
+        "in_als_untangled": false,
+        "trials": [],
+        "trial_links": [],
+        "trial_links_new": null,
+        "atc_codes": [],
+        "name": "PFI-1",
+        "names": [
+            "PFI-1"
+        ],
+        "has_clinical_trials": false
+    },
+    {
+        "assaynet_interventions": [
+            {
+                "id": "DNVXATUJJDPFDM-KRWDZBQOSA-N",
+                "inchikey": "DNVXATUJJDPFDM-KRWDZBQOSA-N",
+                "name": "JQ1",
+                "tags": [
+                    {
+                        "tag": "spatial memory",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "cortical cell cutures",
+                        "assay_classification": "C"
+                    },
+                    {
+                        "tag": "cell survival",
+                        "assay_classification": "C"
+                    },
+                    {
+                        "tag": "analysis of aberrant splicing ",
+                        "assay_classification": "E"
+                    }
+                ]
+            }
+        ],
+        "clinical_trial_interventions": [],
+        "als_untangled_interventions": [],
+        "tags": [
+            "C - cortical cell cutures",
+            "E - analysis of aberrant splicing ",
+            "I - spatial memory",
+            "C - cell survival"
+        ],
+        "assay_classifications": [
+            "I",
+            "C",
+            "E"
+        ],
+        "assay_classification_types": "I,C,E",
+        "has_assays": true,
+        "wikipedia_url": null,
+        "mechanism_score": null,
+        "mechanism_description": null,
+        "preclinical_score": null,
+        "preclinical_description": null,
+        "preclinical_pmids": null,
+        "preclinical_summary": null,
+        "case_score": null,
+        "case_description": null,
+        "trials_score": null,
+        "trials_description": null,
+        "trials_pmids": null,
+        "trials_summary": null,
+        "in_als_untangled": false,
+        "trials": [],
+        "trial_links": [],
+        "trial_links_new": null,
+        "atc_codes": [],
+        "name": "JQ1",
+        "names": [
+            "JQ1"
+        ],
+        "has_clinical_trials": false
+    },
+    {
+        "assaynet_interventions": [
+            {
+                "id": "FTALBRSUTCGOEG-UHFFFAOYSA-N",
+                "inchikey": "FTALBRSUTCGOEG-UHFFFAOYSA-N",
+                "name": "riluzole",
+                "tags": [
+                    {
+                        "tag": "channel inhibition",
+                        "assay_classification": "B"
+                    },
+                    {
+                        "tag": "riluzole Kv4.2 currents HEK-293 cells",
+                        "assay_classification": "C"
+                    },
+                    {
+                        "tag": "grip strength",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "weight",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "CMAP amplitude",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "motor neuron count",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "pending",
+                        "assay_classification": "PreClin pending"
+                    },
+                    {
+                        "tag": "neurological score",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "MUNE",
+                        "assay_classification": "PreClin pending"
+                    },
+                    {
+                        "tag": "SURVIVAL",
+                        "assay_classification": "CT_EFFICACY"
+                    }
+                ]
+            },
+            {
+                "id": "Riluzole",
+                "inchikey": null,
+                "name": "Riluzole",
+                "tags": [
+                    {
+                        "tag": "ALSFRS-R",
+                        "assay_classification": "CT_EFFICACY"
+                    },
+                    {
+                        "tag": "FVC",
+                        "assay_classification": "CT pending"
+                    },
+                    {
+                        "tag": "PFS",
+                        "assay_classification": "CT_EFFICACY"
+                    },
+                    {
+                        "tag": "SURVIVAL",
+                        "assay_classification": "CT_EFFICACY"
+                    },
+                    {
+                        "tag": "pending",
+                        "assay_classification": "CT pending"
+                    },
+                    {
+                        "tag": "MVV",
+                        "assay_classification": "CT_EFFICACY"
+                    },
+                    {
+                        "tag": "SNIP",
+                        "assay_classification": "CT_EFFICACY"
+                    },
+                    {
+                        "tag": "SVC",
+                        "assay_classification": "CT_EFFICACY"
+                    },
+                    {
+                        "tag": "ALSAQ-40",
+                        "assay_classification": "CT_EFFICACY"
+                    },
+                    {
+                        "tag": "GRIP POWER",
+                        "assay_classification": "CT_EFFICACY"
+                    },
+                    {
+                        "tag": "NCI_CTC Score",
+                        "assay_classification": "CT_EFFICACY"
+                    },
+                    {
+                        "tag": "Functional Activity",
+                        "assay_classification": "CT_EFFICACY"
+                    },
+                    {
+                        "tag": "Respiritory Function",
+                        "assay_classification": "CT_EFFICACY"
+                    },
+                    {
+                        "tag": "Muscle Strength",
+                        "assay_classification": "CT_EFFICACY"
+                    },
+                    {
+                        "tag": "NIV",
+                        "assay_classification": "CT_EFFICACY"
+                    },
+                    {
+                        "tag": "Quality of Life",
+                        "assay_classification": "CT_EFFICACY"
+                    },
+                    {
+                        "tag": "CGI-C",
+                        "assay_classification": "CT_EFFICACY"
+                    },
+                    {
+                        "tag": "VC",
+                        "assay_classification": "CT_EFFICACY"
+                    },
+                    {
+                        "tag": "MMT",
+                        "assay_classification": "CT_EFFICACY"
+                    },
+                    {
+                        "tag": "MGQOLS",
+                        "assay_classification": "CT_EFFICACY"
+                    },
+                    {
+                        "tag": "MUSCLE STRENGTH",
+                        "assay_classification": "CT_EFFICACY"
+                    }
+                ]
+            }
+        ],
+        "clinical_trial_interventions": [
+            {
+                "inchikey": "FTALBRSUTCGOEG-UHFFFAOYSA-N",
+                "name": "5% glucose water solution",
+                "trials": [
+                    "NCT03039673"
+                ],
+                "names": [],
+                "atc_codes": [
+                    "M05BA08"
+                ],
+                "highest_phase": "Phase 2",
+                "latest_trial": "2017-06-19 00:00:00"
+            },
+            {
+                "inchikey": "FTALBRSUTCGOEG-UHFFFAOYSA-N",
+                "name": "Riluzole",
+                "trials": [
+                    "NCT03520517"
+                ],
+                "names": [
+                    "Rilutek",
+                    " Tiglutik",
+                    " Exservan",
+                    " others",
+                    "6-(trifluoromethoxy)benzothiazol-2-amine"
+                ],
+                "atc_codes": [
+                    "N07XX02"
+                ],
+                "highest_phase": "Phase 1",
+                "latest_trial": "2018-02-02 00:00:00"
+            },
+            {
+                "inchikey": null,
+                "name": "Riluzole",
+                "trials": [
+                    "NCT01486849",
+                    "NCT01709149",
+                    "NCT03272802",
+                    "NCT00818389",
+                    "NCT02588677",
+                    "NCT03127267",
+                    "NCT00868166",
+                    "NCT00542412",
+                    "NCT03039673",
+                    "NCT00353665",
+                    "NCT02238626",
+                    "NCT01378676",
+                    "NCT03457753",
+                    "NCT03679975",
+                    "NCT04326283"
+                ],
+                "names": [
+                    "Rilutek",
+                    " Tiglutik",
+                    " Exservan",
+                    " others",
+                    "6-(trifluoromethoxy)benzothiazol-2-amine"
+                ],
+                "atc_codes": [
+                    "N07XX02"
+                ],
+                "highest_phase": "Phase 4",
+                "latest_trial": "2020-10-01 00:00:00"
+            }
+        ],
+        "als_untangled_interventions": [],
+        "tags": [
+            "CT pending - pending",
+            "CT_EFFICACY - Respiritory Function",
+            "C - riluzole Kv4.2 currents HEK-293 cells",
+            "CT_EFFICACY - SVC",
+            "CT_EFFICACY - MGQOLS",
+            "CT_EFFICACY - NCI_CTC Score",
+            "PreClin pending - MUNE",
+            "I - CMAP amplitude",
+            "CT_EFFICACY - NIV",
+            "CT_EFFICACY - MMT",
+            "I - weight",
+            "CT_EFFICACY - Quality of Life",
+            "CT_EFFICACY - ALSFRS-R",
+            "I - grip strength",
+            "CT_EFFICACY - GRIP POWER",
+            "CT_EFFICACY - ALSAQ-40",
+            "I - motor neuron count",
+            "B - channel inhibition",
+            "CT_EFFICACY - MUSCLE STRENGTH",
+            "I - neurological score",
+            "CT_EFFICACY - SNIP",
+            "CT_EFFICACY - Muscle Strength",
+            "CT_EFFICACY - PFS",
+            "CT pending - FVC",
+            "CT_EFFICACY - SURVIVAL",
+            "CT_EFFICACY - Functional Activity",
+            "CT_EFFICACY - CGI-C",
+            "CT_EFFICACY - MVV",
+            "CT_EFFICACY - VC",
+            "PreClin pending - pending"
+        ],
+        "assay_classifications": [
+            "C",
+            "B",
+            "CT pending",
+            "I",
+            "PreClin pending",
+            "CT_EFFICACY"
+        ],
+        "assay_classification_types": "C,B,CT pending,I,PreClin pending,CT_EFFICACY",
+        "has_assays": true,
+        "wikipedia_url": null,
+        "mechanism_score": null,
+        "mechanism_description": null,
+        "preclinical_score": null,
+        "preclinical_description": null,
+        "preclinical_pmids": null,
+        "preclinical_summary": null,
+        "case_score": null,
+        "case_description": null,
+        "trials_score": null,
+        "trials_description": null,
+        "trials_pmids": null,
+        "trials_summary": null,
+        "in_als_untangled": false,
+        "trials": [
+            "NCT00353665",
+            "NCT03679975",
+            "NCT02588677",
+            "NCT00542412",
+            "NCT03039673",
+            "NCT02238626",
+            "NCT01486849",
+            "NCT00818389",
+            "NCT03520517",
+            "NCT01709149",
+            "NCT03127267",
+            "NCT03272802",
+            "NCT00868166",
+            "NCT01378676",
+            "NCT04326283",
+            "NCT03457753"
+        ],
+        "trial_links": [
+            "<a href='https://clinicaltrials.gov/ct2/show/NCT00353665'>NCT00353665</a>",
+            "<a href='https://clinicaltrials.gov/ct2/show/NCT03679975'>NCT03679975</a>",
+            "<a href='https://clinicaltrials.gov/ct2/show/NCT02588677'>NCT02588677</a>",
+            "<a href='https://pubmed.ncbi.nlm.nih.gov/31280619/'>31280619</a>",
+            "(",
+            "<a href='https://pubmed.ncbi.nlm.nih.gov/27400786/'>27400786</a>",
+            "<a href='https://pubmed.ncbi.nlm.nih.gov/29046475/'>29046475</a>",
+            "<a href='https://pubmed.ncbi.nlm.nih.gov/30282815/'>30282815</a>",
+            ")",
+            "<a href='https://clinicaltrials.gov/ct2/show/NCT00542412'>NCT00542412</a>",
+            "<a href='https://clinicaltrials.gov/ct2/show/NCT03039673'>NCT03039673</a>",
+            "<a href='https://clinicaltrials.gov/ct2/show/NCT02238626'>NCT02238626</a>",
+            "<a href='https://clinicaltrials.gov/ct2/show/NCT01486849'>NCT01486849</a>",
+            "<a href='https://clinicaltrials.gov/ct2/show/NCT00818389'>NCT00818389</a>",
+            "<a href='https://pubmed.ncbi.nlm.nih.gov/20363190/'>20363190</a>",
+            "(",
+            "<a href='https://pubmed.ncbi.nlm.nih.gov/18250315/'>18250315</a>",
+            "<a href='https://pubmed.ncbi.nlm.nih.gov/17105868/'>17105868</a>",
+            "<a href='https://pubmed.ncbi.nlm.nih.gov/18640245/'>18640245</a>",
+            "<a href='https://pubmed.ncbi.nlm.nih.gov/18768685/'>18768685</a>",
+            "<a href='https://pubmed.ncbi.nlm.nih.gov/19183259/'>19183259</a>",
+            ")",
+            "<a href='https://clinicaltrials.gov/ct2/show/NCT03520517'>NCT03520517</a>",
+            "<a href='https://clinicaltrials.gov/ct2/show/NCT01709149'>NCT01709149</a>",
+            "<a href='https://clinicaltrials.gov/ct2/show/NCT03127267'>NCT03127267</a>",
+            "<a href='https://clinicaltrials.gov/ct2/show/NCT03272802'>NCT03272802</a>",
+            "<a href='https://clinicaltrials.gov/ct2/show/NCT00868166'>NCT00868166</a>",
+            "<a href='https://clinicaltrials.gov/ct2/show/NCT01378676'>NCT01378676</a>",
+            "<a href='https://clinicaltrials.gov/ct2/show/NCT04326283'>NCT04326283</a>",
+            "<a href='https://clinicaltrials.gov/ct2/show/NCT03457753'>NCT03457753</a>"
+        ],
+        "trial_links_new": "<a href='https://clinicaltrials.gov/ct2/show/NCT00353665'>NCT00353665</a> <a href='https://clinicaltrials.gov/ct2/show/NCT03679975'>NCT03679975</a> <a href='https://clinicaltrials.gov/ct2/show/NCT02588677'>NCT02588677</a> <a href='https://pubmed.ncbi.nlm.nih.gov/31280619/'>31280619</a> ( <a href='https://pubmed.ncbi.nlm.nih.gov/27400786/'>27400786</a> <a href='https://pubmed.ncbi.nlm.nih.gov/29046475/'>29046475</a> <a href='https://pubmed.ncbi.nlm.nih.gov/30282815/'>30282815</a> ) <a href='https://clinicaltrials.gov/ct2/show/NCT00542412'>NCT00542412</a> <a href='https://clinicaltrials.gov/ct2/show/NCT03039673'>NCT03039673</a> <a href='https://clinicaltrials.gov/ct2/show/NCT02238626'>NCT02238626</a> <a href='https://clinicaltrials.gov/ct2/show/NCT01486849'>NCT01486849</a> <a href='https://clinicaltrials.gov/ct2/show/NCT00818389'>NCT00818389</a> <a href='https://pubmed.ncbi.nlm.nih.gov/20363190/'>20363190</a> ( <a href='https://pubmed.ncbi.nlm.nih.gov/18250315/'>18250315</a> <a href='https://pubmed.ncbi.nlm.nih.gov/17105868/'>17105868</a> <a href='https://pubmed.ncbi.nlm.nih.gov/18640245/'>18640245</a> <a href='https://pubmed.ncbi.nlm.nih.gov/18768685/'>18768685</a> <a href='https://pubmed.ncbi.nlm.nih.gov/19183259/'>19183259</a> ) <a href='https://clinicaltrials.gov/ct2/show/NCT03520517'>NCT03520517</a> <a href='https://clinicaltrials.gov/ct2/show/NCT01709149'>NCT01709149</a> <a href='https://clinicaltrials.gov/ct2/show/NCT03127267'>NCT03127267</a> <a href='https://clinicaltrials.gov/ct2/show/NCT03272802'>NCT03272802</a> <a href='https://clinicaltrials.gov/ct2/show/NCT00868166'>NCT00868166</a> <a href='https://clinicaltrials.gov/ct2/show/NCT01378676'>NCT01378676</a> <a href='https://clinicaltrials.gov/ct2/show/NCT04326283'>NCT04326283</a> <a href='https://clinicaltrials.gov/ct2/show/NCT03457753'>NCT03457753</a>",
+        "atc_codes": [
+            "M05BA08",
+            "N07XX02"
+        ],
+        "name": "Riluzole",
+        "names": [
+            "riluzole",
+            "Riluzole"
+        ],
+        "has_clinical_trials": true
+    },
+    {
+        "assaynet_interventions": [
+            {
+                "id": "YWWZCHLUQSHMCL-UHFFFAOYSA-N",
+                "inchikey": "YWWZCHLUQSHMCL-UHFFFAOYSA-N",
+                "name": "Diphenyl diselenide",
+                "tags": [
+                    {
+                        "tag": "mouse dosing",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "microglia cell culture",
+                        "assay_classification": "C"
+                    },
+                    {
+                        "tag": "neuron effects",
+                        "assay_classification": "C"
+                    },
+                    {
+                        "tag": "phagocytosis",
+                        "assay_classification": "C"
+                    },
+                    {
+                        "tag": "[LDH]",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "cell migration",
+                        "assay_classification": "C"
+                    }
+                ]
+            }
+        ],
+        "clinical_trial_interventions": [],
+        "als_untangled_interventions": [],
+        "tags": [
+            "E - [LDH]",
+            "C - phagocytosis",
+            "C - neuron effects",
+            "I - mouse dosing",
+            "C - microglia cell culture",
+            "C - cell migration"
+        ],
+        "assay_classifications": [
+            "I",
+            "C",
+            "E"
+        ],
+        "assay_classification_types": "I,C,E",
+        "has_assays": true,
+        "wikipedia_url": null,
+        "mechanism_score": null,
+        "mechanism_description": null,
+        "preclinical_score": null,
+        "preclinical_description": null,
+        "preclinical_pmids": null,
+        "preclinical_summary": null,
+        "case_score": null,
+        "case_description": null,
+        "trials_score": null,
+        "trials_description": null,
+        "trials_pmids": null,
+        "trials_summary": null,
+        "in_als_untangled": false,
+        "trials": [],
+        "trial_links": [],
+        "trial_links_new": null,
+        "atc_codes": [],
+        "name": "Diphenyl diselenide",
+        "names": [
+            "Diphenyl diselenide"
+        ],
+        "has_clinical_trials": false
+    },
+    {
+        "assaynet_interventions": [
+            {
+                "id": "BDKDADFSIDCQGB-GMUIIQOCSA-M",
+                "inchikey": "BDKDADFSIDCQGB-GMUIIQOCSA-M",
+                "name": "AM095",
+                "tags": [
+                    {
+                        "tag": "cell survival",
+                        "assay_classification": "C"
+                    },
+                    {
+                        "tag": "hypoglossal motor neurones",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "cell survival ",
+                        "assay_classification": "C"
+                    },
+                    {
+                        "tag": "[LPAR1]",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "disease progression",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "mRNAlpa1 levels",
+                        "assay_classification": "E"
+                    }
+                ]
+            }
+        ],
+        "clinical_trial_interventions": [],
+        "als_untangled_interventions": [],
+        "tags": [
+            "C - cell survival ",
+            "E - hypoglossal motor neurones",
+            "C - cell survival",
+            "E - mRNAlpa1 levels",
+            "I - disease progression",
+            "E - [LPAR1]"
+        ],
+        "assay_classifications": [
+            "E",
+            "C",
+            "I"
+        ],
+        "assay_classification_types": "E,C,I",
+        "has_assays": true,
+        "wikipedia_url": null,
+        "mechanism_score": null,
+        "mechanism_description": null,
+        "preclinical_score": null,
+        "preclinical_description": null,
+        "preclinical_pmids": null,
+        "preclinical_summary": null,
+        "case_score": null,
+        "case_description": null,
+        "trials_score": null,
+        "trials_description": null,
+        "trials_pmids": null,
+        "trials_summary": null,
+        "in_als_untangled": false,
+        "trials": [],
+        "trial_links": [],
+        "trial_links_new": null,
+        "atc_codes": [],
+        "name": "AM095",
+        "names": [
+            "AM095"
+        ],
+        "has_clinical_trials": false
+    },
+    {
+        "assaynet_interventions": [
+            {
+                "id": "XEDWWPGWIXPVRQ-UHFFFAOYSA-N",
+                "inchikey": "XEDWWPGWIXPVRQ-UHFFFAOYSA-N",
+                "name": "Exifone",
+                "tags": [
+                    {
+                        "tag": "histone deacetylation",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "HDAC binding",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "histone acetylation",
+                        "assay_classification": "C"
+                    }
+                ]
+            }
+        ],
+        "clinical_trial_interventions": [],
+        "als_untangled_interventions": [],
+        "tags": [
+            "C - histone acetylation",
+            "E - HDAC binding",
+            "E - histone deacetylation"
+        ],
+        "assay_classifications": [
+            "E",
+            "C"
+        ],
+        "assay_classification_types": "E,C",
+        "has_assays": true,
+        "wikipedia_url": null,
+        "mechanism_score": null,
+        "mechanism_description": null,
+        "preclinical_score": null,
+        "preclinical_description": null,
+        "preclinical_pmids": null,
+        "preclinical_summary": null,
+        "case_score": null,
+        "case_description": null,
+        "trials_score": null,
+        "trials_description": null,
+        "trials_pmids": null,
+        "trials_summary": null,
+        "in_als_untangled": false,
+        "trials": [],
+        "trial_links": [],
+        "trial_links_new": null,
+        "atc_codes": [],
+        "name": "Exifone",
+        "names": [
+            "Exifone"
+        ],
+        "has_clinical_trials": false
+    },
+    {
+        "assaynet_interventions": [
+            {
+                "id": "KZUPFZKALLNBBV-CALCHBBNSA-N",
+                "inchikey": "KZUPFZKALLNBBV-CALCHBBNSA-N",
+                "name": "RK-582",
+                "tags": [
+                    {
+                        "tag": "TDP-43 aggregation",
+                        "assay_classification": "C"
+                    },
+                    {
+                        "tag": "Cell culture siRNA + antibody profiling ",
+                        "assay_classification": "C"
+                    },
+                    {
+                        "tag": "PAR-positive neuron count",
+                        "assay_classification": "E"
+                    }
+                ]
+            }
+        ],
+        "clinical_trial_interventions": [],
+        "als_untangled_interventions": [],
+        "tags": [
+            "C - TDP-43 aggregation",
+            "C - Cell culture siRNA + antibody profiling ",
+            "E - PAR-positive neuron count"
+        ],
+        "assay_classifications": [
+            "E",
+            "C"
+        ],
+        "assay_classification_types": "E,C",
+        "has_assays": true,
+        "wikipedia_url": null,
+        "mechanism_score": null,
+        "mechanism_description": null,
+        "preclinical_score": null,
+        "preclinical_description": null,
+        "preclinical_pmids": null,
+        "preclinical_summary": null,
+        "case_score": null,
+        "case_description": null,
+        "trials_score": null,
+        "trials_description": null,
+        "trials_pmids": null,
+        "trials_summary": null,
+        "in_als_untangled": false,
+        "trials": [],
+        "trial_links": [],
+        "trial_links_new": null,
+        "atc_codes": [],
+        "name": "RK-582",
+        "names": [
+            "RK-582"
+        ],
+        "has_clinical_trials": false
+    },
+    {
+        "assaynet_interventions": [
+            {
+                "id": "MJQHCKOMFMGCQG-UHFFFAOYSA-N",
+                "inchikey": "MJQHCKOMFMGCQG-UHFFFAOYSA-N",
+                "name": "C12",
+                "tags": [
+                    {
+                        "tag": "iPSC neuron survival",
+                        "assay_classification": "C"
+                    },
+                    {
+                        "tag": "protein profile",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "Cellular thermal shift",
+                        "assay_classification": "C"
+                    },
+                    {
+                        "tag": "Complex I immunocapture",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "[lactate]",
+                        "assay_classification": "C"
+                    },
+                    {
+                        "tag": "cytoxicity ",
+                        "assay_classification": "C"
+                    },
+                    {
+                        "tag": "mettbolic flux",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "cell [NAD+/NADH]",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "Mitochondrial [NAD+]",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "nuclear staining",
+                        "assay_classification": "C"
+                    }
+                ]
+            }
+        ],
+        "clinical_trial_interventions": [],
+        "als_untangled_interventions": [],
+        "tags": [
+            "C - Cellular thermal shift",
+            "E - Mitochondrial [NAD+]",
+            "E - Complex I immunocapture",
+            "E - mettbolic flux",
+            "C - cytoxicity ",
+            "E - protein profile",
+            "E - cell [NAD+/NADH]",
+            "C - iPSC neuron survival",
+            "C - [lactate]",
+            "C - nuclear staining"
+        ],
+        "assay_classifications": [
+            "E",
+            "C"
+        ],
+        "assay_classification_types": "E,C",
+        "has_assays": true,
+        "wikipedia_url": null,
+        "mechanism_score": null,
+        "mechanism_description": null,
+        "preclinical_score": null,
+        "preclinical_description": null,
+        "preclinical_pmids": null,
+        "preclinical_summary": null,
+        "case_score": null,
+        "case_description": null,
+        "trials_score": null,
+        "trials_description": null,
+        "trials_pmids": null,
+        "trials_summary": null,
+        "in_als_untangled": false,
+        "trials": [],
+        "trial_links": [],
+        "trial_links_new": null,
+        "atc_codes": [],
+        "name": "C12",
+        "names": [
+            "C12"
+        ],
+        "has_clinical_trials": false
+    },
+    {
+        "assaynet_interventions": [
+            {
+                "id": "JLEBZPBDRKPWTD-TURQNECASA-O",
+                "inchikey": "JLEBZPBDRKPWTD-TURQNECASA-O",
+                "name": "nicotinamide riboside",
+                "tags": [
+                    {
+                        "tag": "neurological score",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "rotarod",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "hanging wire",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "inclined plane",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "locomotion",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "motor action potential ",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "[NAD+]",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "[pterostilbene]",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "CSF [cytokines]",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "apoptosis",
+                        "assay_classification": "C"
+                    },
+                    {
+                        "tag": "redox ",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "SIRT1, SIRT3 assay",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "western protein profile",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "caspase-3 assay",
+                        "assay_classification": "E"
+                    }
+                ]
+            }
+        ],
+        "clinical_trial_interventions": [],
+        "als_untangled_interventions": [],
+        "tags": [
+            "I - motor action potential ",
+            "E - [NAD+]",
+            "I - CSF [cytokines]",
+            "E - redox ",
+            "I - neurological score",
+            "I - inclined plane",
+            "I - rotarod",
+            "C - apoptosis",
+            "E - [pterostilbene]",
+            "E - SIRT1, SIRT3 assay",
+            "E - caspase-3 assay",
+            "E - western protein profile",
+            "I - locomotion",
+            "I - hanging wire"
+        ],
+        "assay_classifications": [
+            "I",
+            "C",
+            "E"
+        ],
+        "assay_classification_types": "I,C,E",
+        "has_assays": true,
+        "wikipedia_url": null,
+        "mechanism_score": null,
+        "mechanism_description": null,
+        "preclinical_score": null,
+        "preclinical_description": null,
+        "preclinical_pmids": null,
+        "preclinical_summary": null,
+        "case_score": null,
+        "case_description": null,
+        "trials_score": null,
+        "trials_description": null,
+        "trials_pmids": null,
+        "trials_summary": null,
+        "in_als_untangled": false,
+        "trials": [],
+        "trial_links": [],
+        "trial_links_new": null,
+        "atc_codes": [],
+        "name": "Nicotinamide Riboside",
+        "names": [
+            "nicotinamide riboside"
+        ],
+        "has_clinical_trials": false
+    },
+    {
+        "assaynet_interventions": [
+            {
+                "id": "VLEUZFDZJKSGMX-ONEGZZNKSA-N",
+                "inchikey": "VLEUZFDZJKSGMX-ONEGZZNKSA-N",
+                "name": "pterostilbene",
+                "tags": [
+                    {
+                        "tag": "neurological score",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "rotarod",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "hanging wire",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "inclined plane",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "locomotion",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "motor action potential ",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "[NAD+]",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "[pterostilbene]",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "CSF [cytokines]",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "apoptosis",
+                        "assay_classification": "C"
+                    },
+                    {
+                        "tag": "redox ",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "SIRT1, SIRT3 assay",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "western protein profile",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "caspase-3 assay",
+                        "assay_classification": "E"
+                    }
+                ]
+            }
+        ],
+        "clinical_trial_interventions": [],
+        "als_untangled_interventions": [],
+        "tags": [
+            "I - motor action potential ",
+            "E - [NAD+]",
+            "I - CSF [cytokines]",
+            "E - redox ",
+            "I - neurological score",
+            "I - inclined plane",
+            "I - rotarod",
+            "C - apoptosis",
+            "E - [pterostilbene]",
+            "E - SIRT1, SIRT3 assay",
+            "E - caspase-3 assay",
+            "E - western protein profile",
+            "I - locomotion",
+            "I - hanging wire"
+        ],
+        "assay_classifications": [
+            "I",
+            "C",
+            "E"
+        ],
+        "assay_classification_types": "I,C,E",
+        "has_assays": true,
+        "wikipedia_url": null,
+        "mechanism_score": null,
+        "mechanism_description": null,
+        "preclinical_score": null,
+        "preclinical_description": null,
+        "preclinical_pmids": null,
+        "preclinical_summary": null,
+        "case_score": null,
+        "case_description": null,
+        "trials_score": null,
+        "trials_description": null,
+        "trials_pmids": null,
+        "trials_summary": null,
+        "in_als_untangled": false,
+        "trials": [],
+        "trial_links": [],
+        "trial_links_new": null,
+        "atc_codes": [],
+        "name": "Pterostilbene",
+        "names": [
+            "pterostilbene"
+        ],
+        "has_clinical_trials": false
+    },
+    {
+        "assaynet_interventions": [
+            {
+                "id": "GFQGFOJCOPZGPB-AATRIKPKSA-N",
+                "inchikey": "GFQGFOJCOPZGPB-AATRIKPKSA-N",
+                "name": "BANA",
+                "tags": [
+                    {
+                        "tag": "cell viability",
+                        "assay_classification": "C"
+                    },
+                    {
+                        "tag": "NF-\u03baB activation In Vivo",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "BANA Electrophilic Reactivity",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "LPS > mice",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "nuclear translocation NF-\u03baB",
+                        "assay_classification": "C"
+                    },
+                    {
+                        "tag": "cytokine gene expression ",
+                        "assay_classification": "C"
+                    }
+                ]
+            }
+        ],
+        "clinical_trial_interventions": [],
+        "als_untangled_interventions": [],
+        "tags": [
+            "C - cytokine gene expression ",
+            "C - nuclear translocation NF-\u03baB",
+            "I - NF-\u03baB activation In Vivo",
+            "C - cell viability",
+            "I - LPS > mice",
+            "E - BANA Electrophilic Reactivity"
+        ],
+        "assay_classifications": [
+            "I",
+            "C",
+            "E"
+        ],
+        "assay_classification_types": "I,C,E",
+        "has_assays": true,
+        "wikipedia_url": null,
+        "mechanism_score": null,
+        "mechanism_description": null,
+        "preclinical_score": null,
+        "preclinical_description": null,
+        "preclinical_pmids": null,
+        "preclinical_summary": null,
+        "case_score": null,
+        "case_description": null,
+        "trials_score": null,
+        "trials_description": null,
+        "trials_pmids": null,
+        "trials_summary": null,
+        "in_als_untangled": false,
+        "trials": [],
+        "trial_links": [],
+        "trial_links_new": null,
+        "atc_codes": [],
+        "name": "BANA",
+        "names": [
+            "BANA"
+        ],
+        "has_clinical_trials": false
+    },
+    {
+        "assaynet_interventions": [
+            {
+                "id": "QNDVLZJODHBUFM-WFXQOWMNSA-N",
+                "inchikey": "QNDVLZJODHBUFM-WFXQOWMNSA-N",
+                "name": "okadaic acid",
+                "tags": [
+                    {
+                        "tag": "PP1 activity spinal",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "NADH dhase spinal ",
+                        "assay_classification": "E"
+                    }
+                ]
+            }
+        ],
+        "clinical_trial_interventions": [],
+        "als_untangled_interventions": [],
+        "tags": [
+            "E - PP1 activity spinal",
+            "E - NADH dhase spinal "
+        ],
+        "assay_classifications": [
+            "E"
+        ],
+        "assay_classification_types": "E",
+        "has_assays": true,
+        "wikipedia_url": null,
+        "mechanism_score": null,
+        "mechanism_description": null,
+        "preclinical_score": null,
+        "preclinical_description": null,
+        "preclinical_pmids": null,
+        "preclinical_summary": null,
+        "case_score": null,
+        "case_description": null,
+        "trials_score": null,
+        "trials_description": null,
+        "trials_pmids": null,
+        "trials_summary": null,
+        "in_als_untangled": false,
+        "trials": [],
+        "trial_links": [],
+        "trial_links_new": null,
+        "atc_codes": [],
+        "name": "Okadaic Acid",
+        "names": [
+            "okadaic acid"
+        ],
+        "has_clinical_trials": false
+    },
+    {
+        "assaynet_interventions": [
+            {
+                "id": "AZJUFRDUYTYIHV-NKFKGCMQSA-N",
+                "inchikey": "AZJUFRDUYTYIHV-NKFKGCMQSA-N",
+                "name": "DBT",
+                "tags": [
+                    {
+                        "tag": "cell viability",
+                        "assay_classification": "C"
+                    },
+                    {
+                        "tag": "[GSH]",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "[NADPH]",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "TKT1 activity",
+                        "assay_classification": "C"
+                    },
+                    {
+                        "tag": "[NO]",
+                        "assay_classification": "C"
+                    },
+                    {
+                        "tag": "[TNF]",
+                        "assay_classification": "C"
+                    }
+                ]
+            }
+        ],
+        "clinical_trial_interventions": [],
+        "als_untangled_interventions": [],
+        "tags": [
+            "C - TKT1 activity",
+            "E - [NADPH]",
+            "E - [GSH]",
+            "C - [NO]",
+            "C - cell viability",
+            "C - [TNF]"
+        ],
+        "assay_classifications": [
+            "E",
+            "C"
+        ],
+        "assay_classification_types": "E,C",
+        "has_assays": true,
+        "wikipedia_url": null,
+        "mechanism_score": null,
+        "mechanism_description": null,
+        "preclinical_score": null,
+        "preclinical_description": null,
+        "preclinical_pmids": null,
+        "preclinical_summary": null,
+        "case_score": null,
+        "case_description": null,
+        "trials_score": null,
+        "trials_description": null,
+        "trials_pmids": null,
+        "trials_summary": null,
+        "in_als_untangled": false,
+        "trials": [],
+        "trial_links": [],
+        "trial_links_new": null,
+        "atc_codes": [],
+        "name": "DBT",
+        "names": [
+            "DBT"
+        ],
+        "has_clinical_trials": false
+    },
+    {
+        "assaynet_interventions": [
+            {
+                "id": "DYEFUKCXAQOFHX-UHFFFAOYSA-N",
+                "inchikey": "DYEFUKCXAQOFHX-UHFFFAOYSA-N",
+                "name": "ebselen",
+                "tags": [
+                    {
+                        "tag": "SOD binding",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "cell viability",
+                        "assay_classification": "C"
+                    }
+                ]
+            }
+        ],
+        "clinical_trial_interventions": [],
+        "als_untangled_interventions": [],
+        "tags": [
+            "C - cell viability",
+            "E - SOD binding"
+        ],
+        "assay_classifications": [
+            "E",
+            "C"
+        ],
+        "assay_classification_types": "E,C",
+        "has_assays": true,
+        "wikipedia_url": null,
+        "mechanism_score": null,
+        "mechanism_description": null,
+        "preclinical_score": null,
+        "preclinical_description": null,
+        "preclinical_pmids": null,
+        "preclinical_summary": null,
+        "case_score": null,
+        "case_description": null,
+        "trials_score": null,
+        "trials_description": null,
+        "trials_pmids": null,
+        "trials_summary": null,
+        "in_als_untangled": false,
+        "trials": [],
+        "trial_links": [],
+        "trial_links_new": null,
+        "atc_codes": [],
+        "name": "Ebselen",
+        "names": [
+            "ebselen"
+        ],
+        "has_clinical_trials": false
+    },
+    {
+        "assaynet_interventions": [
+            {
+                "id": "AFCGFAGUEYAMAO-UHFFFAOYSA-N",
+                "inchikey": "AFCGFAGUEYAMAO-UHFFFAOYSA-N",
+                "name": "acamprosate",
+                "tags": [
+                    {
+                        "tag": "TDP\u201043 granules",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "rat neuron + muscle survival",
+                        "assay_classification": "C"
+                    },
+                    {
+                        "tag": "rat motoneuron survival",
+                        "assay_classification": "C"
+                    }
+                ]
+            }
+        ],
+        "clinical_trial_interventions": [],
+        "als_untangled_interventions": [],
+        "tags": [
+            "E - TDP\u201043 granules",
+            "C - rat motoneuron survival",
+            "C - rat neuron + muscle survival"
+        ],
+        "assay_classifications": [
+            "E",
+            "C"
+        ],
+        "assay_classification_types": "E,C",
+        "has_assays": true,
+        "wikipedia_url": null,
+        "mechanism_score": null,
+        "mechanism_description": null,
+        "preclinical_score": null,
+        "preclinical_description": null,
+        "preclinical_pmids": null,
+        "preclinical_summary": null,
+        "case_score": null,
+        "case_description": null,
+        "trials_score": null,
+        "trials_description": null,
+        "trials_pmids": null,
+        "trials_summary": null,
+        "in_als_untangled": false,
+        "trials": [],
+        "trial_links": [],
+        "trial_links_new": null,
+        "atc_codes": [],
+        "name": "Acamprosate",
+        "names": [
+            "acamprosate"
+        ],
+        "has_clinical_trials": false
+    },
+    {
+        "assaynet_interventions": [
+            {
+                "id": "KPYSYYIEGFHWSV-UHFFFAOYSA-N",
+                "inchikey": "KPYSYYIEGFHWSV-UHFFFAOYSA-N",
+                "name": "baclofen",
+                "tags": [
+                    {
+                        "tag": "TDP\u201043 granules",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "rat neuron + muscle survival",
+                        "assay_classification": "C"
+                    },
+                    {
+                        "tag": "rat motoneuron survival",
+                        "assay_classification": "C"
+                    }
+                ]
+            }
+        ],
+        "clinical_trial_interventions": [],
+        "als_untangled_interventions": [],
+        "tags": [
+            "E - TDP\u201043 granules",
+            "C - rat motoneuron survival",
+            "C - rat neuron + muscle survival"
+        ],
+        "assay_classifications": [
+            "E",
+            "C"
+        ],
+        "assay_classification_types": "E,C",
+        "has_assays": true,
+        "wikipedia_url": null,
+        "mechanism_score": null,
+        "mechanism_description": null,
+        "preclinical_score": null,
+        "preclinical_description": null,
+        "preclinical_pmids": null,
+        "preclinical_summary": null,
+        "case_score": null,
+        "case_description": null,
+        "trials_score": null,
+        "trials_description": null,
+        "trials_pmids": null,
+        "trials_summary": null,
+        "in_als_untangled": false,
+        "trials": [],
+        "trial_links": [],
+        "trial_links_new": null,
+        "atc_codes": [],
+        "name": "Baclofen",
+        "names": [
+            "baclofen"
+        ],
+        "has_clinical_trials": false
+    },
+    {
+        "assaynet_interventions": [
+            {
+                "id": "ULIQGBPQLPCTAJ-UHFFFAOYSA-N",
+                "inchikey": "ULIQGBPQLPCTAJ-UHFFFAOYSA-N",
+                "name": "ERP1.14a",
+                "tags": [
+                    {
+                        "tag": "protein immunoblot ",
+                        "assay_classification": "C"
+                    },
+                    {
+                        "tag": "subcellular TDP-43 ",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "cell proliferation",
+                        "assay_classification": "C"
+                    },
+                    {
+                        "tag": "CDK6 mRNA",
+                        "assay_classification": "E"
+                    }
+                ]
+            }
+        ],
+        "clinical_trial_interventions": [],
+        "als_untangled_interventions": [],
+        "tags": [
+            "E - subcellular TDP-43 ",
+            "C - cell proliferation",
+            "C - protein immunoblot ",
+            "E - CDK6 mRNA"
+        ],
+        "assay_classifications": [
+            "E",
+            "C"
+        ],
+        "assay_classification_types": "E,C",
+        "has_assays": true,
+        "wikipedia_url": null,
+        "mechanism_score": null,
+        "mechanism_description": null,
+        "preclinical_score": null,
+        "preclinical_description": null,
+        "preclinical_pmids": null,
+        "preclinical_summary": null,
+        "case_score": null,
+        "case_description": null,
+        "trials_score": null,
+        "trials_description": null,
+        "trials_pmids": null,
+        "trials_summary": null,
+        "in_als_untangled": false,
+        "trials": [],
+        "trial_links": [],
+        "trial_links_new": null,
+        "atc_codes": [],
+        "name": "ERP1.14a",
+        "names": [
+            "ERP1.14a"
+        ],
+        "has_clinical_trials": false
+    },
+    {
+        "assaynet_interventions": [
+            {
+                "id": "KFAOWRCIGSQBSV-UHFFFAOYSA-N",
+                "inchikey": "KFAOWRCIGSQBSV-UHFFFAOYSA-N",
+                "name": "ERP1.28a",
+                "tags": [
+                    {
+                        "tag": "protein immunoblot ",
+                        "assay_classification": "C"
+                    },
+                    {
+                        "tag": "subcellular TDP-43 ",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "cell proliferation",
+                        "assay_classification": "C"
+                    },
+                    {
+                        "tag": "CDK6 mRNA",
+                        "assay_classification": "E"
+                    }
+                ]
+            }
+        ],
+        "clinical_trial_interventions": [],
+        "als_untangled_interventions": [],
+        "tags": [
+            "E - subcellular TDP-43 ",
+            "C - cell proliferation",
+            "C - protein immunoblot ",
+            "E - CDK6 mRNA"
+        ],
+        "assay_classifications": [
+            "E",
+            "C"
+        ],
+        "assay_classification_types": "E,C",
+        "has_assays": true,
+        "wikipedia_url": null,
+        "mechanism_score": null,
+        "mechanism_description": null,
+        "preclinical_score": null,
+        "preclinical_description": null,
+        "preclinical_pmids": null,
+        "preclinical_summary": null,
+        "case_score": null,
+        "case_description": null,
+        "trials_score": null,
+        "trials_description": null,
+        "trials_pmids": null,
+        "trials_summary": null,
+        "in_als_untangled": false,
+        "trials": [],
+        "trial_links": [],
+        "trial_links_new": null,
+        "atc_codes": [],
+        "name": "ERP1.28a",
+        "names": [
+            "ERP1.28a"
+        ],
+        "has_clinical_trials": false
+    },
+    {
+        "assaynet_interventions": [
+            {
+                "id": "NHNIESSJWQBRJW-UHFFFAOYSA-N",
+                "inchikey": "NHNIESSJWQBRJW-UHFFFAOYSA-N",
+                "name": "6-deoxyjacareubin",
+                "tags": [
+                    {
+                        "tag": "cell viability",
+                        "assay_classification": "C"
+                    },
+                    {
+                        "tag": "HEK293T viability counts",
+                        "assay_classification": "C"
+                    },
+                    {
+                        "tag": "RT\u2013qPCR hypoxia-related genes spinal cord ",
+                        "assay_classification": "B"
+                    },
+                    {
+                        "tag": "rotarod",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "expression of glial activation markers",
+                        "assay_classification": "E"
+                    }
+                ]
+            }
+        ],
+        "clinical_trial_interventions": [],
+        "als_untangled_interventions": [],
+        "tags": [
+            "E - expression of glial activation markers",
+            "C - HEK293T viability counts",
+            "I - rotarod",
+            "C - cell viability",
+            "B - RT\u2013qPCR hypoxia-related genes spinal cord "
+        ],
+        "assay_classifications": [
+            "I",
+            "C",
+            "B",
+            "E"
+        ],
+        "assay_classification_types": "I,C,B,E",
+        "has_assays": true,
+        "wikipedia_url": null,
+        "mechanism_score": null,
+        "mechanism_description": null,
+        "preclinical_score": null,
+        "preclinical_description": null,
+        "preclinical_pmids": null,
+        "preclinical_summary": null,
+        "case_score": null,
+        "case_description": null,
+        "trials_score": null,
+        "trials_description": null,
+        "trials_pmids": null,
+        "trials_summary": null,
+        "in_als_untangled": false,
+        "trials": [],
+        "trial_links": [],
+        "trial_links_new": null,
+        "atc_codes": [],
+        "name": "6-deoxyjacareubin",
+        "names": [
+            "6-deoxyjacareubin"
+        ],
+        "has_clinical_trials": false
+    },
+    {
+        "assaynet_interventions": [
+            {
+                "id": "SGTNSNPWRIOYBX-UHFFFAOYSA-N",
+                "inchikey": "SGTNSNPWRIOYBX-UHFFFAOYSA-N",
+                "name": "verapamil",
+                "tags": [
+                    {
+                        "tag": "multiple analyses ",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "skeletal muscle profiling",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "calpain activity",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "immunofluorescence ",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "rotoarod",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "lifespan",
+                        "assay_classification": "B"
+                    },
+                    {
+                        "tag": "spinal cord ",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "motor neurone survival",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "spinal cord sections",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "western",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "electron microscopy",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "muscle ",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "calpain",
+                        "assay_classification": "E"
+                    }
+                ]
+            }
+        ],
+        "clinical_trial_interventions": [],
+        "als_untangled_interventions": [],
+        "tags": [
+            "E - calpain",
+            "E - motor neurone survival",
+            "E - spinal cord ",
+            "I - immunofluorescence ",
+            "I - multiple analyses ",
+            "E - electron microscopy",
+            "E - muscle ",
+            "E - western",
+            "I - calpain activity",
+            "B - lifespan",
+            "I - skeletal muscle profiling",
+            "I - rotoarod",
+            "E - spinal cord sections"
+        ],
+        "assay_classifications": [
+            "I",
+            "B",
+            "E"
+        ],
+        "assay_classification_types": "I,B,E",
+        "has_assays": true,
+        "wikipedia_url": null,
+        "mechanism_score": null,
+        "mechanism_description": null,
+        "preclinical_score": null,
+        "preclinical_description": null,
+        "preclinical_pmids": null,
+        "preclinical_summary": null,
+        "case_score": null,
+        "case_description": null,
+        "trials_score": null,
+        "trials_description": null,
+        "trials_pmids": null,
+        "trials_summary": null,
+        "in_als_untangled": false,
+        "trials": [],
+        "trial_links": [],
+        "trial_links_new": null,
+        "atc_codes": [],
+        "name": "Verapamil",
+        "names": [
+            "verapamil"
+        ],
+        "has_clinical_trials": false
+    },
+    {
+        "assaynet_interventions": [
+            {
+                "id": "VLARUOGDXDTHEH-UHFFFAOYSA-L",
+                "inchikey": "VLARUOGDXDTHEH-UHFFFAOYSA-L",
+                "name": "cromolyn sodium",
+                "tags": [
+                    {
+                        "tag": "Immunohistochem spinal cord",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "righting",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "sciatic nerve injury ",
+                        "assay_classification": "I"
+                    }
+                ]
+            }
+        ],
+        "clinical_trial_interventions": [],
+        "als_untangled_interventions": [],
+        "tags": [
+            "I - righting",
+            "E - Immunohistochem spinal cord",
+            "I - sciatic nerve injury "
+        ],
+        "assay_classifications": [
+            "E",
+            "I"
+        ],
+        "assay_classification_types": "E,I",
+        "has_assays": true,
+        "wikipedia_url": null,
+        "mechanism_score": null,
+        "mechanism_description": null,
+        "preclinical_score": null,
+        "preclinical_description": null,
+        "preclinical_pmids": null,
+        "preclinical_summary": null,
+        "case_score": null,
+        "case_description": null,
+        "trials_score": null,
+        "trials_description": null,
+        "trials_pmids": null,
+        "trials_summary": null,
+        "in_als_untangled": false,
+        "trials": [],
+        "trial_links": [],
+        "trial_links_new": null,
+        "atc_codes": [],
+        "name": "Cromolyn Sodium",
+        "names": [
+            "cromolyn sodium"
+        ],
+        "has_clinical_trials": false
+    },
+    {
+        "assaynet_interventions": [
+            {
+                "id": "IMZMKUWMOSJXDT-UHFFFAOYSA-N",
+                "inchikey": "IMZMKUWMOSJXDT-UHFFFAOYSA-N",
+                "name": "cromolyn",
+                "tags": [
+                    {
+                        "tag": "Immunohistochem spinal cord",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "righting",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "sciatic nerve injury ",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "pending",
+                        "assay_classification": "CT pending"
+                    }
+                ]
+            }
+        ],
+        "clinical_trial_interventions": [
+            {
+                "inchikey": "IMZMKUWMOSJXDT-UHFFFAOYSA-N",
+                "name": "ALZT-OP1a (cromolyn)",
+                "trials": [
+                    "NCT04428775"
+                ],
+                "names": [],
+                "atc_codes": [
+                    "M05BA08"
+                ],
+                "highest_phase": "Phase 2",
+                "latest_trial": "2020-09-08 00:00:00"
+            }
+        ],
+        "als_untangled_interventions": [],
+        "tags": [
+            "I - righting",
+            "CT pending - pending",
+            "E - Immunohistochem spinal cord",
+            "I - sciatic nerve injury "
+        ],
+        "assay_classifications": [
+            "E",
+            "CT pending",
+            "I"
+        ],
+        "assay_classification_types": "E,CT pending,I",
+        "has_assays": true,
+        "wikipedia_url": null,
+        "mechanism_score": null,
+        "mechanism_description": null,
+        "preclinical_score": null,
+        "preclinical_description": null,
+        "preclinical_pmids": null,
+        "preclinical_summary": null,
+        "case_score": null,
+        "case_description": null,
+        "trials_score": null,
+        "trials_description": null,
+        "trials_pmids": null,
+        "trials_summary": null,
+        "in_als_untangled": false,
+        "trials": [
+            "NCT04428775"
+        ],
+        "trial_links": [
+            "<a href='https://clinicaltrials.gov/ct2/show/NCT04428775'>NCT04428775</a>"
+        ],
+        "trial_links_new": "<a href='https://clinicaltrials.gov/ct2/show/NCT04428775'>NCT04428775</a>",
+        "atc_codes": [
+            "M05BA08"
+        ],
+        "name": "Cromolyn",
+        "names": [
+            "cromolyn"
+        ],
+        "has_clinical_trials": true
+    },
+    {
+        "assaynet_interventions": [
+            {
+                "id": "QNVKOSLOVOTXKF-UHFFFAOYSA-N",
+                "inchikey": "QNVKOSLOVOTXKF-UHFFFAOYSA-N",
+                "name": "ambroxol hydrochloride",
+                "tags": [
+                    {
+                        "tag": "spinal cord explants, myoblasts network",
+                        "assay_classification": "E"
+                    }
+                ]
+            }
+        ],
+        "clinical_trial_interventions": [],
+        "als_untangled_interventions": [],
+        "tags": [
+            "E - spinal cord explants, myoblasts network"
+        ],
+        "assay_classifications": [
+            "E"
+        ],
+        "assay_classification_types": "E",
+        "has_assays": true,
+        "wikipedia_url": null,
+        "mechanism_score": null,
+        "mechanism_description": null,
+        "preclinical_score": null,
+        "preclinical_description": null,
+        "preclinical_pmids": null,
+        "preclinical_summary": null,
+        "case_score": null,
+        "case_description": null,
+        "trials_score": null,
+        "trials_description": null,
+        "trials_pmids": null,
+        "trials_summary": null,
+        "in_als_untangled": false,
+        "trials": [],
+        "trial_links": [],
+        "trial_links_new": null,
+        "atc_codes": [],
+        "name": "Ambroxol Hydrochloride",
+        "names": [
+            "ambroxol hydrochloride"
+        ],
+        "has_clinical_trials": false
+    },
+    {
+        "assaynet_interventions": [
+            {
+                "id": "JBDGDEWWOUBZPM-UHFFFAOYSA-N",
+                "inchikey": "JBDGDEWWOUBZPM-UHFFFAOYSA-N",
+                "name": "ambroxol",
+                "tags": [
+                    {
+                        "tag": "spinal cord explants, myoblasts network",
+                        "assay_classification": "E"
+                    }
+                ]
+            }
+        ],
+        "clinical_trial_interventions": [],
+        "als_untangled_interventions": [],
+        "tags": [
+            "E - spinal cord explants, myoblasts network"
+        ],
+        "assay_classifications": [
+            "E"
+        ],
+        "assay_classification_types": "E",
+        "has_assays": true,
+        "wikipedia_url": null,
+        "mechanism_score": null,
+        "mechanism_description": null,
+        "preclinical_score": null,
+        "preclinical_description": null,
+        "preclinical_pmids": null,
+        "preclinical_summary": null,
+        "case_score": null,
+        "case_description": null,
+        "trials_score": null,
+        "trials_description": null,
+        "trials_pmids": null,
+        "trials_summary": null,
+        "in_als_untangled": false,
+        "trials": [],
+        "trial_links": [],
+        "trial_links_new": null,
+        "atc_codes": [],
+        "name": "Ambroxol",
+        "names": [
+            "ambroxol"
+        ],
+        "has_clinical_trials": false
+    },
+    {
+        "assaynet_interventions": [
+            {
+                "id": "AWJJLYZBWRIBCZ-UGTJMOTHSA-N",
+                "inchikey": "AWJJLYZBWRIBCZ-UGTJMOTHSA-N",
+                "name": "BzATP",
+                "tags": [
+                    {
+                        "tag": "myofibres",
+                        "assay_classification": "E"
+                    }
+                ]
+            }
+        ],
+        "clinical_trial_interventions": [],
+        "als_untangled_interventions": [],
+        "tags": [
+            "E - myofibres"
+        ],
+        "assay_classifications": [
+            "E"
+        ],
+        "assay_classification_types": "E",
+        "has_assays": true,
+        "wikipedia_url": null,
+        "mechanism_score": null,
+        "mechanism_description": null,
+        "preclinical_score": null,
+        "preclinical_description": null,
+        "preclinical_pmids": null,
+        "preclinical_summary": null,
+        "case_score": null,
+        "case_description": null,
+        "trials_score": null,
+        "trials_description": null,
+        "trials_pmids": null,
+        "trials_summary": null,
+        "in_als_untangled": false,
+        "trials": [],
+        "trial_links": [],
+        "trial_links_new": null,
+        "atc_codes": [],
+        "name": "BzATP",
+        "names": [
+            "BzATP"
+        ],
+        "has_clinical_trials": false
+    },
+    {
+        "assaynet_interventions": [
+            {
+                "id": "YVUQSNJEYSNKRX-UHFFFAOYSA-N",
+                "inchikey": "YVUQSNJEYSNKRX-UHFFFAOYSA-N",
+                "name": "pimozide",
+                "tags": [
+                    {
+                        "tag": "worm paralysis ",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "zebrafish embryo drug treatment",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "embryo motor neuron outgrowth",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "nerve-muscle transmission effects",
+                        "assay_classification": "E"
+                    },
+                    {
+                        "tag": "rotarod",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "weight",
+                        "assay_classification": "I"
+                    },
+                    {
+                        "tag": "pending",
+                        "assay_classification": "CT_EFFICACY"
+                    },
+                    {
+                        "tag": "ALSFRS-R",
+                        "assay_classification": "CT_EFFICACY"
+                    },
+                    {
+                        "tag": "SVC",
+                        "assay_classification": "CT_EFFICACY"
+                    },
+                    {
+                        "tag": "DRRNS",
+                        "assay_classification": "CT_EFFICACY"
+                    },
+                    {
+                        "tag": "MRCSS",
+                        "assay_classification": "CT_EFFICACY"
+                    }
+                ]
+            }
+        ],
+        "clinical_trial_interventions": [
+            {
+                "inchikey": "YVUQSNJEYSNKRX-UHFFFAOYSA-N",
+                "name": "Pimozide",
+                "trials": [
+                    "NCT02463825",
+                    "NCT02463825",
+                    "NCT03272503"
+                ],
+                "names": [
+                    "Orap",
+                    "1-[1-[4,4-Bis(4-fluorophenyl)butyl]-4-piperidinyl]-1,3-dihydro-2''H''-benzimidazole-2-one"
+                ],
+                "atc_codes": [
+                    "N05AG02"
+                ],
+                "highest_phase": "Phase 2",
+                "latest_trial": "2017-10-27 00:00:00"
+            }
+        ],
+        "als_untangled_interventions": [],
+        "tags": [
+            "E - embryo motor neuron outgrowth",
+            "I - weight",
+            "CT_EFFICACY - ALSFRS-R",
+            "CT_EFFICACY - SVC",
+            "CT_EFFICACY - MRCSS",
+            "CT_EFFICACY - DRRNS",
+            "I - rotarod",
+            "I - zebrafish embryo drug treatment",
+            "CT_EFFICACY - pending",
+            "E - nerve-muscle transmission effects",
+            "I - worm paralysis "
+        ],
+        "assay_classifications": [
+            "CT_EFFICACY",
+            "I",
+            "E"
+        ],
+        "assay_classification_types": "CT_EFFICACY,I,E",
+        "has_assays": true,
+        "wikipedia_url": null,
+        "mechanism_score": null,
+        "mechanism_description": null,
+        "preclinical_score": null,
+        "preclinical_description": null,
+        "preclinical_pmids": null,
+        "preclinical_summary": null,
+        "case_score": null,
+        "case_description": null,
+        "trials_score": null,
+        "trials_description": null,
+        "trials_pmids": null,
+        "trials_summary": null,
+        "in_als_untangled": false,
+        "trials": [
+            "NCT03272503",
+            "NCT02463825"
+        ],
+        "trial_links": [
+            "<a href='https://clinicaltrials.gov/ct2/show/NCT03272503'>NCT03272503</a>",
+            "<a href='https://clinicaltrials.gov/ct2/show/NCT02463825'>NCT02463825</a>",
+            "<a href='https://pubmed.ncbi.nlm.nih.gov/29202456/'>29202456</a>"
+        ],
+        "trial_links_new": "<a href='https://clinicaltrials.gov/ct2/show/NCT03272503'>NCT03272503</a> <a href='https://clinicaltrials.gov/ct2/show/NCT02463825'>NCT02463825</a> <a href='https://pubmed.ncbi.nlm.nih.gov/29202456/'>29202456</a>",
+        "atc_codes": [
+            "N05AG02"
+        ],
+        "name": "Pimozide",
+        "names": [
+            "pimozide"
+        ],
+        "has_clinical_trials": true
+    }
+]

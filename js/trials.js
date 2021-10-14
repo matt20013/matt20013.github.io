@@ -1,6 +1,7 @@
 var trialStatusChart = new dc.PieChart("#trialStatusChart");
 var trialPhaseChart = new dc.PieChart("#trialPhaseChart");
-var trialTable = new dc.DataTable("#trialTable");
+//var trialTable = new dc.DataTable("#trialTable");
+var trialTable = dc.tableview("#trialTable");
 //var trialCountChart = new dc.LineChart('#trial_count_chart');
 
 var ndx_trials;
@@ -55,22 +56,75 @@ d3.json('../data/assaynet_trials.json').then(function (experiments) {
 
     trialPhaseChart.render();
 
-    trialTable
-        .width(300)
-        .height(480)
-        .dimension(trialTableDimension)
-        .size(Infinity)
-        .showSections(false)
-        .columns(['nct_id', 'official_title', 'brief_summary', 'start_date', 'status', 'max_phase'])
-        .sortBy(function (d) {
-            return [fmt(+d.Expt), fmt(+d.Run)];
-        })
-        .order(d3.ascending)
-        .on('preRender', trialUpdateOffset)
-        .on('preRedraw', trialUpdateOffset)
-        .on('pretransition', trialDisplay);
+    var trialNCTDimension = ndx_trials.dimension(function (d) {return d.nct_id;});
+    var trialNCTGroup = trialNCTDimension.group();
+    
+    // trialTable
+    //     .width(300)
+    //     .height(480)
+    //     .dimension(trialTableDimension)
+    //     .size(Infinity)
+    //     .showSections(false)
+    //     .columns(['nct_id', 'official_title', 'brief_summary', 'start_date', 'status', 'max_phase'])
+    //     .sortBy(function (d) {
+    //         return [fmt(+d.Expt), fmt(+d.Run)];
+    //     })
+    //     .order(d3.ascending)
+    //     .on('preRender', trialUpdateOffset)
+    //     .on('preRedraw', trialUpdateOffset)
+    //     .on('pretransition', trialDisplay);
 
-    trialTable.render();
+    trialTable
+        .dimension(trialNCTDimension)
+        .group(trialNCTGroup)
+        .columns([
+            { title: "NCTID", data: "ct_link" },
+            { title: "Title", data: "official_title" },
+            { title: "Preclinical", data: "preclinical" },
+            { title: "Summary", data: "brief_summary" },
+            { title: "Start", data: "start_date" },
+            { title: "Status", data: "status" },
+            { title: "Names", data: "intervention_names"},
+            //{ title: "ATC Codes", data: "atc_codes"},
+            { title: "Phase", data: "max_phase" },
+
+        ])
+        .enableColumnReordering(true)
+        .enablePaging(true)
+        .enablePagingSizeChange(true)
+        .enableSearch(true)
+        .enableScrolling(false)
+        .scrollingOptions({
+            scrollY: "31rem",
+            scrollCollapse: true,
+            deferRender: true,
+        })
+        .rowId("Expt")
+        // .showGroups(true)
+        // .groupBy("Expt")
+        .responsive(true)
+        .select(false)
+        .fixedHeader(false)
+        .buttons(["pdf", "csv", "excel", "print"])
+        .sortBy([["ct_link", "asc"]])
+        .listeners({
+            rowClicked: function (row, data, index) {
+                var output = document.querySelector("#alerts");
+                output.innerHTML = createAlert(`Click on row ${index}!`, JSON.stringify(data));
+            },
+            rowDblClicked: function (row, data, index) {
+                var output = document.querySelector("#alerts");
+                output.innerHTML = createAlert(`Double click on row ${index}!`, JSON.stringify(data));
+            },
+            rowEnter: function (row, data, index) {
+                row.style.backgroundColor = "#eff9ff";
+            },
+            rowLeave: function (row, data, index) {
+                row.style.backgroundColor = "";
+            }
+        });
+
+    //trialTable.render();
     //dc.renderAll();
 
 });
