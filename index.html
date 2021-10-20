@@ -198,7 +198,7 @@
       <h3>Literature</h3>
       <div class="tab">
         <button class="tablinkssubliterature"
-          onclick="openTabSubLiterature(event, 'LiteratureOverviewTab')">Overview</button>
+          onclick="openTabSubLiterature(event, 'LiteratureOverviewTab')">Table</button>
         <button class="tablinkssubliterature"
           onclick="openTabSubLiterature(event, 'LiteratureDashboardTab')">Dashboard</button>
       </div>
@@ -243,7 +243,7 @@
     <div id="InterventionsTab" class="tabcontent">
       <h3 style="margin-block-start: 1em">Interventions</h3>
       <div class="tab">
-        <button class="tablinkssub" onclick="openTabSub(event, 'InterventionsOverviewTab')">Overview</button>
+        <button class="tablinkssub" onclick="openTabSub(event, 'InterventionsOverviewTab')">Table</button>
         <button class="tablinkssub" onclick="openTabSub(event, 'InterventionsDashboardTab')">Dashboard</button>
         <button class="tablinkssub" onclick="openTabSub(event, 'InterventionsALSUntangledTab')">ALS Untangled</button>
       </div>
@@ -291,8 +291,13 @@
               <div id="interventionATCTopLevelChart"></div>
             </td>
             <td>
+
+            </td>
+          </tr>
+          <tr>
+            <td>
               <h3>Highest Phase</h3>
-              <div id="interventionHighestPhaseChart"></div>
+              <div id="interventionMaxClinicalPhaseChart"></div>
             </td>
           </tr>
         </table>
@@ -335,7 +340,7 @@
     <div id="AssaysTab" class="tabcontent">
       <h3 style="margin-block-start: 1em">Assays</h3>
       <div class="tab">
-        <button class="tablinkssubassay" onclick="openTabSubAssay(event, 'AssaysOverviewTab')">Overview</button>
+        <button class="tablinkssubassay" onclick="openTabSubAssay(event, 'AssaysOverviewTab')">Table</button>
         <button class="tablinkssubassay" onclick="openTabSubAssay(event, 'AssaysDashboardTab')">Dashboard</button>
       </div>
       <div id="AssaysOverviewTab" class="tabcontentsubassay">
@@ -369,7 +374,7 @@
       <h3 style="margin-block-start: 1em">Clinical Trials</h3>
       <div class="tab">
         <button class="tablinkssubclinicaltrial"
-          onclick="openTabSubClinicalTrial(event, 'ClinicalTrialsOverviewTab')">Overview</button>
+          onclick="openTabSubClinicalTrial(event, 'ClinicalTrialsOverviewTab')">Table</button>
         <button class="tablinkssubclinicaltrial"
           onclick="openTabSubClinicalTrial(event, 'ClinicalTrialsDashboardTab')">Dashboard</button>
       </div>

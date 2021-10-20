@@ -1,27 +1,39 @@
 [
     {
         "inchikey": null,
-        "name": "\"Mesenchymal stem cells isolated from Whartons jelly\"",
+        "name": "3K3A-APC",
         "trials": [
-            "NCT04651855"
-        ],
-        "names": null,
-        "atc_codes": null,
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Mesenchymal_stem_cell",
-        "highest_phase": "Phase 2",
-        "latest_trial": "2020-12-02 00:00:00"
-    },
-    {
-        "inchikey": "UDTXUDHDIVNHCL-AENUQYPBSA-N",
-        "name": "1.0 MIU IL-2 per day",
-        "trials": [
-            "NCT02059759"
+            "NCT05039268"
         ],
         "names": [],
         "atc_codes": [],
         "wikipedia_url": null,
         "highest_phase": "Phase 2",
-        "latest_trial": "2015-09-01 00:00:00"
+        "latest_trial": "2021-10-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "ABBV-CLS-7262",
+        "trials": [
+            "NCT04948645"
+        ],
+        "names": [],
+        "atc_codes": [],
+        "wikipedia_url": null,
+        "highest_phase": "Phase 1",
+        "latest_trial": "2021-09-22 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "AL001",
+        "trials": [
+            "NCT05053035"
+        ],
+        "names": [],
+        "atc_codes": [],
+        "wikipedia_url": null,
+        "highest_phase": "Phase 2",
+        "latest_trial": "2021-09-02 00:00:00"
     },
     {
         "inchikey": "IMZMKUWMOSJXDT-UHFFFAOYSA-N",
@@ -41,13 +53,15 @@
         "trials": [
             "NCT04516096",
             "NCT03488524",
-            "NCT03127514"
+            "NCT03127514",
+            "NCT05021536",
+            "NCT04987671"
         ],
-        "names": null,
-        "atc_codes": null,
+        "names": [],
+        "atc_codes": [],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Sodium_phenylbutyrate/taurursodiol",
         "highest_phase": "Phase 3",
-        "latest_trial": "2020-11-22 00:00:00"
+        "latest_trial": "2021-08-31 00:00:00"
     },
     {
         "inchikey": null,
@@ -57,7 +71,7 @@
         ],
         "names": [],
         "atc_codes": [],
-        "wikipedia_url": "None",
+        "wikipedia_url": null,
         "highest_phase": "Phase 2",
         "latest_trial": "2021-01-15 00:00:00"
     },
@@ -65,13 +79,14 @@
         "inchikey": null,
         "name": "AP-101",
         "trials": [
-            "NCT03981536"
+            "NCT03981536",
+            "NCT05039099"
         ],
         "names": [],
         "atc_codes": [],
-        "wikipedia_url": "None",
-        "highest_phase": "Phase 1",
-        "latest_trial": "2019-10-10 00:00:00"
+        "wikipedia_url": null,
+        "highest_phase": "Phase 2",
+        "latest_trial": "2021-09-02 00:00:00"
     },
     {
         "inchikey": null,
@@ -81,7 +96,7 @@
         ],
         "names": [],
         "atc_codes": [],
-        "wikipedia_url": "None",
+        "wikipedia_url": null,
         "highest_phase": "Phase 2",
         "latest_trial": "2020-10-16 00:00:00"
     },
@@ -103,6 +118,18 @@
         "wikipedia_url": "https://en.wikipedia.org/wiki/Adrenocorticotropic_hormone_(medication)",
         "highest_phase": "Phase 3",
         "latest_trial": "2017-06-22 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "AlloRx",
+        "trials": [
+            "NCT05003921"
+        ],
+        "names": [],
+        "atc_codes": [],
+        "wikipedia_url": null,
+        "highest_phase": "Phase 1",
+        "latest_trial": "2021-09-01 00:00:00"
     },
     {
         "inchikey": "HMLGSIZOMSVISS-UHFFFAOYSA-N",
@@ -164,22 +191,36 @@
         ],
         "names": [],
         "atc_codes": [],
-        "wikipedia_url": "None",
+        "wikipedia_url": null,
         "highest_phase": "Phase 2",
         "latest_trial": "2017-10-10 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Autologous MSC-NTF cells",
+        "trials": [
+            "NCT02017912"
+        ],
+        "names": [],
+        "atc_codes": [],
+        "wikipedia_url": null,
+        "highest_phase": "Phase 2",
+        "latest_trial": "2014-05-01 00:00:00"
     },
     {
         "inchikey": null,
         "name": "BIIB067",
         "trials": [
             "NCT03070119",
-            "NCT02623699"
+            "NCT02623699",
+            "NCT04972487",
+            "NCT04856982"
         ],
         "names": [],
         "atc_codes": [],
-        "wikipedia_url": "None",
+        "wikipedia_url": null,
         "highest_phase": "Phase 3",
-        "latest_trial": "2017-03-08 00:00:00"
+        "latest_trial": "2021-07-22 00:00:00"
     },
     {
         "inchikey": null,
@@ -190,7 +231,7 @@
         ],
         "names": [],
         "atc_codes": [],
-        "wikipedia_url": "None",
+        "wikipedia_url": null,
         "highest_phase": "Phase 1",
         "latest_trial": "2020-04-28 00:00:00"
     },
@@ -202,7 +243,7 @@
         ],
         "names": [],
         "atc_codes": [],
-        "wikipedia_url": "None",
+        "wikipedia_url": null,
         "highest_phase": "Phase 1",
         "latest_trial": "2019-05-30 00:00:00"
     },
@@ -214,7 +255,7 @@
         ],
         "names": [],
         "atc_codes": [],
-        "wikipedia_url": "None",
+        "wikipedia_url": null,
         "highest_phase": "Phase 2",
         "latest_trial": "2019-12-30 00:00:00"
     },
@@ -242,7 +283,7 @@
         ],
         "names": [],
         "atc_codes": [],
-        "wikipedia_url": "None",
+        "wikipedia_url": null,
         "highest_phase": "Early Phase 1",
         "latest_trial": "2017-08-21 00:00:00"
     },
@@ -254,7 +295,7 @@
         ],
         "names": [],
         "atc_codes": [],
-        "wikipedia_url": "None",
+        "wikipedia_url": null,
         "highest_phase": "Early Phase 1",
         "latest_trial": "2017-08-21 00:00:00"
     },
@@ -353,8 +394,8 @@
         "trials": [
             "NCT01776970"
         ],
-        "names": null,
-        "atc_codes": null,
+        "names": [],
+        "atc_codes": [],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Cannabis_(drug)",
         "highest_phase": "Phase 3",
         "latest_trial": "2013-01-01 00:00:00"
@@ -365,8 +406,8 @@
         "trials": [
             "NCT03944447"
         ],
-        "names": null,
-        "atc_codes": null,
+        "names": [],
+        "atc_codes": [],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Cannabis_(drug)",
         "highest_phase": "Phase 2",
         "latest_trial": "2018-12-01 00:00:00"
@@ -375,13 +416,14 @@
         "inchikey": null,
         "name": "Cannabis",
         "trials": [
-            "NCT03690791"
+            "NCT03690791",
+            "NCT04997954"
         ],
-        "names": null,
-        "atc_codes": null,
+        "names": [],
+        "atc_codes": [],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Cannabis_(drug)",
-        "highest_phase": "Phase 3",
-        "latest_trial": "2019-01-09 00:00:00"
+        "highest_phase": "Phase 4",
+        "latest_trial": "2021-10-01 00:00:00"
     },
     {
         "inchikey": "TZFNLOMSOLWIDK-UHFFFAOYSA-N",
@@ -389,8 +431,8 @@
         "trials": [
             "NCT03929068"
         ],
-        "names": null,
-        "atc_codes": null,
+        "names": [],
+        "atc_codes": [],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Carbidopa/levodopa",
         "highest_phase": "Phase 1",
         "latest_trial": "2019-05-13 00:00:00"
@@ -443,8 +485,8 @@
         "trials": [
             "NCT00753571"
         ],
-        "names": null,
-        "atc_codes": null,
+        "names": [],
+        "atc_codes": [],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Cistanche",
         "highest_phase": "Phase 2",
         "latest_trial": "2008-01-01 00:00:00"
@@ -505,8 +547,8 @@
         "trials": [
             "NCT01259050"
         ],
-        "names": null,
-        "atc_codes": null,
+        "names": [],
+        "atc_codes": [],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Copper",
         "highest_phase": "Phase 2",
         "latest_trial": "2010-10-01 00:00:00"
@@ -561,9 +603,21 @@
         ],
         "names": [],
         "atc_codes": [],
-        "wikipedia_url": "None",
+        "wikipedia_url": null,
         "highest_phase": "Phase 3",
         "latest_trial": "2020-03-19 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "DNL343",
+        "trials": [
+            "NCT05006352"
+        ],
+        "names": [],
+        "atc_codes": [],
+        "wikipedia_url": null,
+        "highest_phase": "Phase 1",
+        "latest_trial": "2021-08-11 00:00:00"
     },
     {
         "inchikey": null,
@@ -694,6 +748,20 @@
         "latest_trial": "2020-11-13 00:00:00"
     },
     {
+        "inchikey": null,
+        "name": "Enoxacin",
+        "trials": [
+            "NCT04840823"
+        ],
+        "names": [],
+        "atc_codes": [
+            "J01MA04"
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Enoxacin",
+        "highest_phase": "Phase 2",
+        "latest_trial": "2021-03-26 00:00:00"
+    },
+    {
         "inchikey": "PCOBBVZJEWWZFR-UHFFFAOYSA-N\u00a0",
         "name": "Ezogabine",
         "trials": [
@@ -772,11 +840,23 @@
             "NCT00397423",
             "NCT01825551"
         ],
-        "names": null,
-        "atc_codes": null,
+        "names": [],
+        "atc_codes": [],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Granulocyte_colony-stimulating_factor",
         "highest_phase": "Phase 3",
         "latest_trial": "2012-11-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "G04CB02",
+        "trials": [
+            "NCT04654689"
+        ],
+        "names": [],
+        "atc_codes": [],
+        "wikipedia_url": null,
+        "highest_phase": "Phase 2",
+        "latest_trial": "2021-10-01 00:00:00"
     },
     {
         "inchikey": "SKMKJBYBPYBDMN-VXGBXAGGSA-N",
@@ -798,8 +878,8 @@
         "trials": [
             "NCT01854294"
         ],
-        "names": null,
-        "atc_codes": null,
+        "names": [],
+        "atc_codes": [],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Genervon",
         "highest_phase": "Phase 2",
         "latest_trial": "2013-08-01 00:00:00"
@@ -859,7 +939,7 @@
         ],
         "names": [],
         "atc_codes": [],
-        "wikipedia_url": "None",
+        "wikipedia_url": null,
         "highest_phase": "Phase 2",
         "latest_trial": "2021-04-30 00:00:00"
     },
@@ -869,8 +949,8 @@
         "trials": [
             "NCT00635960"
         ],
-        "names": null,
-        "atc_codes": null,
+        "names": [],
+        "atc_codes": [],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Growth_hormone",
         "highest_phase": "Phase 2",
         "latest_trial": "2007-03-01 00:00:00"
@@ -883,9 +963,21 @@
         ],
         "names": [],
         "atc_codes": [],
-        "wikipedia_url": "None",
+        "wikipedia_url": null,
         "highest_phase": "Phase 1",
         "latest_trial": "2021-02-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Huolingshengji Granules",
+        "trials": [
+            "NCT04950933"
+        ],
+        "names": [],
+        "atc_codes": [],
+        "wikipedia_url": null,
+        "highest_phase": "Phase 3",
+        "latest_trial": "2020-06-01 00:00:00"
     },
     {
         "inchikey": null,
@@ -893,11 +985,24 @@
         "trials": [
             "NCT03039673"
         ],
-        "names": null,
-        "atc_codes": null,
+        "names": [],
+        "atc_codes": [],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Interleukin_2",
         "highest_phase": "Phase 2",
         "latest_trial": "2017-06-19 00:00:00"
+    },
+    {
+        "inchikey": "UDTXUDHDIVNHCL-AENUQYPBSA-N",
+        "name": "IL-2",
+        "trials": [
+            "NCT02059759",
+            "NCT04952155"
+        ],
+        "names": [],
+        "atc_codes": [],
+        "wikipedia_url": null,
+        "highest_phase": "Phase 2",
+        "latest_trial": "2020-01-01 00:00:00"
     },
     {
         "inchikey": null,
@@ -908,9 +1013,21 @@
         ],
         "names": [],
         "atc_codes": [],
-        "wikipedia_url": "None",
+        "wikipedia_url": null,
         "highest_phase": "Phase 2",
         "latest_trial": "2019-03-29 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "ION363",
+        "trials": [
+            "NCT04768972"
+        ],
+        "names": [],
+        "atc_codes": [],
+        "wikipedia_url": null,
+        "highest_phase": "Phase 3",
+        "latest_trial": "2021-06-14 00:00:00"
     },
     {
         "inchikey": null,
@@ -920,13 +1037,13 @@
         ],
         "names": [],
         "atc_codes": [],
-        "wikipedia_url": "None",
+        "wikipedia_url": null,
         "highest_phase": "Phase 1",
         "latest_trial": "2020-09-28 00:00:00"
     },
     {
         "inchikey": "AGUSSGJBWOOHRG-NXBWRCJVSA-N",
-        "name": "IPL344]  Lead mine -v",
+        "name": "IPL344",
         "trials": [
             "NCT03652805",
             "NCT03755167"
@@ -971,8 +1088,8 @@
         "trials": [
             "NCT00035815"
         ],
-        "names": null,
-        "atc_codes": null,
+        "names": [],
+        "atc_codes": [],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Insulin-like_growth_factor_1",
         "highest_phase": "Phase 3",
         "latest_trial": "2003-06-01 00:00:00"
@@ -1023,6 +1140,18 @@
         "latest_trial": "2018-10-24 00:00:00"
     },
     {
+        "inchikey": null,
+        "name": "Lenzumestrocel",
+        "trials": [
+            "NCT04745299"
+        ],
+        "names": [],
+        "atc_codes": [],
+        "wikipedia_url": null,
+        "highest_phase": "Phase 3",
+        "latest_trial": "2021-03-23 00:00:00"
+    },
+    {
         "inchikey": "GFIJNRVAKGFPGQ-LIJARHBVSA-N",
         "name": "Leuprolide",
         "trials": [
@@ -1042,30 +1171,13 @@
         "latest_trial": "1992-10-01 00:00:00"
     },
     {
-        "inchikey": "WHXMKTBCFHIYNQ-SECBINFHSA-N",
-        "name": "Levosimendan",
-        "trials": [
-            "NCT03948178",
-            "NCT03505021"
-        ],
-        "names": [
-            "Simdax"
-        ],
-        "atc_codes": [
-            "C01CX08"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Levosimendan",
-        "highest_phase": "Phase 3",
-        "latest_trial": "2019-06-26 00:00:00"
-    },
-    {
         "inchikey": "WHXSMMKQMYFTQS-UHFFFAOYSA-N",
         "name": "Lithium",
         "trials": [
             "NCT00925847"
         ],
-        "names": null,
-        "atc_codes": null,
+        "names": [],
+        "atc_codes": [],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Lithium",
         "highest_phase": "Phase 2",
         "latest_trial": "2009-06-01 00:00:00"
@@ -1089,8 +1201,8 @@
         "trials": [
             "NCT02709330"
         ],
-        "names": null,
-        "atc_codes": null,
+        "names": [],
+        "atc_codes": [],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Lunasin",
         "highest_phase": "Phase 2",
         "latest_trial": "2016-04-01 00:00:00"
@@ -1126,6 +1238,18 @@
         "wikipedia_url": "https://en.wikipedia.org/wiki/Ibudilast",
         "highest_phase": "Phase 3",
         "latest_trial": "2020-05-28 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "MNC (Mononuclear cells)",
+        "trials": [
+            "NCT04849065"
+        ],
+        "names": [],
+        "atc_codes": [],
+        "wikipedia_url": null,
+        "highest_phase": "Phase 2",
+        "latest_trial": "2021-05-01 00:00:00"
     },
     {
         "inchikey": "WJEOLQLKVOPQFV-UHFFFAOYSA-N",
@@ -1187,6 +1311,19 @@
         "wikipedia_url": "https://en.wikipedia.org/wiki/Memantine",
         "highest_phase": "Phase 3",
         "latest_trial": "2020-02-27 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Mesenchymal stem cells",
+        "trials": [
+            "NCT04651855",
+            "NCT04821479"
+        ],
+        "names": [],
+        "atc_codes": [],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mesenchymal_stem_cell",
+        "highest_phase": "Phase 2",
+        "latest_trial": "2020-12-02 00:00:00"
     },
     {
         "inchikey": "XZWYZXLIPXDOLR-UHFFFAOYSA-N",
@@ -1259,26 +1396,6 @@
         "latest_trial": "2016-10-01 00:00:00"
     },
     {
-        "inchikey": "DDLIGBOFAVUZHB-UHFFFAOYSA-N",
-        "name": "Midazolam",
-        "trials": [
-            "NCT02655614",
-            "NCT03988907"
-        ],
-        "names": [
-            "Dormicum",
-            "Hypnovel",
-            "Versed",
-            "others"
-        ],
-        "atc_codes": [
-            "N05CD08"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Midazolam",
-        "highest_phase": "Phase 1",
-        "latest_trial": "2019-06-18 00:00:00"
-    },
-    {
         "inchikey": null,
         "name": "Minocycline",
         "trials": [
@@ -1301,23 +1418,15 @@
     },
     {
         "inchikey": null,
-        "name": "Moxifloxacin",
+        "name": "Monepantel",
         "trials": [
-            "NCT01511029"
+            "NCT04894240"
         ],
-        "names": [
-            "Avelox",
-            "Vigamox",
-            "Moxiflox",
-            "others"
-        ],
-        "atc_codes": [
-            "J01MA14",
-            "S01AE07"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Moxifloxacin",
+        "names": [],
+        "atc_codes": [],
+        "wikipedia_url": null,
         "highest_phase": "Phase 1",
-        "latest_trial": "2012-01-01 00:00:00"
+        "latest_trial": "2021-12-01 00:00:00"
     },
     {
         "inchikey": null,
@@ -1362,6 +1471,42 @@
         "wikipedia_url": null,
         "highest_phase": "Phase 1",
         "latest_trial": "2019-05-05 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Nitrofurazone",
+        "trials": [
+            "NCT04950647"
+        ],
+        "names": [],
+        "atc_codes": [],
+        "wikipedia_url": null,
+        "highest_phase": "Phase 2",
+        "latest_trial": "2020-07-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Nitroketazine",
+        "trials": [
+            "NCT04950647"
+        ],
+        "names": [],
+        "atc_codes": [],
+        "wikipedia_url": null,
+        "highest_phase": "Phase 2",
+        "latest_trial": "2020-07-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "NurOwn (MSC-NTF cells)",
+        "trials": [
+            "NCT04681118"
+        ],
+        "names": [],
+        "atc_codes": [],
+        "wikipedia_url": null,
+        "highest_phase": "N/a",
+        "latest_trial": "2020-12-23 00:00:00"
     },
     {
         "inchikey": null,
@@ -1455,7 +1600,8 @@
             "NCT04579666"
         ],
         "names": [
-            "Empaveli"
+            "Empaveli",
+            "Aspaveli"
         ],
         "atc_codes": [
             "None <!-- Scheduled to be L04AA54 in 2022 -->"
@@ -1523,8 +1669,8 @@
         "trials": [
             "NCT04557410"
         ],
-        "names": null,
-        "atc_codes": null,
+        "names": [],
+        "atc_codes": [],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Poly-MVA",
         "highest_phase": "Phase 1",
         "latest_trial": "2020-09-23 00:00:00"
@@ -1556,8 +1702,8 @@
             "NCT04615923",
             "NCT04297683"
         ],
-        "names": null,
-        "atc_codes": null,
+        "names": [],
+        "atc_codes": [],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Pridopidine",
         "highest_phase": "Phase 3",
         "latest_trial": "2020-12-18 00:00:00"
@@ -1613,6 +1759,18 @@
         "wikipedia_url": null,
         "highest_phase": "Phase 2",
         "latest_trial": "2022-03-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "RT001",
+        "trials": [
+            "NCT04762589"
+        ],
+        "names": [],
+        "atc_codes": [],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Di-deuterated_linoleic_acid_ethyl_ester",
+        "highest_phase": "Phase 2",
+        "latest_trial": "2021-03-10 00:00:00"
     },
     {
         "inchikey": "YREYEVIYCVEVJK-UHFFFAOYSA-",
@@ -1678,8 +1836,8 @@
         "trials": [
             "NCT03835507"
         ],
-        "names": null,
-        "atc_codes": null,
+        "names": [],
+        "atc_codes": [],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Erythropoietin",
         "highest_phase": "Phase 2",
         "latest_trial": "2016-06-20 00:00:00"
@@ -1688,13 +1846,14 @@
         "inchikey": null,
         "name": "Reldesemtiv",
         "trials": [
-            "NCT03160898"
+            "NCT03160898",
+            "NCT04944784"
         ],
         "names": [],
         "atc_codes": [],
         "wikipedia_url": null,
-        "highest_phase": "Phase 2",
-        "latest_trial": "2017-07-24 00:00:00"
+        "highest_phase": "Phase 3",
+        "latest_trial": "2021-08-16 00:00:00"
     },
     {
         "inchikey": null,
@@ -1903,6 +2062,18 @@
     },
     {
         "inchikey": null,
+        "name": "TPN-101",
+        "trials": [
+            "NCT04993755"
+        ],
+        "names": [],
+        "atc_codes": [],
+        "wikipedia_url": null,
+        "highest_phase": "Phase 2",
+        "latest_trial": "2021-10-01 00:00:00"
+    },
+    {
+        "inchikey": null,
         "name": "Tacrolimus",
         "trials": [
             "NCT01884571"
@@ -1996,8 +2167,8 @@
         "trials": [
             "NCT00004771"
         ],
-        "names": null,
-        "atc_codes": null,
+        "names": [],
+        "atc_codes": [],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Testosterone",
         "highest_phase": "Phase 2",
         "latest_trial": "1992-10-01 00:00:00"
@@ -2141,8 +2312,8 @@
         "trials": [
             "NCT02851914"
         ],
-        "names": null,
-        "atc_codes": null,
+        "names": [],
+        "atc_codes": [],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Tricyclic_antidepressant",
         "highest_phase": "Early Phase 1",
         "latest_trial": "2015-07-21 00:00:00"
@@ -2190,6 +2361,30 @@
     },
     {
         "inchikey": null,
+        "name": "WVE-004",
+        "trials": [
+            "NCT04931862"
+        ],
+        "names": [],
+        "atc_codes": [],
+        "wikipedia_url": null,
+        "highest_phase": "Phase 2",
+        "latest_trial": "2021-06-28 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "Withania somnifera",
+        "trials": [
+            "NCT05031351"
+        ],
+        "names": [],
+        "atc_codes": [],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Withania_somnifera",
+        "highest_phase": "Phase 2",
+        "latest_trial": "2021-09-01 00:00:00"
+    },
+    {
+        "inchikey": null,
         "name": "YAM80",
         "trials": [
             "NCT00886977"
@@ -2221,8 +2416,8 @@
         "trials": [
             "NCT01259050"
         ],
-        "names": null,
-        "atc_codes": null,
+        "names": [],
+        "atc_codes": [],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Zinc",
         "highest_phase": "Phase 2",
         "latest_trial": "2010-10-01 00:00:00"
@@ -2244,5 +2439,17 @@
         "wikipedia_url": "https://en.wikipedia.org/wiki/Zoledronic_acid",
         "highest_phase": "Phase 3",
         "latest_trial": "2016-06-01 00:00:00"
+    },
+    {
+        "inchikey": null,
+        "name": "[11C]CPPC",
+        "trials": [
+            "NCT04749433"
+        ],
+        "names": [],
+        "atc_codes": [],
+        "wikipedia_url": null,
+        "highest_phase": "Phase 1",
+        "latest_trial": "2021-09-01 00:00:00"
     }
 ]

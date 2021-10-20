@@ -1,11 +1,12 @@
+const LITERATURE_GROUP = "Literature"
 //var literatureHighestPhaseChart = new dc.PieChart("#literatureHighestPhaseChart");
-var literatureTable = new dc.DataTable("#literatureTable");
+var literatureTable = new dc.DataTable("#literatureTable",LITERATURE_GROUP);
 //var literatureTable = dc.tableview("#literatureTable");
-//var literatureTriageChart = new dc.PieChart("#literatureTriageChart")
-var literatureTriageChart = new dc.PieChart("#literatureTriageChart")
-var literatureYearCountsChart = new dc.BarChart('#literatureYearCountsChart');
-var literatureKeywordFilterChart = new dc.PieChart('#literatureKeywordFilterChart');
-var literatureJournalChart = new dc.RowChart('#literatureJournalChart');
+//var literatureTriageChart = new dc.PieChart("#literatureTriageChart",LITERATURE_GROUP)
+var literatureTriageChart = new dc.PieChart("#literatureTriageChart",LITERATURE_GROUP)
+var literatureYearCountsChart = new dc.BarChart('#literatureYearCountsChart',LITERATURE_GROUP);
+var literatureKeywordFilterChart = new dc.PieChart('#literatureKeywordFilterChart',LITERATURE_GROUP);
+var literatureJournalChart = new dc.RowChart('#literatureJournalChart',LITERATURE_GROUP);
 var ndx_literature;
 
 d3.json('../data/assaynet_literature.json').then(function (data) {
@@ -146,7 +147,7 @@ d3.json('../data/assaynet_literature.json').then(function (data) {
     .dimension(literatureTableDimension)
     .size(Infinity)
     .showSections(false)
-    .columns(['pubmed_link', 'journal', 'title', 'year', 'lm_interventions_title', 'triage'])
+    .columns(['pubmed_link', 'journal', 'title', 'year', 'lm_interventions_title', 'triage_description'])
     .sortBy(function (d) { return [d.pubmed_link]; })
     .order(d3.ascending)
     .on('preRender', literatureUpdateOffset)

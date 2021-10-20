@@ -75,11 +75,13 @@ d3.json('../data/assaynet_assays.json').then(function (experiments) {
         .dimension(assayPMIDDimension)
         .group(assayPMIDGroup)
         .columns([
+            { title: "ID", data: "id"},
             { title: "PMID", data: "pubmed_link" },
             { title: "Text", data: "text" },
             { title: "Class", data: "classification" },
             { title: "Species", data: "combined_species" },
-            { title: "Models", data: "models" },
+//            { title: "Intvn", data: "intervention_str"},
+            {  title: "Models", data: "models" },
             { title: "Tags", data: "tags_concatenated" }
         ])
         .enableColumnReordering(true)
@@ -98,7 +100,7 @@ d3.json('../data/assaynet_assays.json').then(function (experiments) {
         .responsive(true)
         .select(false)
         .fixedHeader(false)
-        .buttons(["pdf", "csv", "excel", "print"])
+        .buttons(["csv", "excel"])
         .sortBy([["pubmed_link", "asc"]])
         .listeners({
             rowClicked: function (row, data, index) {

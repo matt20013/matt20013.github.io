@@ -80,6 +80,7 @@ d3.json('../data/assaynet_trials.json').then(function (experiments) {
         .columns([
             { title: "NCTID", data: "ct_link" },
             { title: "Title", data: "official_title" },
+            { title: "PubMed", data: "pubmed"},
             { title: "Preclinical", data: "preclinical" },
             { title: "Summary", data: "brief_summary" },
             { title: "Start", data: "start_date" },
@@ -105,7 +106,7 @@ d3.json('../data/assaynet_trials.json').then(function (experiments) {
         .responsive(true)
         .select(false)
         .fixedHeader(false)
-        .buttons(["pdf", "csv", "excel", "print"])
+        .buttons(["csv", "excel"])
         .sortBy([["ct_link", "asc"]])
         .listeners({
             rowClicked: function (row, data, index) {

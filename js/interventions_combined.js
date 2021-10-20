@@ -15,6 +15,7 @@ var interventionInALSUntangledCasesChart = new dc.PieChart("#interventionInALSUn
 var interventionInALSUntangledTrialsChart = new dc.PieChart("#interventionInALSUntangledTrialsChart",INTERVENTION_GROUP);
 var interventionInALSUntangledRisksChart = new dc.PieChart("#interventionInALSUntangledRisksChart",INTERVENTION_GROUP);
 var interventionATCTopLevelChart = new dc.RowChart("#interventionATCTopLevelChart",INTERVENTION_GROUP);
+var interventionMaxClinicalPhaseChart = new dc.PieChart("#interventionMaxClinicalPhaseChart",INTERVENTION_GROUP);
 var ndx_int;
 
 var interventionNameDimension;
@@ -149,6 +150,27 @@ d3.json('../data/assaynet_matched_interventions.json').then(function (experiment
 
   interventionInALSUntangledChart.render();
 
+  var interventionMaxClinicalPhaseDimension = ndx_int.dimension(function (d) { return d.max_phase; }),
+    interventionMaxClinicalPhaseGroup = interventionMaxClinicalPhaseDimension.group()
+
+
+  interventionMaxClinicalPhaseChart
+    .width(450)
+    .height(450)
+    .slicesCap(6)
+    .innerRadius(100)
+    .dimension(interventionMaxClinicalPhaseDimension)
+    .group(interventionMaxClinicalPhaseGroup)
+    .legend(dc.legend().highlightSelected(true))
+    // workaround for #703: not enough data is accessible through .label() to display percentages
+    .on('pretransition', function (chart) {
+      chart.selectAll('text.pie-slice').text(function (d) {
+        return d.data.key + ' ' + dc.utils.printSingleValue((d.endAngle - d.startAngle) / (2 * Math.PI) * 100) + '%';
+      })
+    });
+
+  interventionMaxClinicalPhaseChart.render();
+
   interventionHasClinicalTrialsChart
     .width(300)
     .height(300)
@@ -207,6 +229,7 @@ d3.json('../data/assaynet_matched_interventions.json').then(function (experiment
       { title: "Preclinical", data: "preclinical"},
       { title: "ATC Codes", data: "atc_codes"},
       { title: "Names", data: "names"},
+      { title: "Max Phase", data: "max_phase"},
       { title: "Tags", data: "tags"}
     ])
     .enableColumnReordering(true)
@@ -225,7 +248,7 @@ d3.json('../data/assaynet_matched_interventions.json').then(function (experiment
     .responsive(true)
     .select(false)
     .fixedHeader(true)
-    .buttons(["pdf", "csv", "excel", "print"])
+    .buttons(["csv", "excel"])
     .sortBy([["name_link", "asc"]])
     .listeners({
       rowClicked: function (row, data, index) {
@@ -245,6 +268,7 @@ d3.json('../data/assaynet_matched_interventions.json').then(function (experiment
     });
 
   interventionTable.render();
+
 
 
   var interventionALSUTNameDimension = ndx_int.dimension(function (d) {
@@ -289,7 +313,7 @@ d3.json('../data/assaynet_matched_interventions.json').then(function (experiment
   .responsive(true)
   .select(false)
   .fixedHeader(true)
-  .buttons(["pdf", "csv", "excel", "print"])
+  .buttons(["csv", "excel"])
   .sortBy([["als_untangled_link", "asc"]])
   .listeners({
     rowClicked: function (row, data, index) {

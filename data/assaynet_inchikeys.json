@@ -1,7 +1,7 @@
 [
     {
         "inchikey": "pending",
-        "name": "RD2RD2 (peptide)",
+        "name": "RD2RD2",
         "tags": [
             {
                 "tag": "[cytokine]",
@@ -31,6 +31,9 @@
                 "tag": "gliosis and neurodegeneration",
                 "assay_classification": "I"
             }
+        ],
+        "names": [
+            "RD2RD2"
         ]
     },
     {
@@ -117,6 +120,10 @@
                 "tag": "survival",
                 "assay_classification": "I"
             }
+        ],
+        "names": [
+            "R13",
+            "R13"
         ]
     },
     {
@@ -130,7 +137,26 @@
             {
                 "tag": "neuroinflammatory [RNA]",
                 "assay_classification": "I"
+            },
+            {
+                "tag": "Movement Behaviour",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "lifespan",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "motor neuron count",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "spinal cord sections",
+                "assay_classification": "E"
             }
+        ],
+        "names": [
+            "oxaloacetate"
         ]
     },
     {
@@ -197,6 +223,9 @@
                 "tag": "plasma",
                 "assay_classification": "B"
             }
+        ],
+        "names": [
+            "CTEP"
         ]
     },
     {
@@ -208,9 +237,64 @@
                 "assay_classification": "I"
             },
             {
-                "tag": "behaviour profiling and tissue sampling",
+                "tag": "behavioural profiling",
                 "assay_classification": "I"
+            },
+            {
+                "tag": "CPT1A antagonist vs behavioral profiling and tissue sampling",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "fecal, aserum, muscle, spinal cord tissue and neurological score",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "high-fat die, behavioural profiling and tissue samples",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "neurological score",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "hanging test",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "rotarod",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "grip strength",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "cylinder test of sensorimotor function and spontaneous activity",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "y-maze test",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "serum glucose and lipid profiling",
+                "assay_classification": "B"
+            },
+            {
+                "tag": "proteins qPCR brain, spinal cord,  tibialis anterior muscle",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "peroxidase staining for lumbar spinal cord morphology",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "Various proteins by ELISA  in spinal cord and muscle tissues",
+                "assay_classification": "E"
             }
+        ],
+        "names": [
+            "etomoxir"
         ]
     },
     {
@@ -229,6 +313,9 @@
                 "tag": "gait analysis",
                 "assay_classification": "I"
             }
+        ],
+        "names": [
+            "DF402"
         ]
     },
     {
@@ -243,6 +330,9 @@
                 "tag": "cortical cell cutures",
                 "assay_classification": "C"
             }
+        ],
+        "names": [
+            "PFI-1"
         ]
     },
     {
@@ -265,6 +355,9 @@
                 "tag": "analysis of aberrant splicing",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "JQ1"
         ]
     },
     {
@@ -309,7 +402,7 @@
             },
             {
                 "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "assay_classification": "E"
             },
             {
                 "tag": "disease progression",
@@ -324,33 +417,96 @@
                 "assay_classification": "E"
             },
             {
-                "tag": "histochemical analysis",
+                "tag": "L-[ 3 H]glutamate uptake",
                 "assay_classification": "E"
             },
             {
-                "tag": "immunoblotting",
+                "tag": "glutamate transporters.",
                 "assay_classification": "E"
             },
             {
-                "tag": "neurological score",
+                "tag": "GLT-1, GLAST, EAAC1",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "spinal cord, brainstem",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "motor score",
                 "assay_classification": "I"
             },
             {
-                "tag": "MUNE",
+                "tag": "dragging hindlimbs",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "Motor unit number est MUNE",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "Electrical Impedance Myography",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "muscle function and motor unit count",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "EDL motor nerve",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "muscle fatigue",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "motoneurone count",
                 "assay_classification": "E"
             },
             {
-                "tag": "electron microscopy",
+                "tag": "spinal cord sections",
                 "assay_classification": "E"
             },
             {
-                "tag": "SPINAL CORD TOXICITY",
-                "assay_classification": "C"
+                "tag": "[SOD1]",
+                "assay_classification": "E"
             },
             {
-                "tag": "immunocytochemistry",
-                "assay_classification": "C"
+                "tag": "Motor performance",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "righting",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "Neuromuscular function",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "hindimb grip strength",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "Grip Strength apparatus",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "Neuronal quantitation",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "spinal column",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "areas of sections",
+                "assay_classification": "E"
             }
+        ],
+        "names": [
+            "riluzole"
         ]
     },
     {
@@ -377,6 +533,9 @@
                 "tag": "cell migration",
                 "assay_classification": "C"
             }
+        ],
+        "names": [
+            "Diphenyl diselenide"
         ]
     },
     {
@@ -407,6 +566,9 @@
                 "tag": "mRNAlpa1 levels",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "AM095"
         ]
     },
     {
@@ -425,6 +587,9 @@
                 "tag": "histone acetylation",
                 "assay_classification": "C"
             }
+        ],
+        "names": [
+            "Exifone"
         ]
     },
     {
@@ -443,6 +608,9 @@
                 "tag": "PAR-positive neuron count",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "RK-582"
         ]
     },
     {
@@ -454,7 +622,7 @@
                 "assay_classification": "C"
             },
             {
-                "tag": "protein profile",
+                "tag": "protein profiling",
                 "assay_classification": "E"
             },
             {
@@ -489,6 +657,9 @@
                 "tag": "nuclear staining",
                 "assay_classification": "C"
             }
+        ],
+        "names": [
+            "C12"
         ]
     },
     {
@@ -551,6 +722,9 @@
                 "tag": "caspase-3 assay",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "nicotinamide riboside"
         ]
     },
     {
@@ -613,6 +787,9 @@
                 "tag": "caspase-3 assay",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "pterostilbene"
         ]
     },
     {
@@ -643,6 +820,9 @@
                 "tag": "cytokine gene expression",
                 "assay_classification": "C"
             }
+        ],
+        "names": [
+            "BANA"
         ]
     },
     {
@@ -657,6 +837,9 @@
                 "tag": "NADH dhase spinal",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "okadaic acid"
         ]
     },
     {
@@ -687,6 +870,9 @@
                 "tag": "[TNF]",
                 "assay_classification": "C"
             }
+        ],
+        "names": [
+            "DBT"
         ]
     },
     {
@@ -701,6 +887,9 @@
                 "tag": "cell viability",
                 "assay_classification": "C"
             }
+        ],
+        "names": [
+            "ebselen"
         ]
     },
     {
@@ -716,9 +905,13 @@
                 "assay_classification": "C"
             },
             {
-                "tag": "motoneuron survival",
+                "tag": "motor neuron survival",
                 "assay_classification": "C"
             }
+        ],
+        "names": [
+            "acamprosate",
+            "Campral EC"
         ]
     },
     {
@@ -734,9 +927,16 @@
                 "assay_classification": "C"
             },
             {
-                "tag": "motoneuron survival",
+                "tag": "motor neuron survival",
                 "assay_classification": "C"
             }
+        ],
+        "names": [
+            "baclofen",
+            "Lioresal",
+            "Liofen",
+            "Gablofen",
+            "others"
         ]
     },
     {
@@ -759,6 +959,9 @@
                 "tag": "CDK6 mRNA",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "ERP1.14a"
         ]
     },
     {
@@ -781,6 +984,9 @@
                 "tag": "CDK6 mRNA",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "ERP1.28a"
         ]
     },
     {
@@ -799,6 +1005,9 @@
                 "tag": "PAR1 antagonists",
                 "assay_classification": "I"
             }
+        ],
+        "names": [
+            "SCH-79797"
         ]
     },
     {
@@ -825,6 +1034,9 @@
                 "tag": "expression profiling",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "6-deoxyjacareubin"
         ]
     },
     {
@@ -883,6 +1095,12 @@
                 "tag": "calpain",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "verapamil",
+            "Isoptin",
+            "Calan",
+            "others<ref name"
         ]
     },
     {
@@ -901,6 +1119,9 @@
                 "tag": "sciatic nerve injury",
                 "assay_classification": "I"
             }
+        ],
+        "names": [
+            "cromolyn sodium"
         ]
     },
     {
@@ -920,13 +1141,36 @@
                 "assay_classification": "I"
             },
             {
-                "tag": "pending",
+                "tag": "DISEASE PROGRESSION",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "RESPIRITORY FUNCTION",
                 "assay_classification": "CT"
             },
             {
                 "tag": "FVC",
                 "assay_classification": "CT"
+            },
+            {
+                "tag": "PULMONARY FUNCTION",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "NEUROLOgical Assessment",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "ECG",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "LABORATORY ASSESSMENT",
+                "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "cromolyn"
         ]
     },
     {
@@ -937,6 +1181,9 @@
                 "tag": "spinal cord explants, myoblasts network",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "ambroxol hydrochloride"
         ]
     },
     {
@@ -947,6 +1194,9 @@
                 "tag": "spinal cord explants, myoblasts network",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "ambroxol"
         ]
     },
     {
@@ -957,6 +1207,9 @@
                 "tag": "myofibres",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "BzATP"
         ]
     },
     {
@@ -1024,9 +1277,12 @@
                 "assay_classification": "CT"
             },
             {
-                "tag": "pending",
+                "tag": "CRAMP FREQUENCY",
                 "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "pimozide"
         ]
     },
     {
@@ -1045,6 +1301,12 @@
                 "tag": "survival",
                 "assay_classification": "I"
             }
+        ],
+        "names": [
+            "nifedipine",
+            "Adalat",
+            "Procardia",
+            "others"
         ]
     },
     {
@@ -1064,6 +1326,58 @@
                 "assay_classification": "CT"
             },
             {
+                "tag": "disease onset",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "rightng",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "pending",
+                "assay_classification": "PreClin pending"
+            },
+            {
+                "tag": "neutrophil infiltration",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "elastase and MPO",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "Elastase-positive neutrophil count",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "myofibre analysis",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "fast to regular ratio",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "EDL muscle",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "axon count",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "sciatic nerve sections",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "mast cell count",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "various tissues",
+                "assay_classification": "E"
+            },
+            {
                 "tag": "ALSFRS-R",
                 "assay_classification": "CT"
             },
@@ -1080,10 +1394,6 @@
                 "assay_classification": "CT"
             },
             {
-                "tag": "pending",
-                "assay_classification": "CT"
-            },
-            {
                 "tag": "SVC",
                 "assay_classification": "CT"
             },
@@ -1091,6 +1401,9 @@
                 "tag": "GRIP POWER",
                 "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "masitinib"
         ]
     },
     {
@@ -1109,6 +1422,9 @@
                 "tag": "thermophoresis TDP-43  binding",
                 "assay_classification": "B"
             }
+        ],
+        "names": [
+            "rTRD01"
         ]
     },
     {
@@ -1116,7 +1432,7 @@
         "name": "MAP4K4 inhibitor 29",
         "tags": [
             {
-                "tag": "motor neurone survival",
+                "tag": "motor neuron survival",
                 "assay_classification": "C"
             },
             {
@@ -1131,6 +1447,9 @@
                 "tag": "apoptosis assay",
                 "assay_classification": "C"
             }
+        ],
+        "names": [
+            "MAP4K4 inhibitor 29"
         ]
     },
     {
@@ -1144,7 +1463,46 @@
             {
                 "tag": "analysis of aberrant splicing",
                 "assay_classification": "E"
+            },
+            {
+                "tag": "Motor performance",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "weight",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "righting",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "Neuromuscular function",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "hindimb grip strength",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "Grip Strength apparatus",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "Neuronal quantitation",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "spinal column",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "areas of sections",
+                "assay_classification": "E"
             }
+        ],
+        "names": [
+            "sodium phenylbutyrate"
         ]
     },
     {
@@ -1171,6 +1529,9 @@
                 "tag": "muscle force and endplate innervation.",
                 "assay_classification": "I"
             }
+        ],
+        "names": [
+            "SB-239272"
         ]
     },
     {
@@ -1201,6 +1562,9 @@
                 "tag": "3H-glutamate uptake in glial cells or lumbar spinal cord slices",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "MC1568"
         ]
     },
     {
@@ -1211,6 +1575,9 @@
                 "tag": "mice treatment",
                 "assay_classification": "I"
             }
+        ],
+        "names": [
+            "conduritol B epoxide"
         ]
     },
     {
@@ -1285,6 +1652,9 @@
                 "tag": "fluorescence of TBA",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "n-butylidenephthalide"
         ]
     },
     {
@@ -1303,6 +1673,9 @@
                 "tag": "EphA proteins binding compound",
                 "assay_classification": "B"
             }
+        ],
+        "names": [
+            "123C4"
         ]
     },
     {
@@ -1316,7 +1689,38 @@
             {
                 "tag": "[E2]in serum by ELISA",
                 "assay_classification": "E"
+            },
+            {
+                "tag": "ERa and ERb receptors in explants",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "western blot",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "protein profiling",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "phosphorylation of Akt",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "spinal cord motor neurones",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "Apoptotic Motoneuron Death.",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "rat spinal cord explants",
+                "assay_classification": "E"
             }
+        ],
+        "names": [
+            "17\u03b2-estradiol"
         ]
     },
     {
@@ -1375,6 +1779,10 @@
                 "tag": "Nissl staining",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "AMD3100",
+            "Mozobil"
         ]
     },
     {
@@ -1393,6 +1801,9 @@
                 "tag": "spinal cord culture",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "IAXO-102"
         ]
     },
     {
@@ -1411,6 +1822,9 @@
                 "tag": "survival",
                 "assay_classification": "I"
             }
+        ],
+        "names": [
+            "K811"
         ]
     },
     {
@@ -1482,11 +1896,51 @@
                 "assay_classification": "I"
             },
             {
-                "tag": "pending",
-                "assay_classification": "CT"
+                "tag": "clinical assesment",
+                "assay_classification": "I"
             },
             {
-                "tag": "immunofluorescence",
+                "tag": "righting",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "in vivo bioluminescent imaging",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "bioluminescent signals of spinal cord",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "serum analyses and kidney weight",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "serum antioxidant capacity",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "kidney weight",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "protein profiling",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "quadriceps muscle sections",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "spinal cord sections",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "MN  degeneration and gliosis",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "immunostaining",
                 "assay_classification": "E"
             },
             {
@@ -1502,6 +1956,26 @@
                 "assay_classification": "CT"
             },
             {
+                "tag": "Muscle Strength",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "FUNCTIONAL STATUS",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "QUALITY OF LIFE",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "NORRIS SCALE",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "ALSAQ40",
+                "assay_classification": "CT"
+            },
+            {
                 "tag": "Laboratory Tests",
                 "assay_classification": "CT"
             },
@@ -1510,13 +1984,20 @@
                 "assay_classification": "CT"
             },
             {
-                "tag": "NORRIS SCALE",
+                "tag": "DISEASE PROGRESSION",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "pending",
                 "assay_classification": "CT"
             },
             {
                 "tag": "ALSAQ-40",
                 "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "edaravone"
         ]
     },
     {
@@ -1555,6 +2036,10 @@
                 "tag": "RT-PCR",
                 "assay_classification": "I"
             }
+        ],
+        "names": [
+            "bexarotene",
+            "Targretin"
         ]
     },
     {
@@ -1569,6 +2054,15 @@
                 "tag": "GAPDH",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "ACTH",
+            "Acortan",
+            "Acthar",
+            "Acton",
+            "Cortigel",
+            "Trofocortina",
+            "Adrenocorticotropic hormone"
         ]
     },
     {
@@ -1623,6 +2117,9 @@
                 "tag": "western blot",
                 "assay_classification": "PreClin pending"
             }
+        ],
+        "names": [
+            "KW-6002"
         ]
     },
     {
@@ -1665,6 +2162,9 @@
                 "tag": "fluorescence",
                 "assay_classification": "C"
             }
+        ],
+        "names": [
+            "clemastine"
         ]
     },
     {
@@ -1715,6 +2215,10 @@
                 "tag": "thorasic  spinal cord  [c-synuclein]",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "latrepirdine",
+            "Dimebon"
         ]
     },
     {
@@ -1753,6 +2257,9 @@
                 "tag": "T lymphocyte protein profiling",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "withaferin A"
         ]
     },
     {
@@ -1771,6 +2278,9 @@
                 "tag": "ROS microdialysis assay",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "JAK4D"
         ]
     },
     {
@@ -1789,6 +2299,9 @@
                 "tag": "guanabenz effect multiple ER stress markers spinal cord  via western",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "guanabenz"
         ]
     },
     {
@@ -1819,11 +2332,15 @@
                 "tag": "motor neuron count",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "7,8-DHF",
+            "Tropoflavin"
         ]
     },
     {
         "inchikey": "XZNHUZDSSZMVLD-UHFFFAOYSA-N",
-        "name": "WN1316 (HCl)",
+        "name": "WN1316",
         "tags": [
             {
                 "tag": "viability",
@@ -1837,11 +2354,14 @@
                 "tag": "[GSSG] and [GSH] in  SH-SY5Y cells",
                 "assay_classification": "C"
             }
+        ],
+        "names": [
+            "WN1316"
         ]
     },
     {
         "inchikey": "JPLQUMVXDBHHSG-UHFFFAOYSA-N",
-        "name": "WN1316 (parent)",
+        "name": "WN1316",
         "tags": [
             {
                 "tag": "viability",
@@ -1927,6 +2447,9 @@
                 "tag": "muscle morphology",
                 "assay_classification": "I"
             }
+        ],
+        "names": [
+            "WN1316"
         ]
     },
     {
@@ -1941,6 +2464,10 @@
                 "tag": "survival",
                 "assay_classification": "I"
             }
+        ],
+        "names": [
+            "GSK2606414",
+            "<!--Identifiers-->"
         ]
     },
     {
@@ -1959,6 +2486,9 @@
                 "tag": "rotarod",
                 "assay_classification": "I"
             }
+        ],
+        "names": [
+            "SA4503, cutamesine"
         ]
     },
     {
@@ -2041,6 +2571,9 @@
                 "tag": "spinal cord",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "PRE-084"
         ]
     },
     {
@@ -2067,6 +2600,9 @@
                 "tag": "Cresyl violet staining",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "GSK-3\u03b2 Inhibitor VIII"
         ]
     },
     {
@@ -2076,7 +2612,26 @@
             {
                 "tag": "[olesoxime] plasma, cerebral, spinal cord",
                 "assay_classification": "E"
+            },
+            {
+                "tag": "Mouse MN Survival",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "Human MN Differentiation and Survival",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "morphologiy and electrophysiology",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "Whole-cell current-clamp",
+                "assay_classification": "C"
             }
+        ],
+        "names": [
+            "olesoxime, TRO19622"
         ]
     },
     {
@@ -2091,6 +2646,9 @@
                 "tag": "SOD2 RNA <",
                 "assay_classification": "C"
             }
+        ],
+        "names": [
+            "MLS000528306"
         ]
     },
     {
@@ -2105,7 +2663,8 @@
                 "tag": "SOD2 RNA <",
                 "assay_classification": "C"
             }
-        ]
+        ],
+        "names": null
     },
     {
         "inchikey": "HQXGGQFJDPNXJL-UHFFFAOYSA-N",
@@ -2131,7 +2690,8 @@
                 "tag": "rotarod",
                 "assay_classification": "I"
             }
-        ]
+        ],
+        "names": null
     },
     {
         "inchikey": "OSXFATOLZGZLSK-UHFFFAOYSA-N",
@@ -2149,7 +2709,8 @@
                 "tag": "cell protection",
                 "assay_classification": "C"
             }
-        ]
+        ],
+        "names": null
     },
     {
         "inchikey": "NIHSNFSFDGHHRG-SDNWHVSQSA-N",
@@ -2167,7 +2728,8 @@
                 "tag": "cell protection",
                 "assay_classification": "C"
             }
-        ]
+        ],
+        "names": null
     },
     {
         "inchikey": "ZLXAZQJEBYTDCD-UHFFFAOYSA-N",
@@ -2189,7 +2751,8 @@
                 "tag": "anti inflammatory",
                 "assay_classification": "I"
             }
-        ]
+        ],
+        "names": null
     },
     {
         "inchikey": "CFMRIVODIXTERW-BHIFYINESA-N",
@@ -2212,14 +2775,15 @@
                 "assay_classification": "E"
             },
             {
-                "tag": "motor neurone quality",
+                "tag": "motor neuron quality",
                 "assay_classification": "I"
             },
             {
                 "tag": "[GFAP]",
                 "assay_classification": "E"
             }
-        ]
+        ],
+        "names": null
     },
     {
         "inchikey": "LIPHFEVGKVUDBY-UHFFFAOYSA-N",
@@ -2229,7 +2793,8 @@
                 "tag": "pending",
                 "assay_classification": "B"
             }
-        ]
+        ],
+        "names": null
     },
     {
         "inchikey": "NGOGFTYYXHNFQH-UHFFFAOYSA-N",
@@ -2241,10 +2806,26 @@
             },
             {
                 "tag": "pending",
-                "assay_classification": "CT"
+                "assay_classification": "B"
             },
             {
                 "tag": "rotarod",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "compound muscle action potential",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "disease progression by neurological score",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "foot dragging",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "trembling",
                 "assay_classification": "I"
             },
             {
@@ -2260,6 +2841,10 @@
                 "assay_classification": "I"
             },
             {
+                "tag": "ventral horn cells",
+                "assay_classification": "I"
+            },
+            {
                 "tag": "microglia count",
                 "assay_classification": "I"
             },
@@ -2269,6 +2854,14 @@
             },
             {
                 "tag": "FVC",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "SF-36",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "COGNITIVE FUNCTION",
                 "assay_classification": "CT"
             },
             {
@@ -2287,6 +2880,9 @@
                 "tag": "SVC",
                 "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "Fasudil"
         ]
     },
     {
@@ -2305,7 +2901,8 @@
                 "tag": "[peptide]",
                 "assay_classification": "E"
             }
-        ]
+        ],
+        "names": null
     },
     {
         "inchikey": "XVPBINOPNYFXID-LHDUFFHYSA-N",
@@ -2319,6 +2916,140 @@
                 "tag": "spinal cord pro- and anti-inflammatory mediators by qRT-PCR",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "Oxymatrine"
+        ]
+    },
+    {
+        "inchikey": "VMWNQDUVQKEIOC-ZDUSSCGKSA-N",
+        "name": "Apomorphine-S",
+        "tags": [
+            {
+                "tag": "oxidative stress",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "SOD1 overexpression NSC34 cells",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "native gel enzyme assay",
+                "assay_classification": "B"
+            },
+            {
+                "tag": "embryonic survival of oxidative stressor by heartbeat",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "embryonic survival of oxidative stressor + drug",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "embryo neuromuscular junction staining",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "CHAT imunohistochem (< ALS)",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "Zebrafish imaging global movment assay",
+                "assay_classification": "I"
+            }
+        ],
+        "names": [
+            "Apomorphine-S"
+        ]
+    },
+    {
+        "inchikey": "QQUXFYAWXPMDOE-UHFFFAOYSA-N",
+        "name": "kenpaullone",
+        "tags": [
+            {
+                "tag": "mouse motor neurone differentiation and survival",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "human  motor neurone differentiation and survival",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "mouse motor neurone siRNA knockdown",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "nuclear staining",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "western forp-c-Jun, c-Jun, p-JNK and JNK",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "MAP4K4i addition and primary MN counts",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "apoptosi detection by nuclear changes",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "Mouse MN Survival",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "Human MN Differentiation and Survival",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "morphologiy and electrophysiology",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "Whole-cell current-clamp",
+                "assay_classification": "C"
+            }
+        ],
+        "names": [
+            "kenpaullone"
+        ]
+    },
+    {
+        "inchikey": "ACPOUJIDANTYHO-UHFFFAOYSA-N",
+        "name": "SP600125",
+        "tags": [
+            {
+                "tag": "mouse motor neurone differentiation and survival",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "human  motor neurone differentiation and survival",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "mouse motor neurone siRNA knockdown",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "nuclear staining",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "western forp-c-Jun, c-Jun, p-JNK and JNK",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "MAP4K4i addition and primary MN counts",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "apoptosi detection by nuclear changes",
+                "assay_classification": "C"
+            }
+        ],
+        "names": [
+            "SP600125"
         ]
     },
     {
@@ -2337,6 +3068,9 @@
                 "tag": "swimming",
                 "assay_classification": "I"
             }
+        ],
+        "names": [
+            "Ciprofloxacin"
         ]
     },
     {
@@ -2356,7 +3090,11 @@
                 "assay_classification": "I"
             },
             {
-                "tag": "rotarod",
+                "tag": "behavioural profiling",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "weight",
                 "assay_classification": "I"
             },
             {
@@ -2364,9 +3102,24 @@
                 "assay_classification": "I"
             },
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "tag": "[prostaglandin E2]",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "brain and spinal cord",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "[COX2]",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "spinal cord sections",
+                "assay_classification": "E"
             }
+        ],
+        "names": [
+            "Celecoxib"
         ]
     },
     {
@@ -2445,6 +3198,9 @@
                 "tag": "RT-PCR",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "pioglitazone"
         ]
     },
     {
@@ -2503,6 +3259,9 @@
                 "tag": "plasma",
                 "assay_classification": "I"
             }
+        ],
+        "names": [
+            "RD2RD2"
         ]
     },
     {
@@ -2541,40 +3300,9 @@
                 "tag": "grip strength",
                 "assay_classification": "I"
             }
-        ]
-    },
-    {
-        "inchikey": "N/a",
-        "name": "ACTH (Acthar Gel)",
-        "tags": [
-            {
-                "tag": "motor performance",
-                "assay_classification": "I"
-            },
-            {
-                "tag": "weight",
-                "assay_classification": "I"
-            },
-            {
-                "tag": "tremors",
-                "assay_classification": "I"
-            },
-            {
-                "tag": "disease onset",
-                "assay_classification": "I"
-            },
-            {
-                "tag": "[SOD1]",
-                "assay_classification": "E"
-            },
-            {
-                "tag": "SOD1 activity",
-                "assay_classification": "B"
-            },
-            {
-                "tag": "GAPDH",
-                "assay_classification": "B"
-            }
+        ],
+        "names": [
+            "adenosine"
         ]
     },
     {
@@ -2585,6 +3313,9 @@
                 "tag": "neuropathology profile",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "AIT-082"
         ]
     },
     {
@@ -2611,6 +3342,9 @@
                 "tag": "immunoblotting",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "diallyl trisulfide"
         ]
     },
     {
@@ -2630,7 +3364,7 @@
                 "assay_classification": "E"
             },
             {
-                "tag": "spinal tissue",
+                "tag": "spinal cord tissue",
                 "assay_classification": "E"
             },
             {
@@ -2697,6 +3431,9 @@
                 "tag": "western blot",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "Resveratrol"
         ]
     },
     {
@@ -2732,11 +3469,19 @@
                 "assay_classification": "B"
             },
             {
-                "tag": "pending",
-                "assay_classification": "CT"
+                "tag": "animal treatment",
+                "assay_classification": "I"
             },
             {
-                "tag": "rotarod",
+                "tag": "behavioual testing",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "extension reflex",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "weight",
                 "assay_classification": "I"
             },
             {
@@ -2758,7 +3503,18 @@
             {
                 "tag": "ACE",
                 "assay_classification": "CT"
+            },
+            {
+                "tag": "MUNE",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "VITAL CAPACITY",
+                "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "memantine nitrate"
         ]
     },
     {
@@ -2774,10 +3530,6 @@
                 "assay_classification": "I"
             },
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
-            },
-            {
                 "tag": "survival",
                 "assay_classification": "I"
             },
@@ -2788,7 +3540,18 @@
             {
                 "tag": "spinal cord western blot",
                 "assay_classification": "E"
+            },
+            {
+                "tag": "CNR2 and \u00a0CNR1 binding",
+                "assay_classification": "B"
+            },
+            {
+                "tag": "pending",
+                "assay_classification": "PreClin pending"
             }
+        ],
+        "names": [
+            "AM1241"
         ]
     },
     {
@@ -2803,6 +3566,14 @@
                 "tag": "survival",
                 "assay_classification": "I"
             }
+        ],
+        "names": [
+            "desmethylselegiline",
+            "Eldepryl",
+            "Jumex",
+            "Zelapar",
+            "Emsam",
+            "others<ref name"
         ]
     },
     {
@@ -2817,6 +3588,9 @@
                 "tag": "survival",
                 "assay_classification": "I"
             }
+        ],
+        "names": [
+            "trientine"
         ]
     },
     {
@@ -2831,6 +3605,9 @@
                 "tag": "survival",
                 "assay_classification": "I"
             }
+        ],
+        "names": [
+            "lipoic acid"
         ]
     },
     {
@@ -2845,6 +3622,9 @@
                 "tag": "survival",
                 "assay_classification": "I"
             }
+        ],
+        "names": [
+            "lipoic acid"
         ]
     },
     {
@@ -2875,6 +3655,9 @@
                 "tag": "survival",
                 "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "amino acid copolymer glatiramer acetate"
         ]
     },
     {
@@ -2909,6 +3692,9 @@
                 "tag": "spinal cord",
                 "assay_classification": "I"
             }
+        ],
+        "names": [
+            "L-745,870"
         ]
     },
     {
@@ -2951,6 +3737,9 @@
                 "tag": "western blot",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "Ammonium tetrathiomolybdate"
         ]
     },
     {
@@ -2996,11 +3785,10 @@
             {
                 "tag": "muscle strength",
                 "assay_classification": "I"
-            },
-            {
-                "tag": "protein profling",
-                "assay_classification": "E"
             }
+        ],
+        "names": [
+            "minocycline"
         ]
     },
     {
@@ -3051,6 +3839,9 @@
                 "tag": "rotarod",
                 "assay_classification": "I"
             }
+        ],
+        "names": [
+            "trichostatin A"
         ]
     },
     {
@@ -3133,6 +3924,11 @@
                 "tag": "RT-PCR",
                 "assay_classification": "C"
             }
+        ],
+        "names": [
+            "Bromocriptine methylate",
+            "Originally Parlodel",
+            "subsequently many<ref name"
         ]
     },
     {
@@ -3160,10 +3956,6 @@
                 "assay_classification": "I"
             },
             {
-                "tag": "grip strenght",
-                "assay_classification": "I"
-            },
-            {
                 "tag": "extension reflex",
                 "assay_classification": "I"
             },
@@ -3175,6 +3967,11 @@
                 "tag": "stride",
                 "assay_classification": "I"
             }
+        ],
+        "names": [
+            "lysine acetylsalicylate",
+            "[[Bayer#Aspirin|Bayer Aspirin]]",
+            "many others"
         ]
     },
     {
@@ -3225,6 +4022,9 @@
                 "tag": "Immunohistochemistry",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "DL-3-n-butylphthalide"
         ]
     },
     {
@@ -3275,6 +4075,9 @@
                 "tag": "Immunohistochemistry",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "DL-3-n-butylphthalide"
         ]
     },
     {
@@ -3333,6 +4136,9 @@
                 "tag": "protein oxidation",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "\u03b3-Oryzanol"
         ]
     },
     {
@@ -3391,6 +4197,9 @@
                 "tag": "protein oxidation",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "\u03b3-Oryzanol"
         ]
     },
     {
@@ -3449,6 +4258,9 @@
                 "tag": "protein oxidation",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "\u03b3-Oryzanol"
         ]
     },
     {
@@ -3492,7 +4304,11 @@
                 "assay_classification": "I"
             },
             {
-                "tag": "rotarod",
+                "tag": "clinical assesment",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "neurological score",
                 "assay_classification": "I"
             },
             {
@@ -3500,14 +4316,37 @@
                 "assay_classification": "I"
             },
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "tag": "motor neuron survival",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "proten profiling",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "tissue fractioms",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "[melatonin]",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "spinal cord",
+                "assay_classification": "E"
             }
+        ],
+        "names": [
+            "melatonin",
+            "Circadin",
+            "Slenyto",
+            "others<ref>{{cite news|url",
+            "Melatonin"
         ]
     },
     {
         "inchikey": "GHGZVWOTJDLREY-UHFFFAOYSA-N",
-        "name": "2-(2-hydroxyphenyl)-benzoxazole",
+        "name": "2--benzoxazole",
         "tags": [
             {
                 "tag": "disease onset",
@@ -3565,6 +4404,10 @@
                 "tag": "muscle tissues",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "2--benzoxazole",
+            "HBX"
         ]
     },
     {
@@ -3575,16 +4418,10 @@
                 "tag": "survival",
                 "assay_classification": "I"
             }
-        ]
-    },
-    {
-        "inchikey": "AAOVKJBEBIDNHE-UHFFFAOYSA-N",
-        "name": "diazepam",
-        "tags": [
-            {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
-            }
+        ],
+        "names": [
+            "methionine sulfoximine",
+            "MSO"
         ]
     },
     {
@@ -3624,15 +4461,15 @@
                 "assay_classification": "B"
             },
             {
-                "tag": "MRS",
-                "assay_classification": "C"
-            },
-            {
-                "tag": "pending",
+                "tag": "ALSFRS-R",
                 "assay_classification": "CT"
             },
             {
-                "tag": "ALSFRS-R",
+                "tag": "VITAL CAPACITY",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "TRACHEOSTOMY",
                 "assay_classification": "CT"
             },
             {
@@ -3647,6 +4484,9 @@
                 "tag": "FVC",
                 "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "Creatine"
         ]
     },
     {
@@ -3685,6 +4525,9 @@
                 "tag": "blood",
                 "assay_classification": "PreClin pending"
             }
+        ],
+        "names": [
+            "caffeic acid phenethyl ester"
         ]
     },
     {
@@ -3723,92 +4566,9 @@
                 "tag": "blood",
                 "assay_classification": "PreClin pending"
             }
-        ]
-    },
-    {
-        "inchikey": "HBBGRARXTFLTSG-UHFFFAOYSA-N",
-        "name": "Lithium",
-        "tags": [
-            {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
-            },
-            {
-                "tag": "protein profiling",
-                "assay_classification": "E"
-            },
-            {
-                "tag": "spinal cord",
-                "assay_classification": "E"
-            },
-            {
-                "tag": "transcript profiling",
-                "assay_classification": "E"
-            },
-            {
-                "tag": "RT-PCR",
-                "assay_classification": "E"
-            },
-            {
-                "tag": "reduced Notch1 mRNA expression",
-                "assay_classification": "C"
-            },
-            {
-                "tag": "viability",
-                "assay_classification": "C"
-            },
-            {
-                "tag": "spectrophotometry",
-                "assay_classification": "C"
-            },
-            {
-                "tag": "stride",
-                "assay_classification": "I"
-            },
-            {
-                "tag": "paw grip endurance",
-                "assay_classification": "I"
-            },
-            {
-                "tag": "rotarod",
-                "assay_classification": "I"
-            },
-            {
-                "tag": "western blot",
-                "assay_classification": "PreClin pending"
-            },
-            {
-                "tag": "reflex test",
-                "assay_classification": "I"
-            },
-            {
-                "tag": "balance beam",
-                "assay_classification": "I"
-            },
-            {
-                "tag": "screen test",
-                "assay_classification": "I"
-            },
-            {
-                "tag": "tail suspension test",
-                "assay_classification": "I"
-            },
-            {
-                "tag": "behavioural profiling",
-                "assay_classification": "I"
-            },
-            {
-                "tag": "electron microscopy",
-                "assay_classification": "E"
-            },
-            {
-                "tag": "SPINAL CORD TOXICITY",
-                "assay_classification": "C"
-            },
-            {
-                "tag": "immunocytochemistry",
-                "assay_classification": "C"
-            }
+        ],
+        "names": [
+            "caffeic acid phenethyl ester"
         ]
     },
     {
@@ -3983,6 +4743,9 @@
                 "tag": "muscle homogenates",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "Trehalose"
         ]
     },
     {
@@ -4019,7 +4782,7 @@
             },
             {
                 "tag": "protein profiling",
-                "assay_classification": "E"
+                "assay_classification": "C"
             },
             {
                 "tag": "NSC34 cells",
@@ -4100,63 +4863,103 @@
             {
                 "tag": "HPLC",
                 "assay_classification": "C"
+            }
+        ],
+        "names": [
+            "Trehalose"
+        ]
+    },
+    {
+        "inchikey": "HBBGRARXTFLTSG-UHFFFAOYSA-N",
+        "name": "lithium",
+        "tags": [
+            {
+                "tag": "protein profiling",
+                "assay_classification": "E"
             },
             {
-                "tag": "lifespan",
+                "tag": "spinal cord",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "transcript profiling",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "RT-PCR",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "reduced Notch1 mRNA expression",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "viability",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "spectrophotometry",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "mRNA level of Homer1b/c",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "lumbar spinal cords",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "siRNA knock down of Homer1b/cin",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "cell viability",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "TUNEL staining for apoptosis",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "NSC34 cells",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "neurological deficits.",
                 "assay_classification": "I"
             },
             {
-                "tag": "SOD1, AcH",
-                "assay_classification": "E"
+                "tag": "rotarod",
+                "assay_classification": "I"
             },
             {
-                "tag": "LC3B, SQSTM1, ubiquitin",
-                "assay_classification": "E"
+                "tag": "forelimb strengh",
+                "assay_classification": "I"
             },
             {
-                "tag": "motor neuron survival",
-                "assay_classification": "E"
+                "tag": "unable to walk",
+                "assay_classification": "I"
             },
             {
-                "tag": "SMI- 32 antibody",
-                "assay_classification": "E"
+                "tag": "balance beam",
+                "assay_classification": "I"
             },
             {
-                "tag": "spinal cord sections",
-                "assay_classification": "E"
+                "tag": "screen test",
+                "assay_classification": "I"
             },
             {
-                "tag": "SDS-PAGE",
-                "assay_classification": "E"
+                "tag": "tail suspension test",
+                "assay_classification": "I"
             },
             {
-                "tag": "tissue extracts",
-                "assay_classification": "E"
-            },
-            {
-                "tag": "subcellular counts",
-                "assay_classification": "E"
-            },
-            {
-                "tag": "mitochondria",
-                "assay_classification": "E"
-            },
-            {
-                "tag": "electron microscopy",
-                "assay_classification": "E"
-            },
-            {
-                "tag": "gastrocnemius muscle",
-                "assay_classification": "E"
-            },
-            {
-                "tag": "microscopy",
-                "assay_classification": "E"
-            },
-            {
-                "tag": "muscle homogenates",
-                "assay_classification": "E"
+                "tag": "behavioural profiling",
+                "assay_classification": "I"
             }
+        ],
+        "names": [
+            "lithium"
         ]
     },
     {
@@ -4192,15 +4995,31 @@
                 "assay_classification": "C"
             },
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "tag": "SH-SY5Y cells",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "viability folowing tretment",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "autophagic vacuole detectiom",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "neurological deficits.",
+                "assay_classification": "I"
             },
             {
                 "tag": "rotarod",
                 "assay_classification": "I"
             },
             {
-                "tag": "reflex test",
+                "tag": "forelimb strengh",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "unable to walk",
                 "assay_classification": "I"
             },
             {
@@ -4215,6 +5034,13 @@
                 "tag": "tail suspension test",
                 "assay_classification": "I"
             }
+        ],
+        "names": [
+            "valproate",
+            "Depakote",
+            "Epilim",
+            "Convulex",
+            "[[#Formulations|others]]"
         ]
     },
     {
@@ -4249,6 +5075,9 @@
                 "tag": "mouse spinal chord",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "Fisetin"
         ]
     },
     {
@@ -4283,188 +5112,9 @@
                 "tag": "mouse spinal chord",
                 "assay_classification": "E"
             }
-        ]
-    },
-    {
-        "inchikey": "SPBDXSGPUHCETR-JFUDTMANSA-N",
-        "name": "Ivermectin",
-        "tags": [
-            {
-                "tag": "cell survival",
-                "assay_classification": "C"
-            },
-            {
-                "tag": "cells hypoglycemia treatment",
-                "assay_classification": "C"
-            },
-            {
-                "tag": "electrophysiology",
-                "assay_classification": "E"
-            },
-            {
-                "tag": "neurone count",
-                "assay_classification": "E"
-            },
-            {
-                "tag": "ventral horn",
-                "assay_classification": "E"
-            },
-            {
-                "tag": "histology",
-                "assay_classification": "E"
-            }
-        ]
-    },
-    {
-        "inchikey": "ADNPLDHMAVUMIW-CUZNLEPHSA-N",
-        "name": "Substance P",
-        "tags": [
-            {
-                "tag": "patch-clamp recordings",
-                "assay_classification": "E"
-            },
-            {
-                "tag": "primary cortical neurones",
-                "assay_classification": "E"
-            },
-            {
-                "tag": "[TACR1]",
-                "assay_classification": "C"
-            },
-            {
-                "tag": "protein profiling",
-                "assay_classification": "C"
-            },
-            {
-                "tag": "8-day-old cells",
-                "assay_classification": "C"
-            }
-        ]
-    },
-    {
-        "inchikey": "RJKFOVLPORLFTN-LEKSSAKUSA-N",
-        "name": "progesterone",
-        "tags": [
-            {
-                "tag": "motor function",
-                "assay_classification": "I"
-            },
-            {
-                "tag": "motor neurone counts",
-                "assay_classification": "E"
-            },
-            {
-                "tag": "anterior horn sections",
-                "assay_classification": "E"
-            },
-            {
-                "tag": "motor neuron marker [SMI32]",
-                "assay_classification": "C"
-            },
-            {
-                "tag": "spinal cord slice cultures",
-                "assay_classification": "C"
-            },
-            {
-                "tag": "protein profiling",
-                "assay_classification": "E"
-            },
-            {
-                "tag": "tissues and cells",
-                "assay_classification": "E"
-            }
-        ]
-    },
-    {
-        "inchikey": "CETPSERCERDGAM-UHFFFAOYSA-N",
-        "name": "Cerium oxide nanoparticles",
-        "tags": [
-            {
-                "tag": "muscle strength",
-                "assay_classification": "I"
-            },
-            {
-                "tag": "righting",
-                "assay_classification": "I"
-            }
-        ]
-    },
-    {
-        "inchikey": "TXCWBWKVIZGWEQ-UHFFFAOYSA-N",
-        "name": "masitinib mesylate",
-        "tags": [
-            {
-                "tag": "disease progression",
-                "assay_classification": "I"
-            },
-            {
-                "tag": "righting",
-                "assay_classification": "I"
-            },
-            {
-                "tag": "protein profiling",
-                "assay_classification": "E"
-            },
-            {
-                "tag": "spinal cord",
-                "assay_classification": "E"
-            },
-            {
-                "tag": "glial cells",
-                "assay_classification": "E"
-            },
-            {
-                "tag": "micro gliamarkers Iba-1, CD206,  CD68",
-                "assay_classification": "E"
-            },
-            {
-                "tag": "microgliosis spreading",
-                "assay_classification": "E"
-            },
-            {
-                "tag": "ventral horn",
-                "assay_classification": "E"
-            },
-            {
-                "tag": "motor neuron count",
-                "assay_classification": "E"
-            },
-            {
-                "tag": "size of motor neuron soma",
-                "assay_classification": "E"
-            },
-            {
-                "tag": "Microglia migratory capacity",
-                "assay_classification": "C"
-            },
-            {
-                "tag": "microscopy",
-                "assay_classification": "C"
-            },
-            {
-                "tag": "M-CSF induced proliferation",
-                "assay_classification": "C"
-            },
-            {
-                "tag": "Microglial cell count",
-                "assay_classification": "C"
-            },
-            {
-                "tag": "microglia cell count",
-                "assay_classification": "E"
-            },
-            {
-                "tag": "transcript profiling",
-                "assay_classification": "E"
-            },
-            {
-                "tag": "RT-PCR",
-                "assay_classification": "E"
-            },
-            {
-                "tag": "kinase inhibition assay",
-                "assay_classification": "B"
-            }
+        ],
+        "names": [
+            "Fisetin"
         ]
     },
     {
@@ -4492,11 +5142,11 @@
                 "assay_classification": "E"
             },
             {
-                "tag": "ventral horn",
+                "tag": "ultrathin sections",
                 "assay_classification": "E"
             },
             {
-                "tag": "ultrathin sections",
+                "tag": "ventral horn",
                 "assay_classification": "E"
             },
             {
@@ -4512,13 +5162,40 @@
                 "assay_classification": "E"
             },
             {
-                "tag": "Stereological analysis of spinal cords",
+                "tag": "Stereological analyses",
                 "assay_classification": "E"
             },
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "tag": "reducing power",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "carbonylated proteins",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "hSOD1 dimer",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "SDS\u2013PAGE",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "western blot",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "unfolded SOD1",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "conformational specific antibody",
+                "assay_classification": "E"
             }
+        ],
+        "names": [
+            "Tempol"
         ]
     },
     {
@@ -4549,6 +5226,10 @@
                 "tag": "rotarod",
                 "assay_classification": "I"
             }
+        ],
+        "names": [
+            "Fingolimod",
+            "Gilenya"
         ]
     },
     {
@@ -4603,6 +5284,9 @@
                 "tag": "hypertrophic glial cell count",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "Dichloroacetate"
         ]
     },
     {
@@ -4657,6 +5341,9 @@
                 "tag": "hypertrophic glial cell count",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "Dichloroacetate"
         ]
     },
     {
@@ -4687,6 +5374,9 @@
                 "tag": "protein profiling",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "Docosahexaenoic Acid"
         ]
     },
     {
@@ -4717,6 +5407,9 @@
                 "tag": "protein profiling",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "Docosahexaenoic Acid"
         ]
     },
     {
@@ -4759,6 +5452,9 @@
                 "tag": "brein stem lysate",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "Melittin"
         ]
     },
     {
@@ -4801,11 +5497,14 @@
                 "tag": "brein stem lysate",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "Melittin"
         ]
     },
     {
         "inchikey": "SKYZYDSNJIOXRL-ZOWNYOTGSA-N",
-        "name": "S[+] Apomorphine",
+        "name": "S Apomorphine",
         "tags": [
             {
                 "tag": "antioxidant response element (ARE) assay",
@@ -4871,6 +5570,9 @@
                 "tag": "S[+]-Apomorphine assay",
                 "assay_classification": "C"
             }
+        ],
+        "names": [
+            "S Apomorphine"
         ]
     },
     {
@@ -4905,6 +5607,9 @@
                 "tag": "immunoflouresence",
                 "assay_classification": "C"
             }
+        ],
+        "names": [
+            "Veliparib"
         ]
     },
     {
@@ -4939,6 +5644,12 @@
                 "tag": "Iba1 and GFAP staining.",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "liraglutide",
+            "Victoza",
+            "Saxenda",
+            "others"
         ]
     },
     {
@@ -4966,29 +5677,24 @@
                 "assay_classification": "C"
             },
             {
-                "tag": "rotarod",
+                "tag": "locomotor activity",
                 "assay_classification": "I"
             },
             {
-                "tag": "lifespan",
-                "assay_classification": "PreClin pending"
-            },
-            {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
-            },
-            {
-                "tag": "SPINAL CORD NISSL STAINING",
-                "assay_classification": "PreClin pending"
-            },
-            {
-                "tag": "western blot",
+                "tag": "dTDP expression",
                 "assay_classification": "E"
             },
             {
-                "tag": "SPINAL CORD EM ANALYSIS",
+                "tag": "heads and thoraxes",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "thoracic ganglia of male adults",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "rapamycin"
         ]
     },
     {
@@ -5006,12 +5712,35 @@
             {
                 "tag": "RT-PCR",
                 "assay_classification": "C"
+            },
+            {
+                "tag": "rotarod",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "disease progession",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "weight",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "righting",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "protein prrofilling",
+                "assay_classification": "E"
             }
+        ],
+        "names": [
+            "Caffeine"
         ]
     },
     {
         "inchikey": "WVUZLAMBBZISKM-QOYUQHOESA-N",
-        "name": "4-(\ud835\udefc-L-Rhamnosyloxy)-benzyl Isothiocyanate",
+        "name": "4--benzyl Isothiocyanate",
         "tags": [
             {
                 "tag": "motor performance",
@@ -5061,6 +5790,9 @@
                 "tag": "Golgi stain",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "4--benzyl Isothiocyanate"
         ]
     },
     {
@@ -5107,54 +5839,12 @@
                 "tag": "ponceau S densitometry",
                 "assay_classification": "E"
             }
-        ]
-    },
-    {
-        "inchikey": "SNICXCGAKADSCV-JTQLQIEISA-N",
-        "name": "Nicotine",
-        "tags": [
-            {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
-            }
-        ]
-    },
-    {
-        "inchikey": "QYSXJUFSXHHAJI-QWSSABAFSA-N",
-        "name": "Vitamin D3",
-        "tags": [
-            {
-                "tag": "weight",
-                "assay_classification": "I"
-            },
-            {
-                "tag": "body condition",
-                "assay_classification": "I"
-            },
-            {
-                "tag": "neurological score",
-                "assay_classification": "I"
-            },
-            {
-                "tag": "ability to move",
-                "assay_classification": "I"
-            },
-            {
-                "tag": "paw grip endurance",
-                "assay_classification": "I"
-            },
-            {
-                "tag": "rotarod",
-                "assay_classification": "I"
-            },
-            {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
-            },
-            {
-                "tag": "western blot",
-                "assay_classification": "E"
-            }
+        ],
+        "names": [
+            "Raloxifene",
+            "Evista",
+            "Optruma",
+            "others"
         ]
     },
     {
@@ -5213,6 +5903,13 @@
                 "tag": "LC3 to to  MNs ratio",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "carbamazepine",
+            "Tegretol",
+            "Temporol",
+            "Neurotol",
+            "others"
         ]
     },
     {
@@ -5232,7 +5929,7 @@
                 "assay_classification": "I"
             },
             {
-                "tag": "paw grip endurance",
+                "tag": "pending",
                 "assay_classification": "I"
             },
             {
@@ -5251,6 +5948,9 @@
                 "tag": "lumbar cord sections",
                 "assay_classification": "C"
             }
+        ],
+        "names": [
+            "Rosmarinic Acid"
         ]
     },
     {
@@ -5270,7 +5970,7 @@
                 "assay_classification": "I"
             },
             {
-                "tag": "paw grip endurance",
+                "tag": "pending",
                 "assay_classification": "I"
             },
             {
@@ -5289,26 +5989,9 @@
                 "tag": "lumbar cord sections",
                 "assay_classification": "C"
             }
-        ]
-    },
-    {
-        "inchikey": "IUEFAROUKVNKKL-UHFFFAOYSA-",
-        "name": "EGb761",
-        "tags": [
-            {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
-            }
-        ]
-    },
-    {
-        "inchikey": "RZZPDXZPRHQOCG-OJAKKHQRSA-N",
-        "name": "CDP-choline",
-        "tags": [
-            {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
-            }
+        ],
+        "names": [
+            "Rosmarinic Acid"
         ]
     },
     {
@@ -5316,9 +5999,25 @@
         "name": "Gacyclidine",
         "tags": [
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "tag": "behaviour analysis",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "CatWalk\u2122",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "spontaneous locomotor activity",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "distance",
+                "assay_classification": "I"
             }
+        ],
+        "names": [
+            "Gacyclidine",
+            "<!--Identifiers-->"
         ]
     },
     {
@@ -5326,9 +6025,32 @@
         "name": "A-804598",
         "tags": [
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "tag": "P2X7 activation  mTOR phosphorylation",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "spinal cord homogenate",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "microglia",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "protein profiling",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "confocal laser microscopy",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "primary microglia",
+                "assay_classification": "C"
             }
+        ],
+        "names": [
+            "A-804598"
         ]
     },
     {
@@ -5336,27 +6058,28 @@
         "name": "Beta-Hydroxybutyric Acid",
         "tags": [
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "tag": "locomotor assays",
+                "assay_classification": "I"
             },
             {
-                "tag": "righting",
-                "assay_classification": "I"
-            }
-        ]
-    },
-    {
-        "inchikey": "WHBMMWSBFZVSSR-UHFFFAOYAO",
-        "name": "Beta-Hydroxybutyric Acid",
-        "tags": [
-            {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "tag": "metabolite analysis",
+                "assay_classification": "E"
             },
             {
-                "tag": "righting",
+                "tag": "UHPLC/MS",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "GC/MS",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "larval turning",
                 "assay_classification": "I"
             }
+        ],
+        "names": [
+            "Beta-Hydroxybutyric Acid"
         ]
     },
     {
@@ -5364,21 +6087,60 @@
         "name": "TAK-242",
         "tags": [
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
-            },
-            {
-                "tag": "ladder test",
+                "tag": "motor behaviour",
                 "assay_classification": "I"
             },
             {
-                "tag": "gait analysis",
+                "tag": "righting",
                 "assay_classification": "I"
             },
             {
-                "tag": "hindlimb reflex",
+                "tag": "neurological assesment",
                 "assay_classification": "I"
+            },
+            {
+                "tag": "motor deficits",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "plasma IL1-\u03b2",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "motor neuron count  spinal cord",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "nuclei  count",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "protein profiling",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "transcript profiling",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "RT-PCR",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "RNA extraction spinal cord",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "splenocytes viability and proliferation",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "alamar blue assay",
+                "assay_classification": "C"
             }
+        ],
+        "names": [
+            "TAK-242"
         ]
     },
     {
@@ -5386,7 +6148,11 @@
         "name": "creatine",
         "tags": [
             {
-                "tag": "rotarod",
+                "tag": "behavioural profiling",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "weight",
                 "assay_classification": "I"
             },
             {
@@ -5394,19 +6160,24 @@
                 "assay_classification": "I"
             },
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
-            }
-        ]
-    },
-    {
-        "inchikey": "PMATZTZNYRCHOR-CGLBZJNRSA-N",
-        "name": "cyclosporine A",
-        "tags": [
+                "tag": "[prostaglandin E2]",
+                "assay_classification": "E"
+            },
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "tag": "brain and spinal cord",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "[COX2]",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "spinal cord sections",
+                "assay_classification": "E"
             }
+        ],
+        "names": [
+            "creatine"
         ]
     },
     {
@@ -5414,9 +6185,44 @@
         "name": "nordihydroguaiaretic acid",
         "tags": [
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "tag": "microglial cultures and treatments",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "EOC-20 cells",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "drug treatments and diets",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "rotarod",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "transcript profiling",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "RT\u2013PCR",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "protein profiling",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "spinal cord lysates",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "spinal chord sections",
+                "assay_classification": "E"
             }
+        ],
+        "names": [
+            "nordihydroguaiaretic acid"
         ]
     },
     {
@@ -5428,9 +6234,44 @@
                 "assay_classification": "I"
             },
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "tag": "righting",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "motor function",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "weight",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "protein profiling",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "Nissl-stained motor neuron count",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "ventral horn sections",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "[HIF1A] [HIF1B]",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "western blot",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "tissue samples",
+                "assay_classification": "E"
             }
+        ],
+        "names": [
+            "DP-109"
         ]
     },
     {
@@ -5442,9 +6283,44 @@
                 "assay_classification": "I"
             },
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "tag": "righting",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "motor function",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "weight",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "protein profiling",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "Nissl-stained motor neuron count",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "ventral horn sections",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "[HIF1A] [HIF1B]",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "western blot",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "tissue samples",
+                "assay_classification": "E"
             }
+        ],
+        "names": [
+            "DP-460"
         ]
     },
     {
@@ -5452,12 +6328,52 @@
         "name": "arimoclomol",
         "tags": [
             {
-                "tag": "pending",
-                "assay_classification": "CT"
+                "tag": "disease progression",
+                "assay_classification": "I"
             },
             {
-                "tag": "survival",
-                "assay_classification": "CT"
+                "tag": "muscle function",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "hindlinb distal tendons",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "motor unit count",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "motoneuron survival.",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "spinal cord",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "[Hsp70]",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "spinal cord homgenate",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "sciatic nerve homogenate",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "unbiqitin and SOD1 inclusions",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "Nissl staining",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "spinal cord sections",
+                "assay_classification": "E"
             },
             {
                 "tag": "PAV",
@@ -5476,27 +6392,49 @@
                 "assay_classification": "CT"
             },
             {
+                "tag": "survival",
+                "assay_classification": "CT"
+            },
+            {
                 "tag": "FEV6",
                 "assay_classification": "CT"
             },
             {
                 "tag": "CAFS",
                 "assay_classification": "CT"
+            },
+            {
+                "tag": "TRACHEOSTOMY",
+                "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "arimoclomol"
         ]
     },
     {
         "inchikey": "UTMVACIBQLDZLP-UHFFFAOYSA-N",
-        "name": "2-hydroxy-5-[2-(4-trifluoromethylphenyl)-ethylaminobenzoic acid]",
+        "name": "2-hydroxy-5--ethylaminobenzoic acid]",
         "tags": [
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "tag": "Motor function",
+                "assay_classification": "I"
             },
             {
-                "tag": "rotarod",
+                "tag": "disease onset",
                 "assay_classification": "I"
+            },
+            {
+                "tag": "motor neuron survival",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "lumbar spinal sections",
+                "assay_classification": "E"
             }
+        ],
+        "names": [
+            "2-hydroxy-5--ethylaminobenzoic acid]"
         ]
     },
     {
@@ -5504,17 +6442,32 @@
         "name": "fluoxetine",
         "tags": [
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "tag": "behavioural profiling",
+                "assay_classification": "I"
             },
             {
-                "tag": "weight",
+                "tag": "water consumption",
                 "assay_classification": "I"
             },
             {
                 "tag": "rotarod",
                 "assay_classification": "I"
+            },
+            {
+                "tag": "whole cell patch-clamp",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "lumbar spinal cord slices",
+                "assay_classification": "E"
             }
+        ],
+        "names": [
+            "fluoxetine",
+            "Prozac",
+            "Sarafem",
+            "Adofen",
+            "others"
         ]
     },
     {
@@ -5522,13 +6475,73 @@
         "name": "Rilmenidine",
         "tags": [
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "tag": "lysosome mitochondria fusion",
+                "assay_classification": "C"
             },
             {
-                "tag": "rotarod",
+                "tag": "confocal microscopy",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "NSC34 cells",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "viability",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "autophagosome count",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "immunocytochem",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "motor neuron spheres",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "behavioural",
                 "assay_classification": "I"
+            },
+            {
+                "tag": "weight",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "hind limb splaying",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "protein profiling",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "histology",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "motor neuron survival",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "spinal cord slices",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "misfolded SOD1 aggregates",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "tissue sections",
+                "assay_classification": "E"
             }
+        ],
+        "names": [
+            "Rilmenidine",
+            "Albarel"
         ]
     },
     {
@@ -5536,13 +6549,20 @@
         "name": "pyrimethamine",
         "tags": [
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "tag": "compound dose response",
+                "assay_classification": "C"
             },
             {
-                "tag": "western blot",
-                "assay_classification": "E"
+                "tag": "protein profilling",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "HeLa cells",
+                "assay_classification": "C"
             }
+        ],
+        "names": [
+            "pyrimethamine"
         ]
     },
     {
@@ -5550,9 +6570,16 @@
         "name": "CDDO ethylamide",
         "tags": [
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "tag": "[ROS]",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "immunocytochem",
+                "assay_classification": "C"
             }
+        ],
+        "names": [
+            "CDDO ethylamide"
         ]
     },
     {
@@ -5560,9 +6587,16 @@
         "name": "CDDO trifluoroethylamide",
         "tags": [
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "tag": "[ROS]",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "immunocytochem",
+                "assay_classification": "C"
             }
+        ],
+        "names": [
+            "CDDO trifluoroethylamide"
         ]
     },
     {
@@ -5570,9 +6604,20 @@
         "name": "Diapocynin",
         "tags": [
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "tag": "surevival",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "tissue analysis",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "HPC-MS",
+                "assay_classification": "E"
             }
+        ],
+        "names": [
+            "Diapocynin"
         ]
     },
     {
@@ -5580,9 +6625,20 @@
         "name": "Diapocynin",
         "tags": [
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "tag": "surevival",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "tissue analysis",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "HPC-MS",
+                "assay_classification": "E"
             }
+        ],
+        "names": [
+            "Diapocynin"
         ]
     },
     {
@@ -5590,9 +6646,20 @@
         "name": "apocynin",
         "tags": [
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "tag": "surevival",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "tissue analysis",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "HPC-MS",
+                "assay_classification": "E"
             }
+        ],
+        "names": [
+            "apocynin"
         ]
     },
     {
@@ -5600,9 +6667,20 @@
         "name": "apocynin",
         "tags": [
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "tag": "surevival",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "tissue analysis",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "HPC-MS",
+                "assay_classification": "E"
             }
+        ],
+        "names": [
+            "apocynin"
         ]
     },
     {
@@ -5610,13 +6688,17 @@
         "name": "dehydroepiandrosterone",
         "tags": [
             {
-                "tag": "pending",
+                "tag": "locomotor testing",
                 "assay_classification": "I"
             },
             {
-                "tag": "BBB Score",
+                "tag": "survival",
                 "assay_classification": "I"
             }
+        ],
+        "names": [
+            "dehydroepiandrosterone",
+            "DHEA"
         ]
     },
     {
@@ -5628,21 +6710,48 @@
                 "assay_classification": "I"
             },
             {
-                "tag": "rotarod",
+                "tag": "rigting",
                 "assay_classification": "I"
             },
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "tag": "motor function",
+                "assay_classification": "I"
             },
             {
-                "tag": "REVERSE TRANSCRIPTION PCR",
+                "tag": "protein profiling",
                 "assay_classification": "E"
             },
             {
-                "tag": "RT-PCR",
-                "assay_classification": "PreClin pending"
+                "tag": "grey matter",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "spinal cord",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "ribonuclease protection assays",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "Motor function",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "transcript profiling",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "RNA extraction",
+                "assay_classification": "E"
             }
+        ],
+        "names": [
+            "Lenalidomide",
+            "Revlimid",
+            "Revlimid",
+            "Linamide",
+            "others"
         ]
     },
     {
@@ -5650,10 +6759,6 @@
         "name": "TEI-6720",
         "tags": [
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
-            },
-            {
                 "tag": "weight",
                 "assay_classification": "I"
             },
@@ -5670,6 +6775,10 @@
                 "assay_classification": "I"
             },
             {
+                "tag": "hindlimb dragging",
+                "assay_classification": "I"
+            },
+            {
                 "tag": "rotarod",
                 "assay_classification": "I"
             },
@@ -5678,9 +6787,41 @@
                 "assay_classification": "I"
             },
             {
-                "tag": "Immunohistochemistry",
+                "tag": "cell type counts",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "anterior horn cells",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "histophathology",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "spinal cord",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "Immunohistochem",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "[SOD1]",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "serum",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "HPLC",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "TEI-6720",
+            "Febuxostat"
         ]
     },
     {
@@ -5688,10 +6829,6 @@
         "name": "Y-700",
         "tags": [
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
-            },
-            {
                 "tag": "weight",
                 "assay_classification": "I"
             },
@@ -5708,6 +6845,10 @@
                 "assay_classification": "I"
             },
             {
+                "tag": "hindlimb dragging",
+                "assay_classification": "I"
+            },
+            {
                 "tag": "rotarod",
                 "assay_classification": "I"
             },
@@ -5716,9 +6857,40 @@
                 "assay_classification": "I"
             },
             {
-                "tag": "Immunohistochemistry",
+                "tag": "cell type counts",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "anterior horn cells",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "histophathology",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "spinal cord",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "Immunohistochem",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "[SOD1]",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "serum",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "HPLC",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "Y-700"
         ]
     },
     {
@@ -5726,10 +6898,6 @@
         "name": "FYX-051",
         "tags": [
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
-            },
-            {
                 "tag": "weight",
                 "assay_classification": "I"
             },
@@ -5746,6 +6914,10 @@
                 "assay_classification": "I"
             },
             {
+                "tag": "hindlimb dragging",
+                "assay_classification": "I"
+            },
+            {
                 "tag": "rotarod",
                 "assay_classification": "I"
             },
@@ -5754,9 +6926,40 @@
                 "assay_classification": "I"
             },
             {
-                "tag": "Immunohistochemistry",
+                "tag": "cell type counts",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "anterior horn cells",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "histophathology",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "spinal cord",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "Immunohistochem",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "[SOD1]",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "serum",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "HPLC",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "FYX-051"
         ]
     },
     {
@@ -5764,10 +6967,6 @@
         "name": "allopurinol",
         "tags": [
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
-            },
-            {
                 "tag": "weight",
                 "assay_classification": "I"
             },
@@ -5784,6 +6983,10 @@
                 "assay_classification": "I"
             },
             {
+                "tag": "hindlimb dragging",
+                "assay_classification": "I"
+            },
+            {
                 "tag": "rotarod",
                 "assay_classification": "I"
             },
@@ -5792,9 +6995,44 @@
                 "assay_classification": "I"
             },
             {
-                "tag": "Immunohistochemistry",
+                "tag": "cell type counts",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "anterior horn cells",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "histophathology",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "spinal cord",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "Immunohistochem",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "[SOD1]",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "serum",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "HPLC",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "allopurinol",
+            "Zyloprim",
+            "Caplenal",
+            "Zyloric",
+            "others"
         ]
     },
     {
@@ -5810,13 +7048,56 @@
                 "assay_classification": "I"
             },
             {
+                "tag": "rotarod",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "protein profiling",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "spinal cord",
+                "assay_classification": "E"
+            },
+            {
                 "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "assay_classification": "E"
             },
             {
                 "tag": "nissl staining spinal cord",
                 "assay_classification": "E"
+            },
+            {
+                "tag": "cell imaging",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "SLC18A3, Alpha-Bungarotoxin",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "staining",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "gastrocnemius muscle weight",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "muscle imaging",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "4-HNE-Stained Spinal Cord",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "imaging",
+                "assay_classification": "E"
             }
+        ],
+        "names": [
+            "Protocatechuic Acid"
         ]
     },
     {
@@ -5824,11 +7105,23 @@
         "name": "methylene blue",
         "tags": [
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "tag": "disease progression",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "gait impairmant",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "weight",
+                "assay_classification": "I"
             },
             {
                 "tag": "motility test",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "pending",
                 "assay_classification": "I"
             },
             {
@@ -5852,9 +7145,24 @@
                 "assay_classification": "E"
             },
             {
-                "tag": "swim duration",
+                "tag": "fish swim duration",
                 "assay_classification": "I"
+            },
+            {
+                "tag": "axonal projection length",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "Zebrafish spinal cord",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "[ROS]",
+                "assay_classification": "E"
             }
+        ],
+        "names": [
+            "methylene blue"
         ]
     },
     {
@@ -5862,25 +7170,61 @@
         "name": "Metformin",
         "tags": [
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "tag": "functional motor units",
+                "assay_classification": "E"
             },
             {
-                "tag": "motor neuron count",
-                "assay_classification": "PreClin pending"
-            },
-            {
-                "tag": "electrophiology",
-                "assay_classification": "PreClin pending"
+                "tag": "TA and EDL muscles",
+                "assay_classification": "E"
             },
             {
                 "tag": "neurological score",
                 "assay_classification": "I"
             },
             {
+                "tag": "hindlimbs",
+                "assay_classification": "I"
+            },
+            {
                 "tag": "ALSFRS-R",
                 "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "Metformin"
+        ]
+    },
+    {
+        "inchikey": "QYSXJUFSXHHAJI-QWSSABAFSA-N",
+        "name": "Vitamin D3",
+        "tags": [
+            {
+                "tag": "weight",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "neurological score",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "pending",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "motor performance",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "protein profiling",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "tissue homogenates",
+                "assay_classification": "E"
+            }
+        ],
+        "names": [
+            "Vitamin D3"
         ]
     },
     {
@@ -5888,28 +7232,36 @@
         "name": "Erlotinib",
         "tags": [
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "tag": "disease progression",
+                "assay_classification": "I"
             },
             {
-                "tag": "spinal cord histology",
+                "tag": "righting",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "motor neuron count",
                 "assay_classification": "E"
             },
             {
-                "tag": "spinal cord immunohistochemistry",
+                "tag": "Neuromuscular junction count",
                 "assay_classification": "E"
             },
             {
-                "tag": "motor neuron survival",
+                "tag": "NMJ invervation score",
                 "assay_classification": "E"
             },
             {
-                "tag": "NMJ straining",
+                "tag": "pEGFR Tyr",
                 "assay_classification": "E"
             },
             {
-                "tag": "NMJ analysis",
-                "assay_classification": "E"
+                "tag": "Neurological exam",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "weight",
+                "assay_classification": "I"
             },
             {
                 "tag": "wire hang",
@@ -5919,6 +7271,10 @@
                 "tag": "balance beam",
                 "assay_classification": "I"
             }
+        ],
+        "names": [
+            "Erlotinib",
+            "Tarceva"
         ]
     },
     {
@@ -5926,9 +7282,32 @@
         "name": "ubiquinol10",
         "tags": [
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "tag": "motor symptoms onset",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "weight",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "paw grip strength",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "CoQ10 and CoQ9 Levels",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "heart blood",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "CNS tissues",
+                "assay_classification": "E"
             }
+        ],
+        "names": [
+            "ubiquinol10"
         ]
     },
     {
@@ -5936,21 +7315,20 @@
         "name": "Dexpramipexole",
         "tags": [
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "tag": "neuronal survival",
+                "assay_classification": "C"
             },
             {
-                "tag": "HPLC",
-                "assay_classification": "E"
+                "tag": "Mouse MN Survival",
+                "assay_classification": "C"
             },
             {
-                "tag": "survival",
-                "assay_classification": "I"
-            },
-            {
-                "tag": "NEURONAL SURVIVAL",
-                "assay_classification": "PreClin pending"
+                "tag": "Mouse MN Survival",
+                "assay_classification": "C"
             }
+        ],
+        "names": [
+            "Dexpramipexole"
         ]
     },
     {
@@ -5958,20 +7336,28 @@
         "name": "Dexpramipexole",
         "tags": [
             {
+                "tag": "neuronal survival",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "Mouse MN Survival",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "Human MN Differentiation and Survival",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "morphologiy and electrophysiology",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "Whole-cell current-clamp",
+                "assay_classification": "C"
+            },
+            {
                 "tag": "pending",
                 "assay_classification": "CT pending"
-            },
-            {
-                "tag": "HPLC",
-                "assay_classification": "E"
-            },
-            {
-                "tag": "survival",
-                "assay_classification": "CT"
-            },
-            {
-                "tag": "NEURONAL SURVIVAL",
-                "assay_classification": "PreClin pending"
             },
             {
                 "tag": "ALSFRS-R",
@@ -5982,9 +7368,16 @@
                 "assay_classification": "CT"
             },
             {
+                "tag": "survival",
+                "assay_classification": "CT"
+            },
+            {
                 "tag": "CAFS",
                 "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "Dexpramipexole"
         ]
     },
     {
@@ -5992,11 +7385,11 @@
         "name": "tirasemtiv",
         "tags": [
             {
-                "tag": "pending",
-                "assay_classification": "CT"
+                "tag": "Muscle Performance",
+                "assay_classification": "I"
             },
             {
-                "tag": "grip strength",
+                "tag": "forelimb grip strength",
                 "assay_classification": "I"
             },
             {
@@ -6008,7 +7401,59 @@
                 "assay_classification": "I"
             },
             {
+                "tag": "muscle testing in situ",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "contractile properties",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "Diaphragm Muscle Tension",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "organ bath",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "respiratory function",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "respiratory rate",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "minute ventilation",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "disease profiling",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "limb paralysis",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "weight",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "SVC",
+                "assay_classification": "CT"
+            },
+            {
                 "tag": "ALSFRS-R",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "Muscle Strength",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "PULMONARY ASSISTANCE",
                 "assay_classification": "CT"
             },
             {
@@ -6020,7 +7465,23 @@
                 "assay_classification": "CT"
             },
             {
-                "tag": "SVC",
+                "tag": "MUSCLE FATIGUE",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "GRIP STRENGTH",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "TIMED UP SCORE",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "PATIENT GLOBAL ASSESSMENT",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "INVESTIGATOR GLOBAL ASSESSMENT",
                 "assay_classification": "CT"
             },
             {
@@ -6036,9 +7497,16 @@
                 "assay_classification": "CT"
             },
             {
-                "tag": "Muscle Strength",
+                "tag": "MUSCLE CONTRACTION",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "GLOBAL FUNCTION ASSESSMENT",
                 "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "tirasemtiv"
         ]
     },
     {
@@ -6046,8 +7514,12 @@
         "name": "AK7",
         "tags": [
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "tag": "Cell viability",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "LUHMES cells",
+                "assay_classification": "C"
             },
             {
                 "tag": "balance beam",
@@ -6056,7 +7528,30 @@
             {
                 "tag": "Immunohistochemistry",
                 "assay_classification": "E"
+            },
+            {
+                "tag": "protein profiling",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "striatal tissue homogenate",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "disease onset",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "survival",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "righting",
+                "assay_classification": "I"
             }
+        ],
+        "names": [
+            "AK7"
         ]
     },
     {
@@ -6064,11 +7559,11 @@
         "name": "Triheptanoin",
         "tags": [
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "tag": "motor neurone counts",
+                "assay_classification": "E"
             },
             {
-                "tag": "motor neurone counts",
+                "tag": "ketone \u03b2-hydroxybutyrate and glucose",
                 "assay_classification": "E"
             },
             {
@@ -6084,9 +7579,20 @@
                 "assay_classification": "I"
             },
             {
-                "tag": "QRTPCR",
-                "assay_classification": "PreClin pending"
+                "tag": "transcript profiling",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "2-oxoglutarate dehydrogenase  activity",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "gastrocnemius muscle",
+                "assay_classification": "E"
             }
+        ],
+        "names": [
+            "Triheptanoin"
         ]
     },
     {
@@ -6102,13 +7608,36 @@
                 "assay_classification": "E"
             },
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
-            },
-            {
                 "tag": "rotarod",
                 "assay_classification": "I"
+            },
+            {
+                "tag": "transcript profiling",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "skeletal muscle",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "RT-PCR",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "protein profiling",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "compound muscle action potential",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "plantar interossei miscles",
+                "assay_classification": "I"
             }
+        ],
+        "names": [
+            "5-fluorouracil"
         ]
     },
     {
@@ -6140,10 +7669,6 @@
                 "assay_classification": "E"
             },
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
-            },
-            {
                 "tag": "MITOCHRONDRIAL SWELLING",
                 "assay_classification": "E"
             },
@@ -6151,6 +7676,9 @@
                 "tag": "L-NAT CONCENTRATION",
                 "assay_classification": "E"
             }
+        ],
+        "names": [
+            "N-acetyl-L-tryptophan"
         ]
     },
     {
@@ -6166,8 +7694,12 @@
                 "assay_classification": "I"
             },
             {
-                "tag": "pending",
-                "assay_classification": "CT"
+                "tag": "protien profiling",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "brains and spinal cord",
+                "assay_classification": "E"
             },
             {
                 "tag": "ALSFRS-R",
@@ -6180,7 +7712,15 @@
             {
                 "tag": "FVC",
                 "assay_classification": "CT"
+            },
+            {
+                "tag": "MOTOR THRESHOLD",
+                "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "perampanel",
+            "Fycompa"
         ]
     },
     {
@@ -6188,25 +7728,32 @@
         "name": "FPL 64176",
         "tags": [
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
-            },
-            {
-                "tag": "locomotor activity",
+                "tag": "zebrafish locomotor patterns",
                 "assay_classification": "I"
             },
             {
-                "tag": "ZEBRAFISH TAIL BEAT",
-                "assay_classification": "PreClin pending"
+                "tag": "MUSCLE WHOLE CELL VOLTAGE clamp",
+                "assay_classification": "I"
             },
             {
-                "tag": "MUSCLE WHOLE CELL VOLTAGE",
-                "assay_classification": "PreClin pending"
+                "tag": "Paired motoneuron/muscle recordings",
+                "assay_classification": "I"
             },
             {
                 "tag": "Immunohistochemistry",
                 "assay_classification": "E"
+            },
+            {
+                "tag": "synaptic vesicle stain",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "larvae",
+                "assay_classification": "E"
             }
+        ],
+        "names": [
+            "FPL 64176"
         ]
     },
     {
@@ -6214,25 +7761,32 @@
         "name": "Bay K 8644",
         "tags": [
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
-            },
-            {
-                "tag": "locomotor activity",
+                "tag": "zebrafish locomotor patterns",
                 "assay_classification": "I"
             },
             {
-                "tag": "ZEBRAFISH TAIL BEAT",
-                "assay_classification": "PreClin pending"
+                "tag": "MUSCLE WHOLE CELL VOLTAGE clamp",
+                "assay_classification": "I"
             },
             {
-                "tag": "MUSCLE WHOLE CELL VOLTAGE",
-                "assay_classification": "PreClin pending"
+                "tag": "Paired motoneuron/muscle recordings",
+                "assay_classification": "I"
             },
             {
                 "tag": "Immunohistochemistry",
                 "assay_classification": "E"
+            },
+            {
+                "tag": "synaptic vesicle stain",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "larvae",
+                "assay_classification": "E"
             }
+        ],
+        "names": [
+            "Bay K 8644"
         ]
     },
     {
@@ -6240,25 +7794,32 @@
         "name": "Bay K 8644",
         "tags": [
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
-            },
-            {
-                "tag": "locomotor activity",
+                "tag": "zebrafish locomotor patterns",
                 "assay_classification": "I"
             },
             {
-                "tag": "ZEBRAFISH TAIL BEAT",
-                "assay_classification": "PreClin pending"
+                "tag": "MUSCLE WHOLE CELL VOLTAGE clamp",
+                "assay_classification": "I"
             },
             {
-                "tag": "MUSCLE WHOLE CELL VOLTAGE",
-                "assay_classification": "PreClin pending"
+                "tag": "Paired motoneuron/muscle recordings",
+                "assay_classification": "I"
             },
             {
                 "tag": "Immunohistochemistry",
                 "assay_classification": "E"
+            },
+            {
+                "tag": "synaptic vesicle stain",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "larvae",
+                "assay_classification": "E"
             }
+        ],
+        "names": [
+            "Bay K 8644"
         ]
     },
     {
@@ -6270,21 +7831,20 @@
                 "assay_classification": "I"
             },
             {
-                "tag": "rotarod",
+                "tag": "Motor function",
                 "assay_classification": "I"
             },
             {
-                "tag": "REVERSE TRANSCRIPTION PCR",
+                "tag": "transcript profiling",
                 "assay_classification": "E"
             },
             {
-                "tag": "RT-PCR",
-                "assay_classification": "PreClin pending"
-            },
-            {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "tag": "RNA extraction",
+                "assay_classification": "E"
             }
+        ],
+        "names": [
+            "Thalidomide"
         ]
     },
     {
@@ -6292,9 +7852,40 @@
         "name": "Mito-Q",
         "tags": [
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
+                "tag": "Mitochondrial respiration",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "motor neuron count",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "astrocyte monolayer",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "superoxide production",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "Flow cytometry",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "mitochondrial membrane potential",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "flouresence mcroscopy",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "protein profiling",
+                "assay_classification": "E"
             }
+        ],
+        "names": [
+            "Mito-Q"
         ]
     },
     {
@@ -6302,25 +7893,1020 @@
         "name": "Sodium valproate",
         "tags": [
             {
-                "tag": "pending",
-                "assay_classification": "PreClin pending"
-            },
-            {
                 "tag": "cell survival",
                 "assay_classification": "C"
             },
             {
-                "tag": "western blot",
+                "tag": "NSC34 cell culture",
                 "assay_classification": "C"
             },
             {
-                "tag": "hindlimb extension",
+                "tag": "transcript profiling",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "RT-PCR",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "animal tissues, NSC34 cells",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "clinical assesment",
                 "assay_classification": "I"
             },
             {
+                "tag": "righting",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "motor function",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "grid hanging",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "weight",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "Histone acetylation",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "spinal cord lysates",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "protein profiling",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "spinal cord sections",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "Myelinated axon area",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "Muscle fiber area",
+                "assay_classification": "E"
+            },
+            {
                 "tag": "plasma L-carnitine concentration",
-                "assay_classification": "PreClin pending"
+                "assay_classification": "E"
+            },
+            {
+                "tag": "spontaneous muscle activity.",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "Gastrocnemius muscles",
+                "assay_classification": "E"
             }
+        ],
+        "names": [
+            "Sodium valproate"
+        ]
+    },
+    {
+        "inchikey": "ZJVFLBOZORBYFE-UHFFFAOYSA-N",
+        "name": "Ibudilast",
+        "tags": [
+            {
+                "tag": "TDP-43, SOD1 aggregation analysis.",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "HEK 293 cells",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "autophagosome assay",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "western blot",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "protein profiling",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "CAFS",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "Muscle Strength",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "QUALITY OF LIFE",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "ALSFRS-R",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "survival",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "Functional Activity",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "RESPIRATORY FUNCTION",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "NIV",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "QOL",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "CGI-C",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "DISEASE PROGRESSION",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "SVC",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "GRIP POWER",
+                "assay_classification": "CT"
+            }
+        ],
+        "names": [
+            "Ibudilast"
+        ]
+    },
+    {
+        "inchikey": "ZFLASALABLFSNM-WYVZQNDMSA-L",
+        "name": "Methyl Vitamin B12/methylcobalamin",
+        "tags": [
+            {
+                "tag": "cell viability",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "primary necrosis",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "apoptotic",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "Caspase 3/7 activity",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "flurescence reader",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "Cellular metabolic activity",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "intracellular [ROS]",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "clinica assesment",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "curled digits",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "curled wrists;",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "Morphometry of bicep muscle",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "musculocutaneous nerves",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "motor neuron survival",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "flouressence",
+                "assay_classification": "E"
+            }
+        ],
+        "names": [
+            "Methyl Vitamin B12/methylcobalamin",
+            "Cobolmin"
+        ]
+    },
+    {
+        "inchikey": "JACAAXNEHGBPOQ-LLVKDONJSA-N",
+        "name": "talampanel",
+        "tags": [
+            {
+                "tag": "intracellular calcium",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "brains, spinal cords, interosseus",
+                "assay_classification": "E"
+            }
+        ],
+        "names": [
+            "talampanel"
+        ]
+    },
+    {
+        "inchikey": "XKLMZUWKNUAPSZ-UHFFFAOYSA-N",
+        "name": "Ranolazine",
+        "tags": [
+            {
+                "tag": "Energy metabolism",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "locomotor activity",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "Glucose tolerance",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "tail tip blood",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "transcript profiling",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "differencial gene expression",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "tibialis anterior muscle",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "analysis of isolated mitochondria",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "various muscle tissues",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "digitonin mitochondrial membranes",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "Total [ATP]",
+                "assay_classification": "B"
+            },
+            {
+                "tag": "respiratory chain complexe",
+                "assay_classification": "B"
+            },
+            {
+                "tag": "Bioenergetics muscle satellite cells.",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "skeletal muscle",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "expression profiling",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "Mitochondrial, genomic DNA",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "motor function",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "righting",
+                "assay_classification": "E"
+            }
+        ],
+        "names": [
+            "Ranolazine"
+        ]
+    },
+    {
+        "inchikey": "WHUUTDBJXJRKMK-VKHMYHEASA-N",
+        "name": "glutamate",
+        "tags": [
+            {
+                "tag": "C9ORF72  transcript",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "protein profiling",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "[C9ORF72 ]",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "induced motor neurons",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "[Glutamate Receptors]",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "Whole Cell Patch Clamp",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "Local field potentials (LFPs)",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "Neuromuscular junction assay.",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "Induced neuron survival",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "iMNs controls and ALS patients",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "Glutamate Uptake Assay",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "small molecule screen",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "iMN survival",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "gene expression analysis",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "GSE56504 data set",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "human tissues",
+                "assay_classification": "E"
+            }
+        ],
+        "names": [
+            "glutamate"
+        ]
+    },
+    {
+        "inchikey": "YBPIBGNBHHGLEB-UHFFFAOYSA-N",
+        "name": "YM201636",
+        "tags": [
+            {
+                "tag": "C9ORF72  transcript",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "protein profiling",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "[C9ORF72 ]",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "induced motor neurons",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "[Glutamate Receptors]",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "Whole Cell Patch Clamp",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "Local field potentials (LFPs)",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "Neuromuscular junction assay.",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "Induced neuron survival",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "iMNs controls and ALS patients",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "Glutamate Uptake Assay",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "small molecule screen",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "iMN survival",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "gene expression analysis",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "GSE56504 data set",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "human tissues",
+                "assay_classification": "E"
+            }
+        ],
+        "names": [
+            "YM201636"
+        ]
+    },
+    {
+        "inchikey": "HSKAZIJJKRAJAV-KOEQRZSOSA-N",
+        "name": "Apilimod",
+        "tags": [
+            {
+                "tag": "C9ORF72  transcript",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "protein profiling",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "[C9ORF72 ]",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "induced motor neurons",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "[Glutamate Receptors]",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "Whole Cell Patch Clamp",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "Local field potentials (LFPs)",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "Neuromuscular junction assay.",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "Induced neuron survival",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "iMNs controls and ALS patients",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "Glutamate Uptake Assay",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "small molecule screen",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "iMN survival",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "gene expression analysis",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "GSE56504 data set",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "human tissues",
+                "assay_classification": "E"
+            }
+        ],
+        "names": [
+            "Apilimod"
+        ]
+    },
+    {
+        "inchikey": "PCOBBVZJEWWZFR-UHFFFAOYSA-N",
+        "name": "retigabine",
+        "tags": [
+            {
+                "tag": "EC50 value",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "Whole-cell patch recordings",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "electrophysiology",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "pending",
+                "assay_classification": "C"
+            }
+        ],
+        "names": [
+            "retigabine"
+        ]
+    },
+    {
+        "inchikey": "DOUMFZQKYFQNTF-WUTVXBCWSA-N",
+        "name": "rosmarinic acid",
+        "tags": [
+            {
+                "tag": "Motor function",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "rotarod",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "disease progression",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "abnormal gait",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "righting",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "degeneration of motor neurons",
+                "assay_classification": "E"
+            }
+        ],
+        "names": [
+            "rosmarinic acid"
+        ]
+    },
+    {
+        "inchikey": "SXTAYKAGBXMACB-UHFFFAOYSA-N",
+        "name": "Methionine sulfoximine",
+        "tags": [
+            {
+                "tag": "neurochemical profile",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "brain slices",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "monoamines and metabolites",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "tissue samples",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "survival",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "righting",
+                "assay_classification": "I"
+            }
+        ],
+        "names": [
+            "Methionine sulfoximine"
+        ]
+    },
+    {
+        "inchikey": "RZZPDXZPRHQOCG-OJAKKHQRSA-N",
+        "name": "CDP-choline",
+        "tags": [
+            {
+                "tag": "Behavioural assessment",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "righting",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "survival time",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "weight",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "Footprint analyses",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "run time",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "Motor neuron count",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "spinal cord sections",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "micoscopy",
+                "assay_classification": "E"
+            }
+        ],
+        "names": [
+            "CDP-choline"
+        ]
+    },
+    {
+        "inchikey": "PYFNOGGEKLQDLR-UHFFFAOYSA-N",
+        "name": "JGK-263",
+        "tags": [
+            {
+                "tag": "Clinical evaluation",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "Clonus, hyperreflexia",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "righting",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "Motor neuron cell count",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "western blot",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "spinal cord",
+                "assay_classification": "E"
+            }
+        ],
+        "names": [
+            "JGK-263"
+        ]
+    },
+    {
+        "inchikey": "PMZHZQKUELYBNJ-UHFFFAOYSA-N",
+        "name": "3-methoxy)-5-oxopentanoyl)oxy)-N,N-dimethylpropan-1-amine oxide",
+        "tags": [
+            {
+                "tag": "proteasome activation",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "neurological assesment",
+                "assay_classification": "I"
+            }
+        ],
+        "names": [
+            "3-methoxy)-5-oxopentanoyl)oxy)-N,N-dimethylpropan-1-amine oxide"
+        ]
+    },
+    {
+        "inchikey": "TZBJGXHYKVUXJN-UHFFFAOYSA-N",
+        "name": "Genistein",
+        "tags": [
+            {
+                "tag": "rotarod",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "Hanging Wire",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "Hindlimb Clasping",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "Immunohistochem",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "Nissl detection",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "spinal cord",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "autophagic flux.",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "western blot",
+                "assay_classification": "E"
+            }
+        ],
+        "names": [
+            "Genistein"
+        ]
+    },
+    {
+        "inchikey": "MUMGGOZAMZWBJJ-DYKIIFRCSA-N",
+        "name": "Testosterone",
+        "tags": [
+            {
+                "tag": "clinical progression",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "rotarod",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "weight",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "steroid hormone measurements",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "cervical spinal cords",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "GC-MS",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "Ramified microglia",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "Vacuolated Neurons",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "ventral horn",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "Histochemistry",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "NADPH Diaphorase",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "transcript profilling",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "qPCR",
+                "assay_classification": "E"
+            }
+        ],
+        "names": [
+            "Testosterone"
+        ]
+    },
+    {
+        "inchikey": "VAAUVRVFOQPIGI-SPQHTLEESA-N",
+        "name": "ceftriaxone",
+        "tags": [
+            {
+                "tag": "clinical 10-point scoring",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "protein profiling",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "whole mouse brain",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "glutamate uptake",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "rat primary mixed glia cells",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "Whole cell patch-clamp",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "CNS T cell invasion",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "Splenocytes",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "immunophenotyping lymphocytes",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "T cell activation",
+                "assay_classification": "C"
+            },
+            {
+                "tag": "splenocytes",
+                "assay_classification": "C"
+            }
+        ],
+        "names": [
+            "ceftriaxone"
+        ]
+    },
+    {
+        "inchikey": "SHGAZHPCJJPHSC-YCNIQYBTSA-N",
+        "name": "All-trans retinoic acid",
+        "tags": [
+            {
+                "tag": "weight",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "motor function and strength",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "Neurological Score",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "trembling",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "foot dragging",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "protein profiling",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "western blot",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "spinal cord",
+                "assay_classification": "E"
+            }
+        ],
+        "names": [
+            "All-trans retinoic acid"
+        ]
+    },
+    {
+        "inchikey": "SQAZQLMBEHYFJA-BTJKTKAUSA-N",
+        "name": "CGP 3466B",
+        "tags": [
+            {
+                "tag": "Facial motor neuron axotomy",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "rat pup facial nucleus",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "neurone count",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "ligation left carotid artery",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "dopaminergic neurone count",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "paw retraction test",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "survival",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "clinical profilling",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "loaded grid test",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "righting",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "Motor neuron count",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "spinal cord sections",
+                "assay_classification": "E"
+            }
+        ],
+        "names": [
+            "CGP 3466B"
+        ]
+    },
+    {
+        "inchikey": "RUOKEQAAGRXIBM-GFCCVEGCSA-N",
+        "name": "Rasagiline",
+        "tags": [
+            {
+                "tag": "muscle function and motor unit count",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "EDL motor nerve",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "muscle fatigue",
+                "assay_classification": "I"
+            },
+            {
+                "tag": "motoneurone count",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "spinal cord sections",
+                "assay_classification": "E"
+            },
+            {
+                "tag": "[SOD1]",
+                "assay_classification": "E"
+            }
+        ],
+        "names": [
+            "Rasagiline"
         ]
     },
     {
@@ -6367,6 +8953,9 @@
                 "tag": "SNIP",
                 "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "Cu(II)ATSM"
         ]
     },
     {
@@ -6387,7 +8976,7 @@
             },
             {
                 "tag": "pending",
-                "assay_classification": "CT"
+                "assay_classification": "CT pending"
             },
             {
                 "tag": "MMT",
@@ -6404,31 +8993,41 @@
             {
                 "tag": "ALSAQ-40",
                 "assay_classification": "CT"
-            }
-        ]
-    },
-    {
-        "inchikey": "UGQMRVRMYYASKQ-KQYNXXCUSA-N\u00a0",
-        "name": "Inosine",
-        "tags": [
+            },
             {
-                "tag": "pending",
-                "assay_classification": "CT pending"
+                "tag": "FUNCIONAL RATING SCALE",
+                "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "Methylcobalamin",
+            "Cobolmin",
+            "Cobolmin"
         ]
     },
     {
         "inchikey": "AGUSSGJBWOOHRG-NXBWRCJVSA-N",
-        "name": "IPL344]  Lead mine -v",
+        "name": "IPL344",
         "tags": [
             {
                 "tag": "pending",
+                "assay_classification": "CT pending"
+            },
+            {
+                "tag": "DISEASE PROGRESSION",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "PULMONARY FUNCTION",
                 "assay_classification": "CT"
             },
             {
                 "tag": "Muscle Strength",
                 "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "IPL344"
         ]
     },
     {
@@ -6436,7 +9035,7 @@
         "name": "AMX0035",
         "tags": [
             {
-                "tag": "pending",
+                "tag": "HOSPITALISATIONS",
                 "assay_classification": "CT"
             },
             {
@@ -6444,13 +9043,36 @@
                 "assay_classification": "CT"
             },
             {
-                "tag": "ATLIS",
+                "tag": "STRENGTH",
                 "assay_classification": "CT"
             },
             {
                 "tag": "SVC",
                 "assay_classification": "CT"
+            },
+            {
+                "tag": "GASTIC TUBE FREQUENCY",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "PIV",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "ATLIS",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "survival",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "HOSPITALISATION",
+                "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "AMX0035"
         ]
     },
     {
@@ -6458,13 +9080,20 @@
         "name": "Biotin",
         "tags": [
             {
-                "tag": "pending",
+                "tag": "MOTOR FUNCTION",
                 "assay_classification": "CT"
             },
             {
                 "tag": "FVC",
                 "assay_classification": "CT"
+            },
+            {
+                "tag": "weight",
+                "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "Biotin"
         ]
     },
     {
@@ -6472,7 +9101,7 @@
         "name": "Lithium",
         "tags": [
             {
-                "tag": "pending",
+                "tag": "survival",
                 "assay_classification": "CT"
             },
             {
@@ -6487,6 +9116,9 @@
                 "tag": "SVC",
                 "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "Lithium"
         ]
     },
     {
@@ -6494,7 +9126,7 @@
         "name": "Growth Hormone (Somatropin)",
         "tags": [
             {
-                "tag": "pending",
+                "tag": "survival",
                 "assay_classification": "CT"
             },
             {
@@ -6505,6 +9137,9 @@
                 "tag": "SF-36",
                 "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "Growth Hormone (Somatropin)"
         ]
     },
     {
@@ -6516,7 +9151,11 @@
                 "assay_classification": "CT"
             },
             {
-                "tag": "pending",
+                "tag": "STRENGTH",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "FUNCTIONING",
                 "assay_classification": "CT"
             },
             {
@@ -6526,7 +9165,14 @@
             {
                 "tag": "PULMONARY FUNCTION",
                 "assay_classification": "CT"
+            },
+            {
+                "tag": "MUSCLE FATIGUE",
+                "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "Creatine Monohydrate"
         ]
     },
     {
@@ -6541,40 +9187,9 @@
                 "tag": "VC",
                 "assay_classification": "CT"
             }
-        ]
-    },
-    {
-        "inchikey": "WHXMKTBCFHIYNQ-SECBINFHSA-N",
-        "name": "Levosimendan",
-        "tags": [
-            {
-                "tag": "pending",
-                "assay_classification": "CT"
-            },
-            {
-                "tag": "ALSFRS-R",
-                "assay_classification": "CT"
-            },
-            {
-                "tag": "RESPIRATORY FUNCTION",
-                "assay_classification": "CT"
-            },
-            {
-                "tag": "BORG CR-10",
-                "assay_classification": "CT"
-            },
-            {
-                "tag": "SVC",
-                "assay_classification": "CT"
-            },
-            {
-                "tag": "CAFS",
-                "assay_classification": "CT"
-            },
-            {
-                "tag": "CGI-C",
-                "assay_classification": "CT"
-            }
+        ],
+        "names": [
+            "Lithium Carbonate"
         ]
     },
     {
@@ -6602,9 +9217,12 @@
                 "assay_classification": "CT"
             },
             {
-                "tag": "pending",
+                "tag": "READING SCORE",
                 "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "EPI-589"
         ]
     },
     {
@@ -6623,6 +9241,11 @@
                 "tag": "CRAMP",
                 "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "Ezogabine",
+            "Trobalt",
+            "Potiga"
         ]
     },
     {
@@ -6649,64 +9272,12 @@
                 "tag": "NEURODEGENERATION",
                 "assay_classification": "CT"
             }
-        ]
-    },
-    {
-        "inchikey": "ZJVFLBOZORBYFE-UHFFFAOYSA-N",
-        "name": "MN-166",
-        "tags": [
-            {
-                "tag": "CAFS",
-                "assay_classification": "CT"
-            },
-            {
-                "tag": "Muscle Strength",
-                "assay_classification": "CT"
-            },
-            {
-                "tag": "QUALITY OF LIFE",
-                "assay_classification": "CT"
-            },
-            {
-                "tag": "ALSFRS-R",
-                "assay_classification": "CT"
-            },
-            {
-                "tag": "survival",
-                "assay_classification": "CT"
-            },
-            {
-                "tag": "pending",
-                "assay_classification": "CT"
-            },
-            {
-                "tag": "Functional Activity",
-                "assay_classification": "CT"
-            },
-            {
-                "tag": "RESPIRATORY FUNCTION",
-                "assay_classification": "CT"
-            },
-            {
-                "tag": "NIV",
-                "assay_classification": "CT"
-            },
-            {
-                "tag": "QOL",
-                "assay_classification": "CT"
-            },
-            {
-                "tag": "CGI-C",
-                "assay_classification": "CT"
-            },
-            {
-                "tag": "SVC",
-                "assay_classification": "CT"
-            },
-            {
-                "tag": "GRIP POWER",
-                "assay_classification": "CT"
-            }
+        ],
+        "names": [
+            "Colchicine 1 MG Oral Tablet",
+            "Colcrys",
+            "Mitigare",
+            "others"
         ]
     },
     {
@@ -6722,7 +9293,7 @@
                 "assay_classification": "CT"
             },
             {
-                "tag": "pending",
+                "tag": "survival",
                 "assay_classification": "CT"
             },
             {
@@ -6756,7 +9327,19 @@
             {
                 "tag": "ECAS",
                 "assay_classification": "CT"
+            },
+            {
+                "tag": "RATING SCALE",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "VITAL CAPACITY",
+                "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "Deferiprone",
+            "Ferriprox"
         ]
     },
     {
@@ -6764,7 +9347,7 @@
         "name": "Mexiletine",
         "tags": [
             {
-                "tag": "pending",
+                "tag": "CRAMP FREQUENCY",
                 "assay_classification": "CT"
             },
             {
@@ -6782,7 +9365,16 @@
             {
                 "tag": "SVC",
                 "assay_classification": "CT"
+            },
+            {
+                "tag": "RESTING MOTOR THRESHOLD",
+                "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "Mexiletine",
+            "Mexitil",
+            "NaMuscla"
         ]
     },
     {
@@ -6790,11 +9382,15 @@
         "name": "Ceftriaxone",
         "tags": [
             {
-                "tag": "pending",
+                "tag": "survival",
                 "assay_classification": "CT"
             },
             {
                 "tag": "ALSFRS-R",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "VITAL CAPACITY",
                 "assay_classification": "CT"
             },
             {
@@ -6804,7 +9400,18 @@
             {
                 "tag": "ALSQOL",
                 "assay_classification": "CT"
+            },
+            {
+                "tag": "HHD",
+                "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "Ceftriaxone",
+            "Rocephin",
+            "Epicephin",
+            "Wintriaxone",
+            "others"
         ]
     },
     {
@@ -6812,9 +9419,14 @@
         "name": "Atropine",
         "tags": [
             {
-                "tag": "pending",
+                "tag": "DISEASE PROGRESSION",
                 "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "Atropine",
+            "Atropen",
+            "others"
         ]
     },
     {
@@ -6822,9 +9434,16 @@
         "name": "Dexmedetomidine",
         "tags": [
             {
-                "tag": "pending",
+                "tag": "DISEASE PROGRESSION",
                 "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "Dexmedetomidine",
+            "Precedex",
+            "Dexdor",
+            "Dexdomitor",
+            "Sileo"
         ]
     },
     {
@@ -6844,9 +9463,24 @@
                 "assay_classification": "CT"
             },
             {
-                "tag": "pending",
+                "tag": "DEXTERITY",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "SIT TO STAND ASSESSMENT",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "TIME TO WALK ASSESSMENT",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "Muscle Strength",
                 "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "Betamethasone Acetate (Celestone\u00e3\u201a\u00c2\u00ae Soluspan\u00e3\u201a\u00c2\u00ae)"
         ]
     },
     {
@@ -6866,9 +9500,24 @@
                 "assay_classification": "CT"
             },
             {
-                "tag": "pending",
+                "tag": "DEXTERITY",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "SIT TO STAND ASSESSMENT",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "TIME TO WALK ASSESSMENT",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "Muscle Strength",
                 "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "Betamethasone sodium phosphate"
         ]
     },
     {
@@ -6880,9 +9529,18 @@
                 "assay_classification": "CT"
             },
             {
-                "tag": "pending",
+                "tag": "SVC",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "FEV",
                 "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "Gilenya",
+            "Gilenya",
+            "Gilenya"
         ]
     },
     {
@@ -6893,6 +9551,9 @@
                 "tag": "ALSFRS-R",
                 "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "Lunasin Regimen]  Leadmine missed double  name"
         ]
     },
     {
@@ -6911,6 +9572,9 @@
                 "tag": "GRIP POWER",
                 "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "Methylprednisolone"
         ]
     },
     {
@@ -6922,7 +9586,7 @@
                 "assay_classification": "CT"
             },
             {
-                "tag": "pending",
+                "tag": "JAPAN ALS SEVERITY",
                 "assay_classification": "CT"
             },
             {
@@ -6933,6 +9597,10 @@
                 "tag": "GRIP POWER",
                 "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "Bosutinib",
+            "Bosulif"
         ]
     },
     {
@@ -6944,9 +9612,16 @@
                 "assay_classification": "CT"
             },
             {
-                "tag": "pending",
+                "tag": "NEUROLOGICAL EXAMINATION",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "FVC",
                 "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "L-Serine"
         ]
     },
     {
@@ -6961,31 +9636,18 @@
                 "tag": "FVC",
                 "assay_classification": "CT"
             }
-        ]
-    },
-    {
-        "inchikey": "SKMKJBYBPYBDMN-VXGBXAGGSA-N",
-        "name": "GDC-0134",
-        "tags": [
-            {
-                "tag": "pending",
-                "assay_classification": "CT pending"
-            }
-        ]
-    },
-    {
-        "inchikey": "YREYEVIYCVEVJK-UHFFFAOYSA-",
-        "name": "Rabeprazole",
-        "tags": [
-            {
-                "tag": "pending",
-                "assay_classification": "CT pending"
-            }
+        ],
+        "names": [
+            "Celecoxib",
+            "Celebrex",
+            "Onsenal",
+            "Elyxyb",
+            "others"
         ]
     },
     {
         "inchikey": "UDTXUDHDIVNHCL-AENUQYPBSA-N",
-        "name": "1.0 MIU IL-2 per day",
+        "name": "IL-2",
         "tags": [
             {
                 "tag": "pending",
@@ -6995,6 +9657,9 @@
                 "tag": "ALSFRS-R",
                 "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "IL-2"
         ]
     },
     {
@@ -7005,6 +9670,15 @@
                 "tag": "ALSFRS-R",
                 "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "Adrenocorticotropic hormone",
+            "Acortan",
+            "Acthar",
+            "Acton",
+            "Cortigel",
+            "Trofocortina",
+            "Adrenocorticotropic hormone"
         ]
     },
     {
@@ -7031,6 +9705,13 @@
                 "tag": "GRIP POWER",
                 "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "Clenbuterol",
+            "Dilaterol",
+            "Spiropent",
+            "Ventipulmin",
+            "others<ref>{{Cite web|url"
         ]
     },
     {
@@ -7045,6 +9726,9 @@
                 "tag": "FVC",
                 "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "Coenzyme Q10"
         ]
     },
     {
@@ -7060,7 +9744,7 @@
                 "assay_classification": "CT"
             },
             {
-                "tag": "pending",
+                "tag": "COGNITIVE ASSESSMENT",
                 "assay_classification": "CT"
             },
             {
@@ -7072,9 +9756,24 @@
                 "assay_classification": "CT"
             },
             {
+                "tag": "DEPRESSION",
+                "assay_classification": "CT"
+            },
+            {
+                "tag": "QUALITY OF LIFE",
+                "assay_classification": "CT"
+            },
+            {
                 "tag": "SNIP",
                 "assay_classification": "CT"
             }
+        ],
+        "names": [
+            "Memantine Hydrochloride Oral Solution",
+            "Axura",
+            "Ebixa",
+            "Namenda",
+            "others<ref name"
         ]
     }
 ]
